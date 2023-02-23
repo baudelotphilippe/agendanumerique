@@ -1,9 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter, Nabla } from '@next/font/google'
+import { Nabla } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 
-const inter = Inter({ subsets: ['latin'] })
 const nabla = Nabla({
   weight:'400',
   subsets:['latin']
@@ -18,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
              </Head>
       <main className={styles.main}>
-       <h1 className={styles.h1}>Agenda du numérique</h1>
+       <h1 className={`${styles.h1} ${nabla.className}`} >Agenda du numérique</h1>
        <h2 className={styles.h2}>Evénements à venir</h2>
        <table className={styles.events}>
         <thead className={styles.thead}>

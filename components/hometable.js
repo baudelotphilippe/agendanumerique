@@ -24,7 +24,7 @@ export default function Hometable() {
         </thead>
         <tbody className={styles.tbody}>
           {data.map((info) => (
-            <tr>
+            <tr key={info.startDate}>
               <td>{info.startDate}</td>
               <td>{info.organizer}</td>
               <td>{info.name}</td>

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "The Hi-Dive",
+    "startDate": "2013-09-14T21:30",
+    "location": {
+      "addressLocality": "Denver",
+      "streetAddress": "7 S. Broadway"
+    },
+    "organizer": "PWN"
+  },
+  {
+    "name": "The Hi-Dive2",
+    "startDate": "2013-09-14T21:30",
+    "location": {
+      "addressLocality": "Denver",
+      "streetAddress": "7 S. Broadway"
+    },
+    "organizer": "PWN"
+  }
+]

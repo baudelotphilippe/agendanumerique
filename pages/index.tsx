@@ -2,11 +2,14 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Nabla } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
+import Hometable from '../components/hometable';
 
 const nabla = Nabla({
   weight:'400',
   subsets:['latin']
 })
+
+
 export default function Home() {
   return (
     <>
@@ -19,30 +22,9 @@ export default function Home() {
       <main className={styles.main}>
        <h1 className={`${styles.h1} ${nabla.className}`} >Agenda du numérique</h1>
        <h2 className={styles.h2}>Evénements à venir</h2>
-       <table className={styles.events}>
-        <thead className={styles.thead}>
-          <tr>
-            <th>Date</th>
-            <th>Organisé par</th>
-            <th>Nom de l&apos;événement</th>
-            <th>Lieu</th>
-          </tr>
-        </thead>
-        <tbody className={styles.tbody}>
-            <tr>
-              <td>6 avril 2023 à 18h30</td>
-              <td>PWN</td>
-              <td>Gamechanging CSS </td>
-              <td>Taverne du geek - Poitiers</td>
-            </tr>
-            <tr>
-              <td>6 avril 2023 à 18h30</td>
-              <td>PWN</td>
-              <td>Gamechanging CSS </td>
-              <td>Taverne du geek - Poitiers</td>
-            </tr>
-        </tbody>
-       </table>
+       <Hometable />
+       
+
       </main>
     </>
   )

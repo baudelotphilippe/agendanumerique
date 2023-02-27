@@ -1,6 +1,6 @@
 const fs= require('fs');
 const cheerio = require('cheerio');
-const eventsFolder = '../events/files/';
+const eventsFolder = './events/files/';
 
 
 const jsonsDir = fs.readdirSync(eventsFolder);
@@ -25,5 +25,5 @@ jsonsDir.forEach( file => {
 })
 
 // console.log(newContent)
-fs.writeFileSync('../events/events.json', JSON.stringify(newContent))
+fs.writeFileSync('./events/events.json', JSON.stringify(newContent))
 

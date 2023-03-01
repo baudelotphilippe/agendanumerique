@@ -5,6 +5,12 @@ import Head from "next/head";
 import Image from "next/image";
 import { Nabla } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLocationDot,
+  faCalendarDays,
+  faClock,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Post = () => {
   const router = useRouter();
@@ -20,7 +26,19 @@ const Post = () => {
   const $ = cheerio.load(data);
   const jsonRaw = $("script[type='application/ld+json']")[0].children[0].data;
   const event = JSON.parse(jsonRaw);
+  // console.log(event);
 
+  const formatDate = (originalDate) => {
+    const listeMois = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre" ]
+    const newDateFormat = originalDate.split("T");
+    const jour = newDateFormat[0].split("-");
+    const mois=listeMois[jour[1]-1]
+    return { jour: `${jour[2]} ${mois} ${jour[0]}`, heure : `${newDateFormat[1]}`};
+  }
+
+  const reformatDate = event.startDate ? formatDate(event.startDate) : null
+
+  // console.log(reformatDate)
   return (
     <>
       <Head>
@@ -32,9 +50,40 @@ const Post = () => {
       <main className={styles.main}>
         <h1 className={`${styles.h1}`}>Agenda du numérique</h1>
         <h2 className={styles.h2}>{event.name}</h2>
-        <p>
-        {event.description}
-        </p>
+        <p>{event.description}</p>
+
+        <table>
+          <tbody>
+          {event.location && (
+            <tr>
+              <td>
+                <FontAwesomeIcon icon={faLocationDot} />
+              </td>
+              <td>
+                {event.location.address.streetAddress} -{" "}
+                {event.location.address.addressLocality}
+              </td>
+            </tr>
+          )}
+
+          {reformatDate && (
+            <>
+              <tr>
+                <td>
+                  <FontAwesomeIcon icon={faCalendarDays} />
+                </td>
+                <td> {reformatDate.jour}</td>
+              </tr>
+              <tr>
+                <td>
+                  <FontAwesomeIcon icon={faClock} />
+                </td>
+                <td>{reformatDate.heure}</td>
+              </tr>
+            </>
+          )}
+          </tbody>
+        </table>
       </main>
     </>
   );

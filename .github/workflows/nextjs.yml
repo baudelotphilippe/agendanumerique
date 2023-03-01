@@ -1,0 +1,23 @@
+on: push
+
+jobs:
+  build:
+    name: Test workflow_dispatch
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3      
+      with: 
+        node-version: '16' 
+    - name: Node Install
+      run: npm ci
+    - name: run compil
+      run: node scripts/compil.js
+    - name: Commit files
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add --all
+        if [ -n "$(git status --porcelain)" ]; then
+          git commit -am "Update compil file"
+        fi
+        git push

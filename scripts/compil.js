@@ -11,6 +11,7 @@ jsonsDir.forEach( file => {
     const $ = cheerio.load(data);
     const jsonRaw = $("script[type='application/ld+json']")[0].children[0].data; 
     const event = JSON.parse(jsonRaw);
+    const fileWithoutExt=file.split('.').slice(0, -1).join('.')
     const filterContent={
         "name": event.name ?? "",
          "startDate": event.startDate ?? "",
@@ -19,7 +20,8 @@ jsonsDir.forEach( file => {
           "streetAddress": event.location?.address?.streetAddress ?? "",
           "location":event.location?.name ?? ""
         },
-        "organizer": event.organizer?.name ?? ""
+        "organizer": event.organizer?.name ?? "",
+        "slug":fileWithoutExt
       }
     newContent.push(filterContent)
 })

@@ -1,5 +1,6 @@
 import useSWR from "swr";
 import styles from "@/styles/Home.module.css";
+import Link from 'next/link'
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
@@ -25,11 +26,11 @@ export default function Hometable() {
         <tbody className={styles.tbody}>
           {data.map((info) => (
             <tr key={info.startDate}>
-              <td>{info.startDate}</td>
-              <td>{info.organizer}</td>
-              <td>{info.name}</td>
+              <td><Link href={`event/${info.slug}`}>{info.startDate}</Link></td>
+              <td><Link href={`event/${info.slug}`}>{info.organizer}</Link></td>
+              <td><Link href={`event/${info.slug}`}>{info.name}</Link></td>
               <td>
-                {info.location.streetAddress} - {info.location.addressLocality}
+              <Link href={`event/${info.slug}`}>{info.location.streetAddress} - {info.location.addressLocality}</Link>
               </td>
             </tr>
           ))}

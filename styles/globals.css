@@ -101,11 +101,17 @@ a {
   text-decoration: none;
 }
 
+a:hover{
+  color:inherit;
+  text-decoration: underline;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
 }
 
-
+.remove-position{
+  position:unset !important
+}
 

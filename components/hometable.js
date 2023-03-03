@@ -1,6 +1,7 @@
 import useSWR from "swr";
 import styles from "@/styles/Home.module.css";
 import Link from 'next/link'
+import formatDate from "../utils/convertDates";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
@@ -12,6 +13,8 @@ export default function Hometable() {
   //Handle the loading state
   if (!data) return <div>Loading...</div>;
   // console.log(datas)
+
+  
   return (
     <>
       <table className={styles.events}>
@@ -24,13 +27,13 @@ export default function Hometable() {
           </tr>
         </thead>
         <tbody className={styles.tbody}>
-          {data.map((info) => (
-            <tr key={info.startDate}>
-              <td><Link href={`event/${info.slug}`}>{info.startDate}</Link></td>
-              <td><Link href={`event/${info.slug}`}>{info.organizer}</Link></td>
-              <td><Link href={`event/${info.slug}`}>{info.name}</Link></td>
+          {data.map((event) => (
+            <tr key={event.startDate}>
+              <td><Link href={`event/${event.slug}`}>{event.startDate}</Link></td>
+              <td><Link href={`event/${event.slug}`}>{event.organizer}</Link></td>
+              <td><Link href={`event/${event.slug}`}>{event.name}</Link></td>
               <td>
-              <Link href={`event/${info.slug}`}>{info.location.streetAddress} - {info.location.addressLocality}</Link>
+              <Link href={`event/${event.slug}`}>{event.location.streetAddress} - {event.location.addressLocality}</Link>
               </td>
             </tr>
           ))}

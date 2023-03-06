@@ -22,4 +22,4 @@ const formatDate = (originalDate) => {
     };
   };
 
-  export default formatDate;
+module.exports = formatDate;

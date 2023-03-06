@@ -29,7 +29,7 @@ export default function Hometable() {
         <tbody className={styles.tbody}>
           {data.map((event) => (
             <tr key={event.startDate}>
-              <td><Link href={`event/${event.slug}`}>{event.startDate}</Link></td>
+              <td><Link href={`event/${event.slug}`}>{event.startDateFormat.jour} à {event.startDateFormat.heure}</Link></td>
               <td><Link href={`event/${event.slug}`}>{event.organizer}</Link></td>
               <td><Link href={`event/${event.slug}`}>{event.name}</Link></td>
               <td>

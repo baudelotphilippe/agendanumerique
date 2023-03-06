@@ -36,7 +36,7 @@ const Post = () => {
   // console.log(reformatDate)
   return (
     <>
-      <Header />
+      <Header title={event.name} datas={data}/>
       <Layout>
         <div className="row">
           <div className="col-12">

@@ -6,7 +6,7 @@ import Layout from "../components/layout";
 export default function Home() {
   return (
     <>
-      <Header />
+      <Header title="Agenda du numérique poitevin" datas=""/>
       <Layout>
         <h2 className={styles.h2}>Evénements à venir</h2>
         <Hometable />

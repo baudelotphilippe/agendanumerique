@@ -1,7 +1,6 @@
 import useSWR from "swr";
 import styles from "@/styles/Home.module.css";
 import Link from 'next/link'
-import formatDate from "../utils/convertDates";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 

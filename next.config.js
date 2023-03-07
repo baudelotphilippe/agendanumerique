@@ -5,8 +5,12 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'cibul.s3.amazonaws.com'
+        hostname: 'www.cobaltpoitiers.fr'
       },
+      {
+        protocol: 'https',
+        hostname: 'cibul.s3.amazonaws.com'
+      },      
     ],
   },
 }

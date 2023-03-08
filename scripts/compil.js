@@ -21,7 +21,7 @@ jsonsDir.forEach( file => {
         "location": {
           "addressLocality": event.location?.address?.addressLocality ?? "",
           "streetAddress": event.location?.address?.streetAddress ?? "",
-          "location":event.location?.name ?? ""
+          "name":event.location?.name ?? ""
         },
         "organizer": event.organizer?.name ?? "",
         "slug":fileWithoutExt

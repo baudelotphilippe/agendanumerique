@@ -12,18 +12,16 @@ async function getStaticProps() {
     const event = cobalt(item.children[0].data);
     console.log(event);
     const newName = event.name.replace(/ |:/g, "-");
-    // (\r\n|\n|\r|\t)
     const newName2=newName.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
     const filterContent = {
       name: event.name ?? "",
       description: event.description ?? "",
       startDate: event.startDate ?? "",
       location: {
-        name: event.location?.name ?? "",
+        name: event.location?.name ?? "Cobalt Poitiers",
         address: {
-          addressLocality: event.location?.address?.addressLocality ?? "",
-          streetAddress: event.location?.address?.streetAddress ?? "",
-          location: event.location?.name ?? "",
+          addressLocality: event.location?.address?.addressLocality ?? "86000 Poitiers",
+          streetAddress: event.location?.address?.streetAddress ?? "5 Rue Victor Hugo",
         },
       },
       image: event.image ?? "",

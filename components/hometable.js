@@ -32,7 +32,7 @@ export default function Hometable() {
               <td><Link href={`event/${event.slug}`}>{event.organizer}</Link></td>
               <td><Link href={`event/${event.slug}`}>{event.name}</Link></td>
               <td>
-              <Link href={`event/${event.slug}`}>{event.location.streetAddress} - {event.location.addressLocality}</Link>
+              <Link href={`event/${event.slug}`}>{event.location.name}<br/>{event.location.streetAddress} - {event.location.addressLocality}</Link>
               </td>
             </tr>
           ))}

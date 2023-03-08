@@ -53,6 +53,7 @@ const Post = () => {
                       <FontAwesomeIcon icon={faLocationDot} />
                     </td>
                     <td>
+                      {event.location.name}<br/>
                       {event.location.address.streetAddress} -{" "}
                       {event.location.address.addressLocality}
                     </td>

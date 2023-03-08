@@ -11,8 +11,7 @@ export default function Hometable() {
   if (error) return <div>Failed to load</div>;
   //Handle the loading state
   if (!data) return <div>Loading...</div>;
-  // console.log(datas)
-
+  data.sort((a,b) =>  a.startDate > b.startDate); 
   
   return (
     <>

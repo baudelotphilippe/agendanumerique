@@ -31,9 +31,9 @@ const Post = () => {
 
  
 
-  const reformatDate = event.startDate ? formatDate(event.startDate) : null;
+  const eventStartDate = event.startDate ? formatDate(event.startDate) : null;
+  const eventEndDate = event.endDate ? formatDate(event.endDate) : null;
 
-  // console.log(reformatDate)
   return (
     <>
       <Header title={event.name} datas={jsonRaw}/>
@@ -60,19 +60,32 @@ const Post = () => {
                   </tr>
                 )}
 
-                {reformatDate && (
+                {eventStartDate && (
                   <>
                     <tr>
                       <td>
                         <FontAwesomeIcon icon={faCalendarDays} />
                       </td>
-                      <td> {reformatDate.jour}</td>
-                    </tr>
-                    <tr>
+                      <td> {eventStartDate.jour}</td>
                       <td>
                         <FontAwesomeIcon icon={faClock} />
                       </td>
-                      <td>{reformatDate.heure}</td>
+                      <td>{eventStartDate.heure}</td>
+                    </tr>
+                  </>
+                )}
+                {eventEndDate && (
+                  <>
+                    <tr>
+                      <td>
+                        <FontAwesomeIcon icon={faCalendarDays} />
+                      </td>
+                      <td> {eventEndDate.jour}</td>
+ 
+                      <td>
+                        <FontAwesomeIcon icon={faClock} />
+                      </td>
+                      <td>{eventEndDate.heure}</td>
                     </tr>
                   </>
                 )}

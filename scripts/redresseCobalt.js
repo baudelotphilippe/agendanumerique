@@ -34,6 +34,17 @@ const cobalt = (infos) => {
     //  console.log("newStartDate",newStartDate);
       infosAsArr[j] = `"startDate": ${newStartDate}`;
     }
+    if (infosAsArr[j].match('"endDate":')) {
+      const value = infosAsArr[j].substring(10);
+      // console.log(value);
+      const arrDateEnd = value.split("T");
+      const arrHeureEnd = arrDateEnd[1].split("-");
+      //remove first content (c'est un doublon...)
+      arrHeureEnd.shift();
+      const newArrHeureEnd=arrHeureEnd.join('-')
+     const newEndDate=`${arrDateEnd[0].toString()}T${newArrHeureEnd}`
+      infosAsArr[j] = `"endDate": ${newEndDate}`;
+    }
   }
   console.log(infosAsArr)
   const arrEnString = infosAsArr.toString();

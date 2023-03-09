@@ -17,6 +17,7 @@ async function getStaticProps() {
       name: event.name ?? "",
       description: event.description ?? "",
       startDate: event.startDate ?? "",
+      endDate: event.endDate ?? "",
       location: {
         name: event.location?.name ?? "Cobalt Poitiers",
         address: {

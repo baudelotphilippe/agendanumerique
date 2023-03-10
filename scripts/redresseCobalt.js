@@ -1,5 +1,5 @@
 const cobalt = (infos) => {
-  console.log("infos", infos);
+  // console.log("infos", infos);
   //remove last virgule
   let cleanInfos = infos.substring(0, infos.lastIndexOf(",")) + "}";
   //remove tab & CR
@@ -31,7 +31,7 @@ const cobalt = (infos) => {
       infosAsArr[j] = `"endDate": ${newEndDate}`;
     }
   }
-  console.log(infosAsArr)
+  // console.log(infosAsArr)
   const arrEnString = infosAsArr.toString();
   return JSON.parse(arrEnString);
 };

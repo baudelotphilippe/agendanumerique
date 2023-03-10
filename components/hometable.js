@@ -1,7 +1,6 @@
 import useSWR from "swr";
 import styles from "@/styles/Home.module.css";
 import Link from 'next/link'
-import formatDate from "../utils/convertDates";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
@@ -12,8 +11,7 @@ export default function Hometable() {
   if (error) return <div>Failed to load</div>;
   //Handle the loading state
   if (!data) return <div>Loading...</div>;
-  // console.log(datas)
-
+  data.sort((a,b) =>  a.startDate > b.startDate); 
   
   return (
     <>
@@ -29,11 +27,11 @@ export default function Hometable() {
         <tbody className={styles.tbody}>
           {data.map((event) => (
             <tr key={event.startDate}>
-              <td><Link href={`event/${event.slug}`}>{event.startDateFormat.jour} à {event.startDateFormat.heure}</Link></td>
+              <td><Link href={`event/${event.slug}`}>du {event.startDateFormat.jour} à {event.startDateFormat.heure}<br/> au {event.endDateFormat.jour} à {event.endDateFormat.heure}</Link></td>
               <td><Link href={`event/${event.slug}`}>{event.organizer}</Link></td>
               <td><Link href={`event/${event.slug}`}>{event.name}</Link></td>
               <td>
-              <Link href={`event/${event.slug}`}>{event.location.streetAddress} - {event.location.addressLocality}</Link>
+              <Link href={`event/${event.slug}`}>{event.location.name}<br/>{event.location.streetAddress} - {event.location.addressLocality}</Link>
               </td>
             </tr>
           ))}

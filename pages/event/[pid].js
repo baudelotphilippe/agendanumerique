@@ -7,11 +7,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLocationDot,
   faCalendarDays,
-  faClock,
+  faClock, faArrowUpRightFromSquare
 } from "@fortawesome/free-solid-svg-icons";
 import Header from "../../components/header";
 import Layout from "../../components/layout";
 import formatDate from "../../utils/convertDates";
+import Link from "next/link";
 
 const Post = () => {
   const router = useRouter();
@@ -31,9 +32,9 @@ const Post = () => {
 
  
 
-  const reformatDate = event.startDate ? formatDate(event.startDate) : null;
+  const eventStartDate = event.startDate ? formatDate(event.startDate) : null;
+  const eventEndDate = event.endDate ? formatDate(event.endDate) : null;
 
-  // console.log(reformatDate)
   return (
     <>
       <Header title={event.name} datas={jsonRaw}/>
@@ -53,28 +54,48 @@ const Post = () => {
                       <FontAwesomeIcon icon={faLocationDot} />
                     </td>
                     <td>
+                      {event.location.name}<br/>
                       {event.location.address.streetAddress} -{" "}
                       {event.location.address.addressLocality}
                     </td>
                   </tr>
                 )}
 
-                {reformatDate && (
+                {eventStartDate && (
                   <>
                     <tr>
                       <td>
                         <FontAwesomeIcon icon={faCalendarDays} />
                       </td>
-                      <td> {reformatDate.jour}</td>
-                    </tr>
-                    <tr>
+                      <td> {eventStartDate.jour}</td>
                       <td>
                         <FontAwesomeIcon icon={faClock} />
                       </td>
-                      <td>{reformatDate.heure}</td>
+                      <td>{eventStartDate.heure}</td>
                     </tr>
                   </>
                 )}
+                {eventEndDate && (
+                  <>
+                    <tr>
+                      <td>
+                        <FontAwesomeIcon icon={faCalendarDays} />
+                      </td>
+                      <td> {eventEndDate.jour}</td>
+ 
+                      <td>
+                        <FontAwesomeIcon icon={faClock} />
+                      </td>
+                      <td>{eventEndDate.heure}</td>
+                    </tr>
+                  </>
+                )}
+                <tr>
+                  <td>
+                  <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                  <Link href={event.url}>{event.url}</Link>
+                  </td>
+                </tr>
               </tbody>
             </table>
           </div>

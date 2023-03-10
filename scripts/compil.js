@@ -1,9 +1,8 @@
-// import formatDate from '../utils/convertDates';
 const formatDate = require('../utils/convertDates');
 
 const fs= require('fs');
 const cheerio = require('cheerio');
-const eventsFolder = './events/files/';
+const eventsFolder = './events/newFiles/';
 
 
 const jsonsDir = fs.readdirSync(eventsFolder);
@@ -19,17 +18,20 @@ jsonsDir.forEach( file => {
         "name": event.name ?? "",
         "startDate": event.startDate ?? "",
         "startDateFormat":formatDate(event.startDate),
+        "endDate": event.endDate ?? "",
+        "endDateFormat":formatDate(event.endDate),
         "location": {
           "addressLocality": event.location?.address?.addressLocality ?? "",
           "streetAddress": event.location?.address?.streetAddress ?? "",
-          "location":event.location?.name ?? ""
+          "name":event.location?.name ?? ""
         },
         "organizer": event.organizer?.name ?? "",
-        "slug":fileWithoutExt
+        "slug":fileWithoutExt,
+        "url":event.url
       }
     newContent.push(filterContent)
 })
 
-// console.log(newContent)
+ console.log(newContent)
 fs.writeFileSync('./events/events.json', JSON.stringify(newContent))
 

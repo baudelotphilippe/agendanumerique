@@ -8,9 +8,11 @@ async function getStaticProps() {
     "https://www.cobaltpoitiers.fr/programmation/"
   );
   const $ = cheerio.load(data);
-  $('script[type="application/ld+json"]').each((index, item) => {
-    const event = cobalt(item.children[0].data);
-    console.log(event);
+  $('.evo_event_schema').each((index, item) => { 
+    const urlEvent=item.children[0].attribs.href;
+
+   // recup le jsonLD
+    const event = cobalt(item.children[item.children.length-1].children[0].data);
     const newName = event.name.replace(/ |:/g, "-");
     const newName2=newName.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
     const filterContent = {
@@ -27,6 +29,7 @@ async function getStaticProps() {
       },
       image: event.image ?? "",
       organizer: event.organizer?.name ?? "",
+      url:urlEvent
     };
     fs.writeFileSync(
       `./events/newFiles/${encodeURIComponent(newName2)}.json`,

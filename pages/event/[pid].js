@@ -7,11 +7,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLocationDot,
   faCalendarDays,
-  faClock,
+  faClock, faArrowUpRightFromSquare
 } from "@fortawesome/free-solid-svg-icons";
 import Header from "../../components/header";
 import Layout from "../../components/layout";
 import formatDate from "../../utils/convertDates";
+import Link from "next/link";
 
 const Post = () => {
   const router = useRouter();
@@ -89,6 +90,12 @@ const Post = () => {
                     </tr>
                   </>
                 )}
+                <tr>
+                  <td>
+                  <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                  <Link href={event.url}>{event.url}</Link>
+                  </td>
+                </tr>
               </tbody>
             </table>
           </div>

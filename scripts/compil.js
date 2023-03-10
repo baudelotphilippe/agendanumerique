@@ -18,13 +18,16 @@ jsonsDir.forEach( file => {
         "name": event.name ?? "",
         "startDate": event.startDate ?? "",
         "startDateFormat":formatDate(event.startDate),
+        "endDate": event.endDate ?? "",
+        "endDateFormat":formatDate(event.endDate),
         "location": {
           "addressLocality": event.location?.address?.addressLocality ?? "",
           "streetAddress": event.location?.address?.streetAddress ?? "",
           "name":event.location?.name ?? ""
         },
         "organizer": event.organizer?.name ?? "",
-        "slug":fileWithoutExt
+        "slug":fileWithoutExt,
+        "url":event.url
       }
     newContent.push(filterContent)
 })

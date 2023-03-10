@@ -2,7 +2,7 @@ const formatDate = require('../utils/convertDates');
 
 const fs= require('fs');
 const cheerio = require('cheerio');
-const eventsFolder = './events/newFiles/';
+const eventsFolder = './events/cobalt/';
 
 
 const jsonsDir = fs.readdirSync(eventsFolder);

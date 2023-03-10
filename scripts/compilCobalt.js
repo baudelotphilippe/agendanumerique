@@ -32,7 +32,7 @@ async function getStaticProps() {
     const newName = event.name.replace(/ |:/g, "-");
     const newName2=newName.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
     fs.writeFileSync(
-      `./events/newFiles/${encodeURIComponent(newName2)}.json`,
+      `./events/cobalt/${encodeURIComponent(newName2)}.json`,
       `<script type="application/ld+json">${JSON.stringify(
         filterContent
       )}</script>`

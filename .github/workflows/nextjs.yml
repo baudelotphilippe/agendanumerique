@@ -10,7 +10,9 @@ jobs:
         node-version: '16' 
     - name: Node Install
       run: npm ci
-    - name: run compil
+    - name: run compil Cobalt
+      run: node scripts/compilCobalt.js
+    - name: run compil global
       run: node scripts/compil.js
     - name: Commit files
       run: |

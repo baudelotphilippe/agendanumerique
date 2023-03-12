@@ -1,7 +1,7 @@
 
 const cheerio = require("cheerio");
-const emptyEvent = require("../utils/emptyEvent")
-const utilsDates = require("../utils/convertDates");
+const emptyEvent = require("./utils/emptyEvent")
+const utilsDates = require("./utils/convertDates");
 
 const convertDatePwn=(datePwn) => {
   const jourHeureDebut=datePwn.split("à")

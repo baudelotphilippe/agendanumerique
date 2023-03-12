@@ -1,4 +1,4 @@
-const utilsDates = require("../utils/convertDates");
+const utilsDates = require("./utils/convertDates");
 
 const fs = require("fs");
 const cheerio = require("cheerio");

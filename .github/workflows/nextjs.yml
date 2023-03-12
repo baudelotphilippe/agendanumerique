@@ -12,6 +12,8 @@ jobs:
       run: npm ci
     - name: run compil Cobalt
       run: node scripts/compilCobalt.js
+    - name: run compil Pwn
+      run: node scripts/compilPwn.js
     - name: run compil global
       run: node scripts/compil.js
     - name: Commit files

@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 const renameFile=(event) => {
-    let filename = event.name.replace(/( |:|#)/g, "-");
+    let filename = event.name.replace(/( |:|#|&)/g, "-");
     filename=filename.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
     return filename
 }

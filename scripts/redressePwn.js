@@ -10,7 +10,7 @@ const convertDatePwn=(datePwn) => {
   const formatDay=("0"+arrJourDebut[1].slice(0,-1)).slice(-2)
    return `${arrJourDebut[2]}-${utilsDates.moisEnChiffre(arrJourDebut[0])}-${formatDay}T${jourHeureDebut[1].trim().replace(":","-")}-00`
 }
-const pwn = (data) => {
+const redressePwn = (data) => {
   const $ = cheerio.load(data);
   let name=$('.event-title')[0].children[0].data
   // trim enlève char avant et après string  
@@ -59,4 +59,4 @@ const pwn = (data) => {
 };
 
 
-module.exports = pwn;
+module.exports = redressePwn;

@@ -1,37 +1,36 @@
-const formatDate = require('../utils/convertDates');
+const utilsDates = require("../utils/convertDates");
 
-const fs= require('fs');
-const cheerio = require('cheerio');
-const eventsFolder = './events/cobalt/';
+const fs = require("fs");
+const cheerio = require("cheerio");
+const eventsFolder = ["cobalt", "pwn"];
+const newContent = [];
 
+eventsFolder.forEach((folder) => {
+  const jsonsDir = fs.readdirSync(`./events/${folder}/`);
 
-const jsonsDir = fs.readdirSync(eventsFolder);
-const newContent=[]
-
-jsonsDir.forEach( file => {
-    const data=fs.readFileSync(`${eventsFolder}${file}`)
+  jsonsDir.forEach((file) => {
+    const data = fs.readFileSync(`./events/${folder}/${file}`);
     const $ = cheerio.load(data);
-    const jsonRaw = $("script[type='application/ld+json']")[0].children[0].data; 
+    const jsonRaw = $("script[type='application/ld+json']")[0].children[0].data;
     const event = JSON.parse(jsonRaw);
-    const fileWithoutExt=file.split('.').slice(0, -1).join('.')
-    const filterContent={
-        "name": event.name ?? "",
-        "startDate": event.startDate ?? "",
-        "startDateFormat":formatDate(event.startDate),
-        "endDate": event.endDate ?? "",
-        "endDateFormat":formatDate(event.endDate),
-        "location": {
-          "addressLocality": event.location?.address?.addressLocality ?? "",
-          "streetAddress": event.location?.address?.streetAddress ?? "",
-          "name":event.location?.name ?? ""
-        },
-        "organizer": event.organizer?.name ?? "",
-        "slug":fileWithoutExt,
-        "url":event.url
-      }
-    newContent.push(filterContent)
-})
-
- console.log(newContent)
-fs.writeFileSync('./events/events.json', JSON.stringify(newContent))
-
+    const fileWithoutExt = file.split(".").slice(0, -1).join(".");
+    const filterContent = {
+      name: event.name ?? "",
+      startDate: event.startDate ?? "",
+      startDateFormat: utilsDates.formatDate(event.startDate),
+      endDate: event.endDate ?? "",
+      endDateFormat: utilsDates.formatDate(event.endDate),
+      location: {
+        addressLocality: event.location?.address?.addressLocality ?? "",
+        streetAddress: event.location?.address?.streetAddress ?? "",
+        name: event.location?.name ?? "",
+      },
+      organizer: event.organizer ?? "",
+      slug: `${folder}/${fileWithoutExt}`,
+      url: event.url
+    };
+    newContent.push(filterContent);
+  });
+});
+console.log(newContent);
+fs.writeFileSync("./events/events.json", JSON.stringify(newContent));

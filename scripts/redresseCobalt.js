@@ -31,18 +31,22 @@ const cobalt = (infos) => {
       infosAsArr[j] = `"endDate": ${newEndDate}`;
     }
   }
-  // console.log(infosAsArr)
+  console.log(infosAsArr)
   const arrEnString = infosAsArr.toString();
   return JSON.parse(arrEnString);
 };
 
 const reformatDate = (date) => {
-  const arrDate = date.split("T");
-  const arrHeure = arrDate[1].split("-");
+  const arrDateHeure = date.split("T");
+
+  const arrDate=arrDateHeure[0].split("-");
+  arrDate[1]=("0"+arrDate[1]).slice(-2)
+  
+  const arrHeure = arrDateHeure[1].split("-");
   //remove first content (c'est un doublon...)
   arrHeure.shift();
   const newArrHeure=arrHeure.join('-')
- return `${arrDate[0].toString()}T${newArrHeure}`
+ return `${arrDate[0]}-${arrDate[1]}-${arrDate[2]}T${newArrHeure}`
 }
 
 module.exports = cobalt;

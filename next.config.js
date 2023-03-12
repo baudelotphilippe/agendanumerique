@@ -10,7 +10,12 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'cibul.s3.amazonaws.com'
-      },      
+      },
+      {
+        protocol: 'http',
+        hostname: 'pwn-association.org'
+      },
+      
     ],
   },
 }

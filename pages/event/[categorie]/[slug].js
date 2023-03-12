@@ -9,17 +9,18 @@ import {
   faCalendarDays,
   faClock, faArrowUpRightFromSquare
 } from "@fortawesome/free-solid-svg-icons";
-import Header from "../../components/header";
-import Layout from "../../components/layout";
-import formatDate from "../../utils/convertDates";
+import Header from "../../../components/header";
+import Layout from "../../../components/layout";
+import utilsDates from "../../../utils/convertDates";
 import Link from "next/link";
 
 const Post = () => {
   const router = useRouter();
-  const { pid } = router.query;
-  const fetcher = (url) => fetch(url).then((res) => res.json());
+  const { slug, categorie } = router.query;
 
-  const { data, error } = useSWR(`../api/staticevent?slug=${pid}`, fetcher);
+  const fetcher = (url) => fetch(url).then((res) => res.json());
+console.log(router.query, slug, categorie)
+  const { data, error } = useSWR(`../../api/staticevent?slug=${slug}&categorie=${categorie}`, fetcher);
   //Handle the error state
   if (error) return <div>Failed to load</div>;
   //Handle the loading state
@@ -32,8 +33,8 @@ const Post = () => {
 
  
 
-  const eventStartDate = event.startDate ? formatDate(event.startDate) : null;
-  const eventEndDate = event.endDate ? formatDate(event.endDate) : null;
+  const eventStartDate = event.startDate ? utilsDates.formatDate(event.startDate) : null;
+  const eventEndDate = event.endDate ? utilsDates.formatDate(event.endDate) : null;
 
   return (
     <>

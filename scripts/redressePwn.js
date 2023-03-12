@@ -29,7 +29,7 @@ const pwn = (data) => {
     if (elem.children) {
 
       if (elem.children[0].data=="infos pratiques") {
-        console.log("indexw ==>", description[index+1].next.children[1].children[2].children[0].data)//adresse
+        // console.log("indexw ==>", description[index+1].next.children[1].children[2].children[0].data)//adresse
 
         const lesDates=description[index+1].next.children[2].next.children[1].data
         const cleanDates = lesDates.replace(/(\r\n|\n|\r|\t)/gm, "").trim();

@@ -11,7 +11,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Header from "../../../components/header";
 import Layout from "../../../components/layout";
-import utilsDates from "../../../utils/convertDates";
+import utilsDates from "../../../scripts/utils/convertDates";
 import Link from "next/link";
 
 const Post = () => {

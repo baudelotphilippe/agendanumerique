@@ -1,6 +1,14 @@
 import useSWR from "swr";
 import styles from "@/styles/Home.module.css";
-import Link from 'next/link'
+import Link from "next/link";
+import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLocationDot,
+  faCalendarDays,
+  faClock,
+  faClipboard,
+} from "@fortawesome/free-solid-svg-icons";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
@@ -11,32 +19,42 @@ export default function Hometable() {
   if (error) return <div>Failed to load</div>;
   //Handle the loading state
   if (!data) return <div>Loading...</div>;
-  data.sort((a,b) =>  a.startDate > b.startDate); 
-  
+  data.sort((a, b) => a.startDate > b.startDate);
+
+  console.log(data);
+
   return (
-    <>
-      <table className={styles.events}>
-        <thead className={styles.thead}>
-          <tr>
-            <th>Date</th>
-            <th>Organisé par</th>
-            <th>Nom de l&apos;événement</th>
-            <th>Lieu</th>
-          </tr>
-        </thead>
-        <tbody className={styles.tbody}>
-          {data.map((event) => (
-            <tr key={event.startDate}>
-              <td><Link href={`event/${event.slug}`}>du {event.startDateFormat.jour} à {event.startDateFormat.heure}<br/> au {event.endDateFormat.jour} à {event.endDateFormat.heure}</Link></td>
-              <td><Link href={`event/${event.slug}`}>{event.organizer}</Link></td>
-              <td><Link href={`event/${event.slug}`}>{event.name}</Link></td>
-              <td>
-              <Link href={`event/${event.slug}`}>{event.location.name}<br/>{event.location.streetAddress} - {event.location.addressLocality}</Link>
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </>
+    <div className="row justify-content-around">
+      {data.map((event) => (
+        <div className=" col-3 m-3 ">
+        <div className="card bg-dark">
+          <Image
+            src={event.image}
+            alt={event.name}
+            width="200"
+            height="100"
+            class="card-img-top"
+            style={{height:"auto"}}
+          />
+          <div className="card-body">
+            <div></div>
+            <h5 className="card-title">
+              <Link className="stretched-link" href={`event/${event.slug}`}>
+                {event.name}
+              </Link>
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              {event.startDateFormat.jour} - {event.startDateFormat.heure}
+            </h6>
+            <p className="card-text">{event.description}</p>
+          </div>
+          <div class="card-footer text-muted">
+            <div><FontAwesomeIcon icon={faLocationDot} /> {event.location.name}</div>
+            <FontAwesomeIcon className="me-2" icon={faClipboard} />{event.organizer}
+          </div>
+        </div>
+        </div>
+      ))}
+    </div>
   );
 }

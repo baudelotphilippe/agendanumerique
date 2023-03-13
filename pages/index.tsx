@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Header title="Agenda du numérique poitevin" datas=""/>
       <Layout>
-        <h2 className={styles.h2}>Evénements à venir</h2>
+        {/* <h2 className={styles.h2}>Evénements à venir</h2> */}
         <Hometable />
       </Layout>
     </>

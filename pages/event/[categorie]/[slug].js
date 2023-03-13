@@ -7,7 +7,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLocationDot,
   faCalendarDays,
-  faClock, faArrowUpRightFromSquare
+  faClipboard,
+  faArrowUpRightFromSquare,
 } from "@fortawesome/free-solid-svg-icons";
 import Header from "../../../components/header";
 import Layout from "../../../components/layout";
@@ -19,8 +20,11 @@ const Post = () => {
   const { slug, categorie } = router.query;
 
   const fetcher = (url) => fetch(url).then((res) => res.json());
-// console.log(router.query, slug, categorie)
-  const { data, error } = useSWR(`../../api/staticevent?slug=${slug}&categorie=${categorie}`, fetcher);
+  // console.log(router.query, slug, categorie)
+  const { data, error } = useSWR(
+    `../../api/staticevent?slug=${slug}&categorie=${categorie}`,
+    fetcher
+  );
   //Handle the error state
   if (error) return <div>Failed to load</div>;
   //Handle the loading state
@@ -31,77 +35,63 @@ const Post = () => {
   const event = JSON.parse(jsonRaw);
   // console.log(event);
 
- 
-
-  const eventStartDate = event.startDate ? utilsDates.formatDate(event.startDate) : null;
-  const eventEndDate = event.endDate ? utilsDates.formatDate(event.endDate) : null;
+  const eventStartDate = event.startDate
+    ? utilsDates.formatDate(event.startDate)
+    : null;
+  const eventEndDate = event.endDate
+    ? utilsDates.formatDate(event.endDate)
+    : null;
 
   return (
     <>
-      <Header title={event.name} datas={jsonRaw}/>
+      <Header title={event.name} datas={jsonRaw} />
       <Layout>
-        <div className="row">
-          <div className="col-12">
+        <div className="row flex-column align-items-center justify-content-center">
+          <div className="col-6">
+            <Image
+              src={event.image}
+              alt={event.name}
+              fill
+              className="img-fluid remove-position"
+            />
+          </div>
+          <div className="col-12 text-center">
             <h2 className={styles.h2}>{event.name}</h2>
+          </div>
+          <div className="col-12">
             <p>{event.description}</p>
-            <div className="col-4">
-              <Image src={event.image} alt={event.name} fill className="img-fluid remove-position" />
-            </div>
-            <table>
-              <tbody>
-                {event.location && (
-                  <tr>
-                    <td>
-                      <FontAwesomeIcon icon={faLocationDot} />
-                    </td>
-                    <td>
-                      {event.location.name}<br/>
-                      {event.location.address.streetAddress} -{" "}
-                      {event.location.address.addressLocality}
-                    </td>
-                  </tr>
-                )}
+          </div>
 
-                {eventStartDate && (
-                  <>
-                    <tr>
-                      <td>
-                        <FontAwesomeIcon icon={faCalendarDays} />
-                      </td>
-                      <td> {eventStartDate.jour}</td>
-                      <td>
-                        <FontAwesomeIcon icon={faClock} />
-                      </td>
-                      <td>{eventStartDate.heure}</td>
-                    </tr>
-                  </>
-                )}
-                {eventEndDate && (
-                  <>
-                    <tr>
-                      <td>
-                        <FontAwesomeIcon icon={faCalendarDays} />
-                      </td>
-                      <td> {eventEndDate.jour}</td>
- 
-                      <td>
-                        <FontAwesomeIcon icon={faClock} />
-                      </td>
-                      <td>{eventEndDate.heure}</td>
-                    </tr>
-                  </>
-                )}
-                <tr>
-                  <td>
-                  <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-                  <Link href={event.url}>{event.url}</Link>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+          {event.location && (
+            <div>
+              <FontAwesomeIcon className="me-2" icon={faLocationDot} />
+              {event.location.name} - {event.location.address.streetAddress} -{" "}
+              {event.location.address.addressLocality}
+            </div>
+          )}
+
+          {eventStartDate && (
+            <div>
+              <FontAwesomeIcon className="me-2" icon={faCalendarDays} />
+              {eventStartDate.jour} - {eventStartDate.heure}
+            </div>
+          )}
+          {eventEndDate && (
+            <div>
+              <FontAwesomeIcon className="me-2" icon={faCalendarDays} />
+              {eventEndDate.jour} - {eventEndDate.heure}
+            </div>
+          )}
+
+          <div>
+            <FontAwesomeIcon className="me-2" icon={faArrowUpRightFromSquare} />
+            <Link href={event.url}>{event.url}</Link>
+          </div>
+          <div>
+          <FontAwesomeIcon className="me-2" icon={faClipboard} />{event.organizer}
           </div>
         </div>
-        </Layout>
+      </Layout>
     </>
   );
 };

@@ -20,6 +20,7 @@ eventsFolder.forEach((folder) => {
       startDateFormat: utilsDates.formatDate(event.startDate),
       endDate: event.endDate ?? "",
       endDateFormat: utilsDates.formatDate(event.endDate),
+      image:event.image,
       location: {
         addressLocality: event.location?.address?.addressLocality ?? "",
         streetAddress: event.location?.address?.streetAddress ?? "",

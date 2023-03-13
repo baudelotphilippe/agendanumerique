@@ -54,7 +54,7 @@ const redressePwn = (data) => {
   }
   )
   emptyEvent.description=contentDescription
-  emptyEvent.organizer="pwn"
+  emptyEvent.organizer="Pwn"
   return emptyEvent
 };
 

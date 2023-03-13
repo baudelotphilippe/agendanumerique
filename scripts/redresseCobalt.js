@@ -14,6 +14,7 @@ const cobalt = (infos) => {
   emptyEvent.image = cleanInfos.image;
   emptyEvent.startDate = reformatDate(cleanInfos.startDate);
   emptyEvent.endDate = reformatDate(cleanInfos.endDate);
+  emptyEvent.organizer="Cobalt"
   return emptyEvent;
 };
 

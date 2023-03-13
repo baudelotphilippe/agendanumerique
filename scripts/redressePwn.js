@@ -45,7 +45,7 @@ const redressePwn = (data) => {
         beginRecord=false
       }
       if (beginRecord) {
-        contentDescription+=elem.children[0].data
+        contentDescription+=elem.children[0].data+"\n"
       }
       if (elem.children[0].data=="description de l'intervention") {
         beginRecord=true

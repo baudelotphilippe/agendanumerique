@@ -59,7 +59,7 @@ const Post = () => {
             <h2 className={styles.h2}>{event.name}</h2>
           </div>
           <div className="col-12">
-            <p>{event.description}</p>
+            <p className="css-fix">{event.description}</p>
           </div>
 
           {event.location && (

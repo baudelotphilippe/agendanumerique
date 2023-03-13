@@ -115,3 +115,7 @@ a:hover{
   position:unset !important
 }
 
+.css-fix {
+  white-space: pre-wrap;
+}
+

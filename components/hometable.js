@@ -19,9 +19,10 @@ export default function Hometable() {
   if (error) return <div>Failed to load</div>;
   //Handle the loading state
   if (!data) return <div>Loading...</div>;
-  data.sort((a, b) => a.startDate > b.startDate);
+  data.sort((a, b) => { 
+   return new Date(a.startDate.split("T")[0]) -  new Date(b.startDate.split("T")[0])
+  });
 
-  // console.log(data);
 
   return (
     <div className="row justify-content-around">

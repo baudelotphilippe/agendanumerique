@@ -13,7 +13,7 @@ import {
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
 export default function Hometable() {
-  const { data, error } = useSWR("/api/staticdata", fetcher);
+  const { data, error } = useSWR("/api/globalEvents", fetcher);
 
   //Handle the error state
   if (error) return <div>Failed to load</div>;

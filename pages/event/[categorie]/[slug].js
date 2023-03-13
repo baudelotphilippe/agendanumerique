@@ -2,7 +2,6 @@ import { useRouter } from "next/router";
 import useSWR from "swr";
 import * as cheerio from "cheerio";
 import Image from "next/image";
-import styles from "@/styles/Home.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLocationDot,
@@ -10,6 +9,7 @@ import {
   faClipboard,
   faArrowUpRightFromSquare,
 } from "@fortawesome/free-solid-svg-icons";
+import styles from "@/styles/Home.module.css";
 import Header from "../../../components/header";
 import Layout from "../../../components/layout";
 import utilsDates from "../../../scripts/utils/convertDates";
@@ -74,12 +74,24 @@ const Post = () => {
             <div>
               <FontAwesomeIcon className="me-2" icon={faCalendarDays} />
               {eventStartDate.jour} - {eventStartDate.heure}
+              {event.subEvent &&
+                  event.subEvent.map((subevent) => {
+                    const heureSubEvent=(subevent.startDate.split("T")[1]).split("-");
+                    return ` - ${heureSubEvent[0]}h${heureSubEvent[1]}`
+                  })
+                  }
             </div>
           )}
           {eventEndDate && (
             <div>
               <FontAwesomeIcon className="me-2" icon={faCalendarDays} />
               {eventEndDate.jour} - {eventEndDate.heure}
+              {event.subEvent &&
+                  event.subEvent.map((subevent) => {
+                    const heureSubEvent=(subevent.endDate.split("T")[1]).split("-");
+                    return ` - ${heureSubEvent[0]}h${heureSubEvent[1]}`
+                  })
+                  }
             </div>
           )}
 

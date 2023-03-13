@@ -22,7 +22,7 @@ const Post = () => {
   const fetcher = (url) => fetch(url).then((res) => res.json());
   // console.log(router.query, slug, categorie)
   const { data, error } = useSWR(
-    `../../api/staticevent?slug=${slug}&categorie=${categorie}`,
+    `../../api/staticEvent?slug=${slug}&categorie=${categorie}`,
     fetcher
   );
   //Handle the error state

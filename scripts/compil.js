@@ -28,7 +28,8 @@ eventsFolder.forEach((folder) => {
       },
       organizer: event.organizer ?? "",
       slug: `${folder}/${fileWithoutExt}`,
-      url: event.url
+      url: event.url,
+      subEvent:event.subEvent ?? "",
     };
     newContent.push(filterContent);
   });

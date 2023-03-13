@@ -15,6 +15,10 @@ const nextConfig = {
         protocol: 'http',
         hostname: 'pwn-association.org'
       },
+      {
+        protocol: 'https',
+        hostname: 'emf.fr'
+      },
       
     ],
   },

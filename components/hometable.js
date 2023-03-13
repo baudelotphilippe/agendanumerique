@@ -19,10 +19,11 @@ export default function Hometable() {
   if (error) return <div>Failed to load</div>;
   //Handle the loading state
   if (!data) return <div>Loading...</div>;
-  data.sort((a, b) => { 
-   return new Date(a.startDate.split("T")[0]) -  new Date(b.startDate.split("T")[0])
+  data.sort((a, b) => {
+    return (
+      new Date(a.startDate.split("T")[0]) - new Date(b.startDate.split("T")[0])
+    );
   });
-
 
   return (
     <div className="row justify-content-around">
@@ -45,7 +46,13 @@ export default function Hometable() {
                 </Link>
               </h5>
               <h6 className="card-subtitle mb-2 text-muted">
-                {event.startDateFormat.jour} - {event.startDateFormat.heure}
+                {event.startDateFormat.jour} - {event.startDateFormat.heure} 
+                {event.subEvent &&
+                  event.subEvent.map((subevent) => {
+                    const heureSubEvent=(subevent.startDate.split("T")[1]).split("-");
+                    return ` - ${heureSubEvent[0]}h${heureSubEvent[1]}`
+                  })
+                  }
               </h6>
               <p className="card-text">{event.description}</p>
             </div>

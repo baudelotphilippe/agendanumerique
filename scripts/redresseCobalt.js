@@ -2,7 +2,7 @@ const { type } = require("os");
 const { stringify } = require("querystring");
 const emptyEvent = require("./utils/emptyEvent");
 
-const cobalt = (infos) => {
+const redresseCobalt = (infos) => {
   // console.log("infos", infos);
   //remove last virgule
   let cleanInfos = infos.substring(0, infos.lastIndexOf(",")) + "}";
@@ -32,4 +32,4 @@ const reformatDate = (date) => {
   return `${arrDate[0]}-${arrDate[1]}-${arrDate[2]}T${newArrHeure}`;
 };
 
-module.exports = cobalt;
+module.exports = redresseCobalt;

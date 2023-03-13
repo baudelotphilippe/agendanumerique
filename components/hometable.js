@@ -21,38 +21,41 @@ export default function Hometable() {
   if (!data) return <div>Loading...</div>;
   data.sort((a, b) => a.startDate > b.startDate);
 
-  console.log(data);
+  // console.log(data);
 
   return (
     <div className="row justify-content-around">
-      {data.map((event) => (
-        <div className=" col-3 m-3 ">
-        <div className="card bg-dark">
-          <Image
-            src={event.image}
-            alt={event.name}
-            width="200"
-            height="100"
-            class="card-img-top"
-            style={{height:"auto"}}
-          />
-          <div className="card-body">
-            <div></div>
-            <h5 className="card-title">
-              <Link className="stretched-link" href={`event/${event.slug}`}>
-                {event.name}
-              </Link>
-            </h5>
-            <h6 class="card-subtitle mb-2 text-muted">
-              {event.startDateFormat.jour} - {event.startDateFormat.heure}
-            </h6>
-            <p className="card-text">{event.description}</p>
+      {data.map((event, index) => (
+        <div className="col-3 m-3" key={index}>
+          <div className="card bg-dark">
+            <Image
+              src={event.image}
+              alt={event.name}
+              width="200"
+              height="100"
+              className="card-img-top"
+              style={{ height: "auto" }}
+            />
+            <div className="card-body">
+              <div></div>
+              <h5 className="card-title">
+                <Link className="stretched-link" href={`event/${event.slug}`}>
+                  {event.name}
+                </Link>
+              </h5>
+              <h6 className="card-subtitle mb-2 text-muted">
+                {event.startDateFormat.jour} - {event.startDateFormat.heure}
+              </h6>
+              <p className="card-text">{event.description}</p>
+            </div>
+            <div className="card-footer text-muted">
+              <div>
+                <FontAwesomeIcon icon={faLocationDot} /> {event.location.name}
+              </div>
+              <FontAwesomeIcon className="me-2" icon={faClipboard} />
+              {event.organizer}
+            </div>
           </div>
-          <div class="card-footer text-muted">
-            <div><FontAwesomeIcon icon={faLocationDot} /> {event.location.name}</div>
-            <FontAwesomeIcon className="me-2" icon={faClipboard} />{event.organizer}
-          </div>
-        </div>
         </div>
       ))}
     </div>

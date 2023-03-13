@@ -2,7 +2,7 @@ const utilsDates = require("./utils/convertDates");
 
 const fs = require("fs");
 const cheerio = require("cheerio");
-const eventsFolder = ["cobalt", "pwn"];
+const eventsFolder = ["cobalt", "pwn", "emf"];
 const newContent = [];
 
 eventsFolder.forEach((folder) => {
@@ -33,5 +33,5 @@ eventsFolder.forEach((folder) => {
     newContent.push(filterContent);
   });
 });
-console.log(newContent);
+// console.log(newContent);
 fs.writeFileSync("./events/events.json", JSON.stringify(newContent));

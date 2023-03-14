@@ -1,5 +1,0 @@
-{"urls":[{"url":"https://emf.fr/ec3_event/entraide-depannage-rendez-vous-animateur/"},
-{"url":"https://emf.fr/ec3_event/famille-2-0-comment-gerer-les-ecrans-avec-les-enfants-de-0-a-18-ans/"},
-{"url":"https://emf.fr/ec3_event/je-cree-un-photomontage-avec-gimp-2/"},
-{"url":"https://emf.fr/ec3_event/ia-et-sante-quels-enjeux-ethiques/"},
-{"url":"https://emf.fr/ec3_event/la-place-de-lia-en-sante/"}]}

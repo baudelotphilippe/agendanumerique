@@ -105,13 +105,13 @@ const convertDateEMF = (theDate) => {
 };
 
 async function ExtractEMF() {
-  const data = fs.readFileSync(`./events/eventsEMFlist.txt`);
+  const data = fs.readFileSync(`./events/eventsEMFlist.json`);
 
   const urls = JSON.parse(data).urls;
 
   Promise.all(
     urls.map((url) => {
-      return compilEMF(url.url);
+      return compilEMF(url);
     })
   ).then((events) => {
     console.log(events);

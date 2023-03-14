@@ -13,11 +13,14 @@ const convertDatePwn=(datePwn) => {
 const redressePwn = (data) => {
   const $ = cheerio.load(data);
   let name=$('.event-title')[0].children[0].data
+  const event = {
+    ...emptyEvent
+  };
   // trim enlève char avant et après string  
-  emptyEvent.name = name.replace(/(\r\n|\n|\r|\t)/gm, "").trim();
+  event.name = name.replace(/(\r\n|\n|\r|\t)/gm, "").trim();
 
-  emptyEvent.url=$("meta[property='og:url']").attr("content");
-  emptyEvent.image=$("meta[property='og:image']").attr("content");
+  event.url=$("meta[property='og:url']").attr("content");
+  event.image=$("meta[property='og:image']").attr("content");
 
   let description=$('.event-description')[0].children//.length//[4]
 
@@ -35,10 +38,10 @@ const redressePwn = (data) => {
         const cleanDates = lesDates.replace(/(\r\n|\n|\r|\t)/gm, "").trim();
         const arrDates=cleanDates.split("–")
 
-        emptyEvent.startDate=convertDatePwn(arrDates[0])
-        emptyEvent.endDate=convertDatePwn(arrDates[1])
+        event.startDate=convertDatePwn(arrDates[0])
+        event.endDate=convertDatePwn(arrDates[1])
 
-        emptyEvent.location.name=description[index+1].next.children[1].children[2].children[0].data.trim()
+        event.location.name=description[index+1].next.children[1].children[2].children[0].data.trim()
       }
 
       if (elem.children[0].data=="description de l'intervenant") {
@@ -53,9 +56,9 @@ const redressePwn = (data) => {
     }
   }
   )
-  emptyEvent.description=contentDescription
-  emptyEvent.organizer="Pwn"
-  return emptyEvent
+  event.description=contentDescription
+  event.organizer="Pwn"
+  return event
 };
 
 

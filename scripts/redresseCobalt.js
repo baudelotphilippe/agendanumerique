@@ -3,19 +3,21 @@ const { stringify } = require("querystring");
 const emptyEvent = require("./utils/emptyEvent");
 
 const redresseCobalt = (infos) => {
-  // console.log("infos", infos);
+  const event = {
+    ...emptyEvent
+  };
   //remove last virgule
   let cleanInfos = infos.substring(0, infos.lastIndexOf(",")) + "}";
   //remove tab & CR
   cleanInfos = cleanInfos.replace(/(\r\n|\n|\r|\t)/gm, "");
   cleanInfos = JSON.parse(cleanInfos);
-  emptyEvent.name = cleanInfos.name;
-  emptyEvent.description = cleanInfos.description;
-  emptyEvent.image = cleanInfos.image;
-  emptyEvent.startDate = reformatDate(cleanInfos.startDate);
-  emptyEvent.endDate = reformatDate(cleanInfos.endDate);
-  emptyEvent.organizer="Cobalt"
-  return emptyEvent;
+  event.name = cleanInfos.name;
+  event.description = cleanInfos.description;
+  event.image = cleanInfos.image;
+  event.startDate = reformatDate(cleanInfos.startDate);
+  event.endDate = reformatDate(cleanInfos.endDate);
+  event.organizer="Cobalt"
+  return event;
 };
 
 const reformatDate = (date) => {

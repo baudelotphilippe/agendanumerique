@@ -80,11 +80,11 @@ async function compilEMF(urlEvent) {
       event.subEvent = subEventList;
     }
 
-    //console.log("event END", event);
+    // console.log("event END", event, i);
     utilsFile.saveFile(workingFolder, event, i);
     i++;
 
-    return event;
+    // return event;
   }
 }
 
@@ -103,7 +103,8 @@ const convertHeureEMF = (pos, heure) => {
 const convertDateEMF = (theDate) => {
   laDate = theDate.split("->")[0].split(" ");
   // console.log(laDate)
-  return `${laDate[2]}-${utilsDates.moisEnChiffre(laDate[1])}-${laDate[0]}`;
+  const jour=("0" + laDate[0]).slice(-2);
+  return `${laDate[2]}-${utilsDates.moisEnChiffre(laDate[1])}-${jour}`;
 };
 
 async function ExtractEMF() {
@@ -112,13 +113,17 @@ async function ExtractEMF() {
 
   const urls = JSON.parse(data).urls;
 
-  Promise.all(
-    urls.map((url) => {
-      return compilEMF(url);
-    })
-  ).then((events) => {
-    console.log(events);
-  });
+  urls.map(url=> {
+    compilEMF(url)
+   })
+   
+  // Promise.all(
+  //   urls.map((url) => {
+  //     return compilEMF(url);
+  //   })
+  // ).then((events) => {
+  //   console.log(events);
+  // });
 }
 
 ExtractEMF();

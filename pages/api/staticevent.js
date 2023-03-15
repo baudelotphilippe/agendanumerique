@@ -7,7 +7,7 @@ export default async function handler(req, res) {
   //Read the json data file data.json
   const query = req.query;
   const {slug, categorie}=query
-  console.log(`./events/${encodeURIComponent(categorie)}/${encodeURIComponent(slug)}.json`)
+  console.log("dir",jsonDirectory, `./events/${encodeURIComponent(categorie)}/${encodeURIComponent(slug)}.json`)
   const fileContents = await fs.readFile(`./events/${encodeURIComponent(categorie)}/${encodeURIComponent(slug)}.json`, 'utf8');
   //Return the content of the data file in json format
   res.status(200).json(fileContents);

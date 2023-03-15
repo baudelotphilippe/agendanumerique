@@ -2,6 +2,9 @@ import { useRouter } from "next/router";
 import useSWR from "swr";
 import * as cheerio from "cheerio";
 import Image from "next/image";
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import { config } from '@fortawesome/fontawesome-svg-core';
+config.autoAddCss = false;
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLocationDot,

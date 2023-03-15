@@ -2,6 +2,9 @@ import useSWR from "swr";
 import styles from "@/styles/Home.module.css";
 import Link from "next/link";
 import Image from "next/image";
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import { config } from '@fortawesome/fontawesome-svg-core';
+config.autoAddCss = false;
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLocationDot,
@@ -42,7 +45,6 @@ export default function Hometable() {
               style={{ height: "auto" }}
             />
             <div className="card-body">
-              <div></div>
               <h5 className="card-title">
                 <Link className="stretched-link" href={`event/${event.slug}`}>
                   {event.name}

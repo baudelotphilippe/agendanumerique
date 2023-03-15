@@ -78,7 +78,7 @@ const Post = () => {
               {eventStartDate.jour} - {eventStartDate.heure}
               {event.subEvent &&
                   event.subEvent.map((subevent) => {
-                    const heureSubEvent=(subevent.startDate.split("T")[1]).split("-");
+                    const heureSubEvent=(subevent.startDate.split("T")[1]).split(":");
                     return ` - ${heureSubEvent[0]}h${heureSubEvent[1]}`
                   })
                   }
@@ -90,7 +90,7 @@ const Post = () => {
               {eventEndDate.jour} - {eventEndDate.heure}
               {event.subEvent &&
                   event.subEvent.map((subevent) => {
-                    const heureSubEvent=(subevent.endDate.split("T")[1]).split("-");
+                    const heureSubEvent=(subevent.endDate.split("T")[1]).split(":");
                     return ` - ${heureSubEvent[0]}h${heureSubEvent[1]}`
                   })
                   }

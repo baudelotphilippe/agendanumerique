@@ -52,7 +52,7 @@ export default function Hometable() {
                 {event.startDateFormat.jour} - {event.startDateFormat.heure} 
                 {event.subEvent &&
                   event.subEvent.map((subevent) => {
-                    const heureSubEvent=(subevent.startDate.split("T")[1]).split("-");
+                    const heureSubEvent=(subevent.startDate.split("T")[1]).split(":");
                     return ` - ${heureSubEvent[0]}h${heureSubEvent[1]}`
                   })
                   }

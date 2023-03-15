@@ -1,9 +1,11 @@
 const fs = require("fs");
 const axios = require("axios");
 const cheerio = require("cheerio");
-const saveFile = require("./utils/file");
+const utilsFile = require("./utils/file");
+
 const utilsDates = require("./utils/convertDates");
 const emptyEvent = require("./utils/emptyEvent");
+const workingFolder = "emf"
 
 async function compilEMF(urlEvent) {
   const { data } = await axios.get(urlEvent);
@@ -79,7 +81,7 @@ async function compilEMF(urlEvent) {
     }
 
     //console.log("event END", event);
-    saveFile("emf", event, i);
+    utilsFile.saveFile(workingFolder, event, i);
     i++;
 
     return event;
@@ -105,6 +107,7 @@ const convertDateEMF = (theDate) => {
 };
 
 async function ExtractEMF() {
+  await utilsFile.cleanFolder(workingFolder)
   const data = fs.readFileSync(`./events/eventsEMFlist.json`);
 
   const urls = JSON.parse(data).urls;

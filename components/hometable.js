@@ -26,7 +26,7 @@ export default function Hometable() {
       new Date(a.startDate) - new Date(b.startDate)
     );
   });
-    console.log(data)
+    // console.log(data)
 
   return (
     <div className="row justify-content-around">

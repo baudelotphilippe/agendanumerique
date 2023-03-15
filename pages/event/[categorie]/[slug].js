@@ -20,13 +20,13 @@ const Post = () => {
   const { slug, categorie } = router.query;
 
   const fetcher = (url) => fetch(url).then((res) => res.json());
-   console.log(router.query, slug, categorie)
+  //  console.log(router.query, slug, categorie)
   const { data, error } = useSWR(
     `../../api/staticEvent?slug=${slug}&categorie=${categorie}`,
     fetcher
   );
 
-  console.log(error)
+  // console.log(error)
   //Handle the error state
   if (error) return <div>Failed to load</div>;
   //Handle the loading state

@@ -25,6 +25,8 @@ const Post = () => {
     `../../api/staticEvent?slug=${slug}&categorie=${categorie}`,
     fetcher
   );
+
+  console.log(error)
   //Handle the error state
   if (error) return <div>Failed to load</div>;
   //Handle the loading state

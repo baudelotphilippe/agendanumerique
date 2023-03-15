@@ -1,0 +1,12 @@
+name: Cron Job
+# Controls when the workflow will run
+
+on:
+  # Triggers the workflow every day ay 0:00
+  schedule:
+    - cron: "0 0 * * *"
+
+     # A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  call-workflow-in-local-repo:
+    uses: ./.github/workflows/nextjs.yml

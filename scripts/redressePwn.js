@@ -8,7 +8,7 @@ const convertDatePwn=(datePwn) => {
   const arrJourDebut=jourHeureDebut[0].trim().split(" ")
   // retire , et force sur 2 digits
   const formatDay=("0"+arrJourDebut[1].slice(0,-1)).slice(-2)
-   return `${arrJourDebut[2]}-${utilsDates.moisEnChiffre(arrJourDebut[0])}-${formatDay}T${jourHeureDebut[1].trim().replace(":","-")}-00`
+   return `${arrJourDebut[2]}-${utilsDates.moisEnChiffre(arrJourDebut[0])}-${formatDay}T${jourHeureDebut[1].trim()}:00`
 }
 const redressePwn = (data) => {
   const $ = cheerio.load(data);

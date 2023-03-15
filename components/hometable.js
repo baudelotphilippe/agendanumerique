@@ -21,9 +21,12 @@ export default function Hometable() {
   if (!data) return <div>Loading...</div>;
   data.sort((a, b) => {
     return (
-      new Date(a.startDate.split("T")[0]) - new Date(b.startDate.split("T")[0])
+      //tmp reformater heur pur tester le sort ...
+    // console.log( a.startDate)
+      new Date(a.startDate) - new Date(b.startDate)
     );
   });
+    console.log(data)
 
   return (
     <div className="row justify-content-around">

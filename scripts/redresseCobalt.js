@@ -30,7 +30,7 @@ const reformatDate = (date) => {
   const arrHeure = arrDateHeure[1].split("-");
   //remove first content (c'est un doublon...)
   arrHeure.shift();
-  const newArrHeure = arrHeure.join("-");
+  const newArrHeure = arrHeure.join(":");
   return `${arrDate[0]}-${arrDate[1]}-${arrDate[2]}T${newArrHeure}`;
 };
 

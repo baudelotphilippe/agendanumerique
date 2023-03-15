@@ -97,7 +97,7 @@ const convertHeureEMF = (pos, heure) => {
     }
   };
   const heureEvent = splitHeureEvent(pos, heure.split("->"));
-  return `${heureEvent[0].trim()}-${heureEvent[1].trim()}-00`;
+  return `${heureEvent[0].trim()}:${heureEvent[1].trim()}:00`;
 };
 
 const convertDateEMF = (theDate) => {

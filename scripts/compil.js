@@ -2,7 +2,7 @@ const utilsDates = require("./utils/convertDates");
 
 const fs = require("fs");
 const cheerio = require("cheerio");
-const eventsFolder = ["cobalt", "pwn", "emf"];
+const eventsFolder = ["cobalt", "pwn", "emf", "manuel"];
 const newContent = [];
 
 eventsFolder.forEach((folder) => {
@@ -17,9 +17,9 @@ eventsFolder.forEach((folder) => {
     const filterContent = {
       name: event.name ?? "",
       startDate: event.startDate ?? "",
-      startDateFormat: utilsDates.formatDate(event.startDate),
+      startDateFormat: event.startDate ??utilsDates.formatDate(event.startDate),
       endDate: event.endDate ?? "",
-      endDateFormat: utilsDates.formatDate(event.endDate),
+      endDateFormat: event.endDate ?? utilsDates.formatDate(event.endDate),
       image:event.image,
       location: {
         addressLocality: event.location?.address?.addressLocality ?? "",

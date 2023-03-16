@@ -2,8 +2,8 @@ import { useRouter } from "next/router";
 import useSWR from "swr";
 import * as cheerio from "cheerio";
 import Image from "next/image";
-import '@fortawesome/fontawesome-svg-core/styles.css';
-import { config } from '@fortawesome/fontawesome-svg-core';
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -23,7 +23,6 @@ const Post = () => {
   const { slug, categorie } = router.query;
 
   const fetcher = (url) => fetch(url).then((res) => res.json());
-  //  console.log(router.query, slug, categorie)
   const { data, error } = useSWR(
     `../../api/staticEvent?slug=${slug}&categorie=${categorie}`,
     fetcher
@@ -31,9 +30,24 @@ const Post = () => {
 
   // console.log(error)
   //Handle the error state
-  if (error) return <div>Failed to load</div>;
+  if (error)
+    return (
+      <>
+        <Header title="Chargement impossible" datas="" />
+        <Layout>
+          <div>Chargement impossible</div>
+        </Layout>
+      </>
+    );
   //Handle the loading state
-  if (!data) return <div>Loading...</div>;
+  if (!data) return (
+    <>
+      <Header title="Chargement en cours" datas="" />
+      <Layout>
+        <div>Chargement en cours</div>
+      </Layout>
+    </>
+  );
 
   const $ = cheerio.load(data);
   const jsonRaw = $("script[type='application/ld+json']")[0].children[0].data;
@@ -80,11 +94,12 @@ const Post = () => {
               <FontAwesomeIcon className="me-2" icon={faCalendarDays} />
               {eventStartDate.jour} - {eventStartDate.heure}
               {event.subEvent &&
-                  event.subEvent.map((subevent) => {
-                    const heureSubEvent=(subevent.startDate.split("T")[1]).split(":");
-                    return ` - ${heureSubEvent[0]}h${heureSubEvent[1]}`
-                  })
-                  }
+                event.subEvent.map((subevent) => {
+                  const heureSubEvent = subevent.startDate
+                    .split("T")[1]
+                    .split(":");
+                  return ` - ${heureSubEvent[0]}h${heureSubEvent[1]}`;
+                })}
             </div>
           )}
           {eventEndDate && (
@@ -92,11 +107,12 @@ const Post = () => {
               <FontAwesomeIcon className="me-2" icon={faCalendarDays} />
               {eventEndDate.jour} - {eventEndDate.heure}
               {event.subEvent &&
-                  event.subEvent.map((subevent) => {
-                    const heureSubEvent=(subevent.endDate.split("T")[1]).split(":");
-                    return ` - ${heureSubEvent[0]}h${heureSubEvent[1]}`
-                  })
-                  }
+                event.subEvent.map((subevent) => {
+                  const heureSubEvent = subevent.endDate
+                    .split("T")[1]
+                    .split(":");
+                  return ` - ${heureSubEvent[0]}h${heureSubEvent[1]}`;
+                })}
             </div>
           )}
 
@@ -105,7 +121,8 @@ const Post = () => {
             <Link href={event.url}>{event.url}</Link>
           </div>
           <div>
-          <FontAwesomeIcon className="me-2" icon={faClipboard} />{event.organizer}
+            <FontAwesomeIcon className="me-2" icon={faClipboard} />
+            {event.organizer}
           </div>
         </div>
       </Layout>

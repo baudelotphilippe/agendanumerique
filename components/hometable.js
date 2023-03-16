@@ -1,9 +1,8 @@
 import useSWR from "swr";
-import styles from "@/styles/Home.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import '@fortawesome/fontawesome-svg-core/styles.css';
-import { config } from '@fortawesome/fontawesome-svg-core';
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -13,23 +12,18 @@ import {
   faClipboard,
 } from "@fortawesome/free-solid-svg-icons";
 
-const fetcher = (url) => fetch(url).then((res) => res.json());
-
 export default function Hometable() {
+  const fetcher = (url) => fetch(url).then((res) => res.json());
   const { data, error } = useSWR("/api/globalEvents", fetcher);
 
   //Handle the error state
-  if (error) return <div>Failed to load</div>;
+  if (error)
+    return <div>Désolé, le fichier des événements n'est pas accessible</div>;
   //Handle the loading state
-  if (!data) return <div>Loading...</div>;
+  if (!data) return <div>Chargement en cours ...</div>;
   data.sort((a, b) => {
-    return (
-      //tmp reformater heur pur tester le sort ...
-    // console.log( a.startDate)
-      new Date(a.startDate) - new Date(b.startDate)
-    );
+    return new Date(a.startDate) - new Date(b.startDate);
   });
-    // console.log(data)
 
   return (
     <div className="row justify-content-around">
@@ -51,22 +45,38 @@ export default function Hometable() {
                 </Link>
               </h5>
               <h6 className="card-subtitle mb-2 text-muted">
-                {event.startDateFormat.jour} - {event.startDateFormat.heure} 
+                {event.startDateFormat.jour} - {event.startDateFormat.heure}
                 {event.subEvent &&
                   event.subEvent.map((subevent) => {
-                    const heureSubEvent=(subevent.startDate.split("T")[1]).split(":");
-                    return ` - ${heureSubEvent[0]}h${heureSubEvent[1]}`
-                  })
-                  }
+                    const heureSubEvent = subevent.startDate
+                      .split("T")[1]
+                      .split(":");
+                    return ` - ${heureSubEvent[0]}h${heureSubEvent[1]}`;
+                  })}
               </h6>
               <p className="card-text">{event.description}</p>
             </div>
             <div className="card-footer text-muted">
               <div>
-                <FontAwesomeIcon icon={faLocationDot} /> {event.location.name}
+                {event.location.name && (
+                  <span>
+                    <FontAwesomeIcon icon={faLocationDot} alt="localisation" />{" "}
+                    {event.location.name}
+                  </span>
+                )}
               </div>
-              <FontAwesomeIcon className="me-2" icon={faClipboard} />
-              {event.organizer}
+              <div>
+              {event.organizer && (
+                <span>
+                  <FontAwesomeIcon
+                    className="me-2"
+                    alt="source"
+                    icon={faClipboard}
+                  />
+                  {event.organizer}
+                </span>
+              )}
+              </div>
             </div>
           </div>
         </div>

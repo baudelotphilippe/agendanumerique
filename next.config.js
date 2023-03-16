@@ -19,7 +19,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'emf.fr'
       },
-      
+      {
+        protocol: 'https',
+        hostname: 'avatars.githubusercontent.com'
+      }
     ],
   },
 }

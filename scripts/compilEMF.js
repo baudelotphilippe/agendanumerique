@@ -13,6 +13,11 @@ async function compilEMF(urlEvent) {
   const event = {
     ...emptyEvent
   };
+  // console.log(urlEvent)
+  // cherche si le bloc date est grisé, si oui, date dépassée donc pas d'evenet à gérer
+  const pastEvent = $(".ec3_iconlet.ec3_past").text();
+  if (pastEvent!="") return
+
   //titre
   const infoTitre = $(".hero-title-inside-text h1").text();
   const titreRedresse = infoTitre

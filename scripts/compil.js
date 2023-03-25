@@ -6,6 +6,8 @@ const eventsFolder = ["cobalt", "pwn", "emf", "manuel"];
 const newContent = [];
 
 eventsFolder.forEach((folder) => {
+  if (!fs.existsSync(`./events/${folder}/`)) return;
+  
   const jsonsDir = fs.readdirSync(`./events/${folder}/`);
 
   jsonsDir.forEach((file) => {

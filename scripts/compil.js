@@ -17,9 +17,9 @@ eventsFolder.forEach((folder) => {
     const filterContent = {
       name: event.name ?? "",
       startDate: event.startDate ?? "",
-      startDateFormat: event.startDate ??utilsDates.formatDate(event.startDate),
+      startDateFormat: utilsDates.formatDate(event.startDate),
       endDate: event.endDate ?? "",
-      endDateFormat: event.endDate ?? utilsDates.formatDate(event.endDate),
+      endDateFormat: utilsDates.formatDate(event.endDate),
       image:event.image,
       location: {
         addressLocality: event.location?.address?.addressLocality ?? "",

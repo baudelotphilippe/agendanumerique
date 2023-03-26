@@ -30,7 +30,7 @@ export default function eventCreate() {
 
     // Send the form data to our API and get a response.
     const response = await fetch("/api/form", {
-      // Body of the request is the JSON data we created above.
+      // Body of the request is the JSON d&apos;ata we created above.
       body: JSON.stringify(data),
       // Tell the server we're sending JSON.
       headers: {
@@ -49,7 +49,7 @@ export default function eventCreate() {
 
   return (
     <>
-      <Header title="création d'événement" datas="" />
+      <Header title="création d&apos;événement" datas="" />
       <Layout>
         <h2>Créer un événement</h2>
 
@@ -75,7 +75,7 @@ export default function eventCreate() {
           <label htmlFor="url">url</label>
           <input type="text" id="url" name="url" />
           <br />
-          <b>Lieu de l'événement</b>
+          <b>Lieu de l&apos;événement</b>
           <br />
           <label htmlFor="locationName">Nom</label>
           <input type="text" id="locationName" name="locationName" />

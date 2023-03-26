@@ -18,7 +18,7 @@ export default function Hometable() {
 
   //Handle the error state
   if (error)
-    return <div>Désolé, le fichier des événements n'est pas accessible</div>;
+    return <div>Désolé, le fichier des événements n&apos;est pas accessible</div>;
   //Handle the loading state
   if (!data) return <div>Chargement en cours ...</div>;
   data.sort((a, b) => {

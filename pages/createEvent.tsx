@@ -16,7 +16,7 @@ export default function eventCreate() {
 
     // Get data from the form.
     const data = {
-      name: form.name.value as string,
+      name: form.nom.value as string,
       description: form.description.value as string,
       startDate: form.startDate.value as string,
       endDate: form.endDate.value as string,
@@ -55,7 +55,7 @@ export default function eventCreate() {
 
         <form onSubmit={handleSubmit}>
           <label htmlFor="name">Nom</label>
-          <input type="text" id="name" name="name" />
+          <input type="text" id="name" name="nom" />
           <br />
           <label htmlFor="description">Description</label>
           <input type="text" id="description" name="description" />

@@ -1,5 +1,5 @@
 const fs = require("fs");
-const util = require('util');
+const util = require("util");
 const readdir = util.promisify(fs.readdir);
 const unlink = util.promisify(fs.unlink);
 
@@ -22,9 +22,20 @@ const saveFile = (folder, event, i = 0) => {
 };
 
 async function cleanFolder(folder) {
-  const files = await readdir(`./events/${folder}/`);
-  const unlinkPromises = files.map(filename => unlink(`./events/${folder}/${filename}`));
-  return Promise.all(unlinkPromises);
-};
+  let files;
+  try {
+    files = await readdir(`./events/${folder}/`);
+  } catch (err) {
+    // dossier vide
+    console.log("erreur", err);
+  }
+  
+  if (files !== undefined) {
+    const unlinkPromises = files.map((filename) =>
+      unlink(`./events/${folder}/${filename}`)
+    );
+    return Promise.all(unlinkPromises);
+  }
+}
 
 module.exports = { saveFile, cleanFolder };

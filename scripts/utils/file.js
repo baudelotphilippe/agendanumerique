@@ -14,6 +14,14 @@ const renameFile = (event, i) => {
 };
 
 const saveFile = (folder, event, i = 0) => {
+  // si folder inexistant, il est créé
+  try {
+    if (!fs.existsSync(`./events/${folder}`)) {
+      fs.mkdirSync(`./events/${folder}`);
+    }
+  } catch (err) {
+    console.error(err);
+  }
   const filename = renameFile(event, i);
   fs.writeFileSync(
     `./events/${folder}/${encodeURIComponent(filename)}.json`,
@@ -29,7 +37,7 @@ async function cleanFolder(folder) {
     // dossier vide
     console.log("erreur", err);
   }
-  
+
   if (files !== undefined) {
     const unlinkPromises = files.map((filename) =>
       unlink(`./events/${folder}/${filename}`)

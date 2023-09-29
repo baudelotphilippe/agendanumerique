@@ -37,7 +37,7 @@ const redressePwn = (data) => {
         const lesDates=description[index+1].next.children[2].next.children[1].data
         const cleanDates = lesDates.replace(/(\r\n|\n|\r|\t)/gm, "").trim();
         const arrDates=cleanDates.split("–")
-
+        
         event.startDate=convertDatePwn(arrDates[0])
         event.endDate=convertDatePwn(arrDates[1])
 
@@ -48,7 +48,9 @@ const redressePwn = (data) => {
         beginRecord=false
       }
       if (beginRecord) {
-        contentDescription+=elem.children[0].data+"\n"
+        elem.children.forEach((subElem) =>{
+          if (subElem.data) {contentDescription+=subElem.data}
+        })
       }
       if (elem.children[0].data=="description de l'intervention") {
         beginRecord=true

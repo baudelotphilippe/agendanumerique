@@ -7,13 +7,13 @@ const workingFolder="cobalt";
 
 async function compilCobalt() {
   const { data } = await axios.get(
-    "https://www.cobaltpoitiers.fr/programmation/"
+    "https://www.cobaltpoitiers.fr/agenda_1550.html"
   );
   const $ = cheerio.load(data)
   await utilsFile.cleanFolder(workingFolder)
-  $('.evo_event_schema').each((index, item) => { 
+  $('.agenda.elem').each((index, item) => { 
 
-    const event = redresseCobalt(item.children[item.children.length-1].children[0].data);
+   const event = redresseCobalt(item);
 
     event.url=item.children[0].attribs.href;
     event.location.name="Cobalt Poitiers"

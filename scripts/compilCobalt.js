@@ -15,10 +15,10 @@ async function compilCobalt() {
 
    const event = redresseCobalt(item);
 
-    event.url=item.children[0].attribs.href;
-    event.location.name="Cobalt Poitiers"
-    event.location.address.addressLocality="86000 Poitiers"
-    event.location.address.streetAddress="5 Rue Victor Hugo"
+    // event.url=item.children[0].attribs.href;
+    // event.location.name="Cobalt Poitiers"
+    // event.location.address.addressLocality="86000 Poitiers"
+    // event.location.address.streetAddress="5 Rue Victor Hugo"
 
     utilsFile.saveFile(workingFolder, event)
   });

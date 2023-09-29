@@ -13,9 +13,12 @@ const listeMois = [
   "décembre",
 ];
 
+// "jan." ... mis en place pour pwn
 const months = {
   janvier: "01",
+  "jan.": "01",
   février: "02",
+  "fév.": "02",
   mars: "03",
   avril: "04",
   "avr.": "04",
@@ -24,9 +27,13 @@ const months = {
   juillet: "07",
   août: "08",
   septembre: "09",
+  "sep.": "09",
   octobre: "10",
+  "oct.": "10",
   novembre: "11",
+  "nov.": "11",
   décembre: "12",
+  "déc.": "12",
 };
 
 const formatDate = (originalDate) => {

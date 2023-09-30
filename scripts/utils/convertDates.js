@@ -49,4 +49,6 @@ const formatDate = (originalDate) => {
 
 const moisEnChiffre = (mois) => months[mois];
 
-module.exports = {formatDate,moisEnChiffre};
+const prependNumber = theNumber => ("0" + theNumber).slice(-2);
+
+module.exports = {formatDate,moisEnChiffre, prependNumber};

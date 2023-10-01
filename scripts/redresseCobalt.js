@@ -11,7 +11,7 @@ const redresseCobalt = (infos) => {
   };
 
   const $ = cheerio.load(infos);
-  
+
   const blocHead = infos.children[0].next;
   const blocInfos =
     infos.children[2].next.children[0].next.children[0].next.next;
@@ -22,7 +22,6 @@ const redresseCobalt = (infos) => {
 
   const zoneHeure = blocInfos.children[2].children[1].data;
   event.startDate = `2023-${mois}-${jour}T${reformatHeure(zoneHeure)}`;
-  event.endDate = event.startDate;
 
   event.name = blocHead.children[5].children[0].data;
 

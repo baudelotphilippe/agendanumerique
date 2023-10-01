@@ -2,12 +2,16 @@ const { type } = require("os");
 const { stringify } = require("querystring");
 const emptyEvent = require("./utils/emptyEvent");
 const utilsDates = require("./utils/convertDates");
+const cheerio = require("cheerio");
+const { info } = require("console");
 
 const redresseCobalt = (infos) => {
   const event = {
     ...emptyEvent,
   };
 
+  const $ = cheerio.load(infos);
+  
   const blocHead = infos.children[0].next;
   const blocInfos =
     infos.children[2].next.children[0].next.children[0].next.next;
@@ -22,14 +26,7 @@ const redresseCobalt = (infos) => {
 
   event.name = blocHead.children[5].children[0].data;
 
-  const description = infos.children[2].next.children[2].next.children;
-  contentDescription = "";
-  description.forEach((element) => {
-    if (element.children) {
-      contentDescription += element.children[0].data + "\n";
-    }
-  });
-  event.description = contentDescription;
+  event.description = $(".inscription").html();
 
   event.location.name = blocInfos.children[2].children[3].data.trim();
   if (event.location.name === "Cobalt") {
@@ -45,7 +42,7 @@ const redresseCobalt = (infos) => {
 
 const reformatHeure = (heure) => {
   const arrHeure = heure.split("h");
-  console.log(arrHeure);
+  // console.log(arrHeure);
   return `${utilsDates.prependNumber(
     arrHeure[0].trim()
   )}:${utilsDates.prependNumber(arrHeure[1].trim())}:00`;

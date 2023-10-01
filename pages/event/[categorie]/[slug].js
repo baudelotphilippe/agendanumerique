@@ -52,7 +52,7 @@ const Post = () => {
   const $ = cheerio.load(data);
   const jsonRaw = $("script[type='application/ld+json']")[0].children[0].data;
   const event = JSON.parse(jsonRaw);
-  // console.log(event);
+  console.log(event);
 
   const eventStartDate = event.startDate
     ? utilsDates.formatDate(event.startDate)
@@ -78,7 +78,7 @@ const Post = () => {
             <h2 className={styles.h2}>{event.name}</h2>
           </div>
           <div className="col-12">
-            <p className="css-fix">{event.description}</p>
+            <p className="css-fix" dangerouslySetInnerHTML={{ __html: event.description }}></p>
           </div>
 
           {event.location && (

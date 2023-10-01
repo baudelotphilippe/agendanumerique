@@ -5,18 +5,18 @@ const utilsFile = require("./utils/file");
 
 const utilsDates = require("./utils/convertDates");
 const emptyEvent = require("./utils/emptyEvent");
-const workingFolder = "emf"
+const workingFolder = "emf";
 
 async function compilEMF(urlEvent) {
   const { data } = await axios.get(urlEvent);
   const $ = cheerio.load(data);
   const event = {
-    ...emptyEvent
+    ...emptyEvent,
   };
-  // console.log(urlEvent)
+  
   // cherche si le bloc date est grisé, si oui, date dépassée donc pas d'evenet à gérer
   const pastEvent = $(".ec3_iconlet.ec3_past").text();
-  if (pastEvent!="") return
+  if (pastEvent != "") return;
 
   //titre
   const infoTitre = $(".hero-title-inside-text h1").text();
@@ -38,12 +38,11 @@ async function compilEMF(urlEvent) {
   const infosAddress = $(".info_lieu").html();
   const posDuBR = 4 + infosAddress.indexOf("<br>");
   event.location.address.streetAddress = infosAddress.substring(posDuBR);
-  event.organizer = "EMF";
+  event.organizer = "Espace Mendès France";
 
   // cherche dates
   const dates = $(".ec3_schedule_date.ec3_schedule_next");
 
-  // console.log(dates.length);
   let i = 0;
   for (oneDate of dates) {
     //loop
@@ -51,7 +50,6 @@ async function compilEMF(urlEvent) {
     let subEventList = [];
     let dateEvent = null;
     childWithDates.forEach((info, index) => {
-      // console.log(index)
       if (index == 0) dateEvent = convertDateEMF(info.children[0].data);
       if (index == 1) {
         event.startDate = `${dateEvent}T${convertHeureEMF(
@@ -79,17 +77,13 @@ async function compilEMF(urlEvent) {
         subEventList.push(oneSubEvent);
       }
     });
-    // console.log("subEventList.length", subEventList.length)
 
     if (subEventList.length > 0) {
       event.subEvent = subEventList;
     }
 
-    // console.log("event END", event, i);
     utilsFile.saveFile(workingFolder, event, i);
     i++;
-
-    // return event;
   }
 }
 
@@ -107,21 +101,21 @@ const convertHeureEMF = (pos, heure) => {
 
 const convertDateEMF = (theDate) => {
   laDate = theDate.split("->")[0].split(" ");
-  // console.log(laDate)
-  const jour=("0" + laDate[0]).slice(-2);
-  return `${laDate[2]}-${utilsDates.moisEnChiffre(laDate[1])}-${jour}`;
+  return `${laDate[2]}-${utilsDates.moisEnChiffre(
+    laDate[1]
+  )}-${utilsDates.prependNumber(laDate[0])}`;
 };
 
 async function ExtractEMF() {
-  await utilsFile.cleanFolder(workingFolder)
+  await utilsFile.cleanFolder(workingFolder);
   const data = fs.readFileSync(`./events/eventsEMFlist.json`);
 
   const urls = JSON.parse(data).urls;
 
-  urls.map(url=> {
-    compilEMF(url)
-   })
-   
+  urls.map((url) => {
+    compilEMF(url);
+  });
+
   // Promise.all(
   //   urls.map((url) => {
   //     return compilEMF(url);

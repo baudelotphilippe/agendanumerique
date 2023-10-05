@@ -13,13 +13,14 @@ const redresseCobalt = (infos) => {
   const $ = cheerio.load(infos);
 
   const blocHead = infos.children[0].next;
-  const blocInfos =
-    infos.children[2].next.children[0].next.children[0].next.next;
-
+  let blocInfos =$(".offset")[0]
+  //fix when thre is no image ...
+  if (!blocInfos) {blocInfos=$(".infos")[0]}
+  
   const zoneJourMois = blocHead.children[3];
   const jour = zoneJourMois.children[0].children[0].data;
   const mois = zoneJourMois.children[1].data.split("/")[1];
-
+  
   const zoneHeure = blocInfos.children[2].children[1].data;
   event.startDate = `2023-${mois}-${jour}T${reformatHeure(zoneHeure)}`;
 

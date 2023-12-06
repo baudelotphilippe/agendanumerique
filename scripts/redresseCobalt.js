@@ -33,12 +33,6 @@ const redresseCobalt = (infos) => {
   if (mois < moisActuel) {
     anneeActuelle++;
   }
-
-  const zoneHeure = blocInfos.children[2].children[1].data;
-  event.startDate = `${anneeActuelle}-${mois}-${jour}T${reformatHeure(
-    zoneHeure
-  )}`;
-
   event.name = blocHead.children[5].children[0].data;
 
   event.description = $(".inscription").html();
@@ -48,7 +42,7 @@ const redresseCobalt = (infos) => {
     if (lesInfos[ligneInfo].children?.length && lesInfos[ligneInfo].children[0]) {
       const catInfos =
         lesInfos[ligneInfo].children[0].parent.children[0].children[0].data;
-        console.log(catInfos)
+        // console.log(catInfos)
       if (catInfos.includes("Organisateur")) {
         event.organizer =
           lesInfos[
@@ -56,6 +50,14 @@ const redresseCobalt = (infos) => {
           ].children[0].parent.children[0].children[0].parent.next.data;
       }
       if (catInfos.includes("Heure")) {
+        const zoneHeure = lesInfos[
+          ligneInfo
+        ].children[0].parent.children[0].children[0].parent.next.data
+
+        event.startDate = `${anneeActuelle}-${mois}-${jour}T${reformatHeure(
+          zoneHeure
+        )}`;
+
         event.location.name = 
           lesInfos[
             ligneInfo

@@ -40,14 +40,15 @@ const Post = () => {
       </>
     );
   //Handle the loading state
-  if (!data) return (
-    <>
-      <Header title="Chargement en cours" datas="" />
-      <Layout>
-        <div>Chargement en cours</div>
-      </Layout>
-    </>
-  );
+  if (!data)
+    return (
+      <>
+        <Header title="Chargement en cours" datas="" />
+        <Layout>
+          <div>Chargement en cours</div>
+        </Layout>
+      </>
+    );
 
   const $ = cheerio.load(data);
   const jsonRaw = $("script[type='application/ld+json']")[0].children[0].data;
@@ -65,64 +66,73 @@ const Post = () => {
     <>
       <Header title={event.name} datas={jsonRaw} />
       <Layout>
-        <div className="row flex-column align-items-center justify-content-center">
-          <div className="col-6">
-            <Image
-              src={event.image}
-              alt={event.name}
-              fill
-              className="img-fluid remove-position"
-            />
-          </div>
-          <div className="col-12 text-center">
-            <h2 className={styles.h2}>{event.name}</h2>
-          </div>
-          <div className="col-12">
-            <p className="css-fix" dangerouslySetInnerHTML={{ __html: event.description }}></p>
-          </div>
-
-          {event.location && (
-            <div>
-              <FontAwesomeIcon className="me-2" icon={faLocationDot} />
-              {event.location.name} - {event.location.address.streetAddress} -{" "}
-              {event.location.address.addressLocality}
+        <div className="d-flex flex-column align-items-center justify-content-center">
+          <div className={`${styles.card_bg} col-6`}>
+            <div className="">
+              <Image
+                src={event.image}
+                alt={event.name}
+                fill
+                className="img-fluid remove-position"
+              />
             </div>
-          )}
-
-          {eventStartDate && (
-            <div>
-              <FontAwesomeIcon className="me-2" icon={faCalendarDays} />
-              {eventStartDate.jour} - {eventStartDate.heure}
-              {event.subEvent &&
-                event.subEvent.map((subevent) => {
-                  const heureSubEvent = subevent.startDate
-                    .split("T")[1]
-                    .split(":");
-                  return ` - ${heureSubEvent[0]}h${heureSubEvent[1]}`;
-                })}
+            <div className="">
+            <div className="col-12 p-3 text-center">
+              <h2 className={styles.h2}>{event.name}</h2>
+              <p
+                className="css-fix"
+                dangerouslySetInnerHTML={{ __html: event.description }}
+              ></p>
             </div>
-          )}
-          {eventEndDate && (
-            <div>
-              <FontAwesomeIcon className="me-2" icon={faCalendarDays} />
-              {eventEndDate.jour} - {eventEndDate.heure}
-              {event.subEvent &&
-                event.subEvent.map((subevent) => {
-                  const heureSubEvent = subevent.endDate
-                    .split("T")[1]
-                    .split(":");
-                  return ` - ${heureSubEvent[0]}h${heureSubEvent[1]}`;
-                })}
-            </div>
-          )}
+            <div className="col-12 p-3" style={{'borderTop':'1px solid black'}}>
+              {event.location && (
+                <div>
+                  <FontAwesomeIcon className="me-2" icon={faLocationDot} />
+                  {event.location.name} - {event.location.address.streetAddress}{" "}
+                  - {event.location.address.addressLocality}
+                </div>
+              )}
 
-          <div>
-            <FontAwesomeIcon className="me-2" icon={faArrowUpRightFromSquare} />
-            <Link href={event.url}>{event.url}</Link>
+              {eventStartDate && (
+                <div>
+                  <FontAwesomeIcon className="me-2" icon={faCalendarDays} />
+                  {eventStartDate.jour} - {eventStartDate.heure}
+                  {event.subEvent &&
+                    event.subEvent.map((subevent) => {
+                      const heureSubEvent = subevent.startDate
+                        .split("T")[1]
+                        .split(":");
+                      return ` - ${heureSubEvent[0]}h${heureSubEvent[1]}`;
+                    })}
+                </div>
+              )}
+              {eventEndDate && (
+                <div>
+                  <FontAwesomeIcon className="me-2" icon={faCalendarDays} />
+                  {eventEndDate.jour} - {eventEndDate.heure}
+                  {event.subEvent &&
+                    event.subEvent.map((subevent) => {
+                      const heureSubEvent = subevent.endDate
+                        .split("T")[1]
+                        .split(":");
+                      return ` - ${heureSubEvent[0]}h${heureSubEvent[1]}`;
+                    })}
+                </div>
+              )}
+
+              <div>
+                <FontAwesomeIcon
+                  className="me-2"
+                  icon={faArrowUpRightFromSquare}
+                />
+                <Link href={event.url}>{event.url}</Link>
+              </div>
+              <div>
+                <FontAwesomeIcon className="me-2" icon={faClipboard} />
+                {event.organizer}
+              </div>
+            </div>
           </div>
-          <div>
-            <FontAwesomeIcon className="me-2" icon={faClipboard} />
-            {event.organizer}
           </div>
         </div>
       </Layout>

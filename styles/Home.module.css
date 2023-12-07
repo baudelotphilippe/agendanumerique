@@ -20,7 +20,11 @@
 
 .h1{
   margin: 40px;
-  /* font-family: 'Nabla', cursive; */
+  padding: 20px 40px;
+  font-family: 'sans-serif';
+  border-radius: 20px;
+  background-color: white;
+  color: black;
 }
 
 .h2{
@@ -28,3 +32,22 @@
   margin-bottom: 60px;
   color: #ffdd3a;
 }
+
+.card_bg{
+  background-color: #9723C9;
+  border-radius: 10px;
+  box-shadow: 3px 4px black;
+  border: 4px solid black;
+}
+
+.card_footer{
+  color:white;
+  font-size: 14px;
+}
+
+/* .card_slug{
+  border: 3pxc solid black;
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+} */

@@ -1,8 +1,8 @@
 import styles from "@/styles/Home.module.css";
-import { Nabla } from "@next/font/google";
+import { Lexend_Mega } from "@next/font/google";
 import Link from "next/link";
 
-const nabla = Nabla({
+const lexend = Lexend_Mega({
   weight: "400",
   subsets: ["latin"],
 });
@@ -10,8 +10,8 @@ const nabla = Nabla({
 const Layout = ({ children }) => {
   return (
     <main className={`${styles.main} container`}>
-      <h1 className={`${styles.h1} ${nabla.className}`}>
-        <Link href="/">Agenda du numérique</Link>
+      <h1 className={`${styles.h1} ${lexend.className} text-center`}>
+        <Link href="/">Agenda du numérique<br/>à Poitiers et ses environs</Link>
       </h1>
       {children}
     </main>

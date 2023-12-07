@@ -1,18 +1,11 @@
-import useSWR from "swr";
 import Link from "next/link";
 import Image from "next/image";
+import useSWR from "swr";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import styles from "@/styles/Home.module.css";
 
 config.autoAddCss = false;
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faLocationDot,
-  faCalendarDays,
-  faClock,
-  faClipboard,
-} from "@fortawesome/free-solid-svg-icons";
 
 export default function Hometable() {
   const fetcher = (url) => fetch(url).then((res) => res.json());
@@ -25,9 +18,7 @@ export default function Hometable() {
     );
   //Handle the loading state
   if (!data) return <div>Chargement en cours ...</div>;
-  data.sort((a, b) => {
-    return new Date(a.startDate) - new Date(b.startDate);
-  });
+  data.sort((a, b) => a.startDate.localeCompare(b.startDate));
 
   return (
     <div className="row justify-content-around">
@@ -42,6 +33,7 @@ export default function Hometable() {
                 height="100"
                 className="card-img-top"
                 style={{ height: "auto" }}
+                loading="lazy"
               />
             )}
             <div className="card-body p-3">
@@ -98,7 +90,7 @@ export default function Hometable() {
               </div>
               <div>
                 {event.location.name && (
-                  <div>
+                  <>
                   <span className="me-1">
                   <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -141,7 +133,7 @@ export default function Hometable() {
                     <span>
                     {event.location.name}
                   </span>
-                  </div>
+                  </>
                 )}
               </div>
               <div>

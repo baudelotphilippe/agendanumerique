@@ -1,7 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-#events
-/events/cobalt/*
+
 
 # dependencies
 /node_modules

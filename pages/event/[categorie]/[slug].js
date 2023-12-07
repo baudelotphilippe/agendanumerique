@@ -94,8 +94,8 @@ const Post = () => {
                   <div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width="48"
-                      height="48"
+                      width="36"
+                      height="36"
                       viewBox="0 0 96 96"
                     >
                       <rect
@@ -129,17 +129,19 @@ const Post = () => {
                         />
                       </g>
                     </svg>
-                    {event.location.name} -{" "}
-                    {event.location.address.streetAddress} -{" "}
-                    {event.location.address.addressLocality}
+                    <span className="ms-2">
+                      {event.location.name} -{" "}
+                      {event.location.address.streetAddress} -{" "}
+                      {event.location.address.addressLocality}
+                    </span>
                   </div>
                 )}
 
                 {eventStartDate && (
                   <div>
                     <svg
-                      width="48"
-                      height="48"
+                      width="36"
+                      height="36"
                       viewBox="0 0 96 96"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -166,21 +168,23 @@ const Post = () => {
                       />
                       <path d="M64 48H40V20" stroke="black" stroke-width="8" />
                     </svg>
-                    {eventStartDate.jour} - {eventStartDate.heure}
-                    {event.subEvent &&
-                      event.subEvent.map((subevent) => {
-                        const heureSubEvent = subevent.startDate
-                          .split("T")[1]
-                          .split(":");
-                        return ` - ${heureSubEvent[0]}h${heureSubEvent[1]}`;
-                      })}
+                    <span className="ms-2">
+                      {eventStartDate.jour} - {eventStartDate.heure}
+                      {event.subEvent &&
+                        event.subEvent.map((subevent) => {
+                          const heureSubEvent = subevent.startDate
+                            .split("T")[1]
+                            .split(":");
+                          return ` - ${heureSubEvent[0]}h${heureSubEvent[1]}`;
+                        })}
+                    </span>
                   </div>
                 )}
                 {eventEndDate && (
                   <div>
                     <svg
-                      width="48"
-                      height="48"
+                      width="36"
+                      height="36"
                       viewBox="0 0 96 96"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -207,22 +211,24 @@ const Post = () => {
                       />
                       <path d="M64 48H40V20" stroke="black" stroke-width="8" />
                     </svg>
-                    {eventEndDate.jour} - {eventEndDate.heure}
-                    {event.subEvent &&
-                      event.subEvent.map((subevent) => {
-                        const heureSubEvent = subevent.endDate
-                          .split("T")[1]
-                          .split(":");
-                        return ` - ${heureSubEvent[0]}h${heureSubEvent[1]}`;
-                      })}
+                    <span className="ms-2">
+                      {eventEndDate.jour} - {eventEndDate.heure}
+                      {event.subEvent &&
+                        event.subEvent.map((subevent) => {
+                          const heureSubEvent = subevent.endDate
+                            .split("T")[1]
+                            .split(":");
+                          return ` - ${heureSubEvent[0]}h${heureSubEvent[1]}`;
+                        })}
+                    </span>
                   </div>
                 )}
 
                 <div>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="48"
-                    height="48"
+                    width="36"
+                    height="36"
                     viewBox="0 0 96 96"
                   >
                     <rect
@@ -251,16 +257,17 @@ const Post = () => {
                       />
                     </g>
                   </svg>
-
-                  <Link href={event.url}>{event.url}</Link>
+                  <span className="ms-2">
+                    <Link href={event.url}>{event.url}</Link>
+                  </span>
                 </div>
                 <div>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     x="0px"
                     y="0px"
-                    width="48"
-                    height="48"
+                    width="36"
+                    height="36"
                     viewBox="0 0 96 96"
                   >
                     <rect
@@ -289,8 +296,7 @@ const Post = () => {
 	c-21.2-0.3-20,19.6-20,19.6h39.6C63.8,67.4,64.1,48.1,44.2,47.8z"
                     />
                   </svg>
-
-                  {event.organizer}
+                  <span className="ms-2">{event.organizer}</span>
                 </div>
               </div>
             </div>

@@ -85,18 +85,6 @@ const Post = () => {
                 className="col-12 p-3"
                 style={{ borderTop: "1px solid black" }}
               >
-                {event.location && (
-                  <div>
-                    <CustomIcons type="location" className="me-1" size="36" />
-
-                    <span className="ms-2">
-                      {event.location.name} -{" "}
-                      {event.location.address.streetAddress} -{" "}
-                      {event.location.address.addressLocality}
-                    </span>
-                  </div>
-                )}
-
                 {eventStartDate && (
                   <div>
                     <CustomIcons type="hours" className="me-1" size="36" />
@@ -129,18 +117,29 @@ const Post = () => {
                     </span>
                   </div>
                 )}
+                {event.location && (
+                  <div>
+                    <CustomIcons type="location" className="me-1" size="36" />
 
+                    <span className="ms-2">
+                      {event.location.name} -{" "}
+                      {event.location.address.streetAddress} -{" "}
+                      {event.location.address.addressLocality}
+                    </span>
+                  </div>
+                )}
+
+                <div>
+                  <CustomIcons type="orga" className="me-1" size="36" />
+
+                  <span className="ms-2">{event.organizer}</span>
+                </div>
                 <div>
                   <CustomIcons type="link" className="me-1" size="36" />
 
                   <span className="ms-2">
                     <Link href={event.url}>{event.url}</Link>
                   </span>
-                </div>
-                <div>
-                  <CustomIcons type="orga" className="me-1" size="36" />
-
-                  <span className="ms-2">{event.organizer}</span>
                 </div>
               </div>
             </div>

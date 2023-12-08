@@ -5,81 +5,68 @@ const utilsDates = require("./utils/convertDates");
 const cheerio = require("cheerio");
 const { info } = require("console");
 
-const redresseCobalt = (infos) => {
+const redresseCobalt = (element) => {
   const event = {
     ...emptyEvent,
   };
 
-  const $ = cheerio.load(infos);
+  const $ = cheerio.load(element);
 
-  const blocHead = infos.children[0].next;
-  let blocInfos = $(".offset")[0];
-  //fix when there is no image ...
-  if (!blocInfos) {
-    blocInfos = $(".infos")[0];
-  } else {
-    event.image = `https://www.cobaltpoitiers.fr${infos.children[2].next.children[0].next.children[0].children[0].attribs.src}`;
-  }
+  event.name = $(element).find("h3").next("p").text().trim();
+  event.description = $(element).find(".inscription").html(); // Sélection de la description dans la div avec la classe "inscription"
 
-  const ladate = new Date();
-  let anneeActuelle = ladate.getFullYear();
-  const moisActuel = ladate.getMonth() + 1;
+  // date event
+  const date = $(element).find("h3").text().trim().split("/");
+  const jour = date[0];
+  const mois = date[1];
 
-  const zoneJourMois = blocHead.children[3];
-  const jour = zoneJourMois.children[0].children[0].data;
-  const mois = zoneJourMois.children[1].data.split("/")[1];
-
+  // déduit année event
   // on part du principe que si le mois de l'event est < au mois actuel c'est qu'on est l'année prochaine ... 0 mentions d'années dans les events cobalt
+  const ladateActuelle = new Date();
+  let anneeActuelle = ladateActuelle.getFullYear();
+  const moisActuel = ladateActuelle.getMonth() + 1;
+
   if (mois < moisActuel) {
     anneeActuelle++;
   }
-  event.name = blocHead.children[5].children[0].data;
 
-  event.description = $(".inscription").html();
+  // heure event
+  const heureElement = $(element).find('span:contains("Heure")').first();
+  const heure =
+    heureElement.length > 0
+      ? heureElement.text().replace("Heure :", "").trim().split(" ")[0]
+      : "";
 
-  const lesInfos = $(".infos span");
-  for (var ligneInfo in lesInfos) {
-    if (lesInfos[ligneInfo].children?.length && lesInfos[ligneInfo].children[0]) {
-      const catInfos =
-        lesInfos[ligneInfo].children[0].parent.children[0].children[0].data;
-        // console.log(catInfos)
-      if (catInfos.includes("Organisateur")) {
-        event.organizer =
-          lesInfos[
-            ligneInfo
-          ].children[0].parent.children[0].children[0].parent.next.data;
-      }
-      if (catInfos.includes("Heure")) {
-        const zoneHeure = lesInfos[
-          ligneInfo
-        ].children[0].parent.children[0].children[0].parent.next.data
+  //format date et heure event
+  event.startDate = `${anneeActuelle}-${mois}-${jour}T${reformatHeure(heure)}`;
 
-        event.startDate = `${anneeActuelle}-${mois}-${jour}T${reformatHeure(
-          zoneHeure
-        )}`;
+  event.organizer = $(element)
+    .find('span:contains("Organisateur :")')
+    .text()
+    .replace("Organisateur : ", "");
 
-        event.location.name = 
-          lesInfos[
-            ligneInfo
-          ].children[0].parent.children[0].children[0].parent.parent.children[3].data.trim();
-      }
-    }
-  }
-
-  console.log(event.location.name)
+  event.location.name = $(element)
+    .find('span:contains("Lieu :")')
+    .text()
+    .split(" ")
+    .slice(5)
+    .toString();
   if (event.location.name === "Cobalt") {
     event.location.address.addressLocality = "86000 Poitiers";
     event.location.address.streetAddress = "5 Rue Victor Hugo";
   }
 
+  const imageSrc = $(element).find("div.img img").attr("src");
+  event.image = imageSrc ? `https://www.cobaltpoitiers.fr${imageSrc}` : "";
+
   event.url = "https://www.cobaltpoitiers.fr/agenda_1550.html";
 
+  console.log(event);
   return event;
 };
 
 const reformatHeure = (heure) => {
   const arrHeure = heure.split("h");
-  // console.log(arrHeure);
   return `${utilsDates.prependNumber(
     arrHeure[0].trim()
   )}:${utilsDates.prependNumber(arrHeure[1].trim())}:00`;

@@ -61,7 +61,7 @@ const redresseCobalt = (element) => {
 
   event.url = "https://www.cobaltpoitiers.fr/agenda_1550.html";
 
-  console.log(event);
+  // console.log(event);
   return event;
 };
 

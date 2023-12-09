@@ -10,6 +10,7 @@ import CustomIcons from "@/components/CustomIcons";
 import styles from "@/styles/Home.module.css";
 import Header from "../../../components/header";
 import Layout from "../../../components/layout";
+import Footer from "../../../components/Footer"
 import utilsDates from "../../../scripts/utils/convertDates";
 import Link from "next/link";
 
@@ -146,6 +147,8 @@ const Post = () => {
           </div>
         </div>
       </Layout>
+      <Footer/>
+
     </>
   );
 };

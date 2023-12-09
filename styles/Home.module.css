@@ -45,6 +45,18 @@
   font-size: 14px;
 }
 
+.footer{
+  background-color: #69D2E7;
+  border-radius: 10px;
+  border : 3px solid black;
+}
+
+.projet_container{
+background-color: red;
+border: 4px solid black;
+  box-shadow: 3px 4px black;
+  border-radius: 10px;
+}
 /* .card_slug{
   border: 3pxc solid black;
   border-radius: 10px;

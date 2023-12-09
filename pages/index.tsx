@@ -1,7 +1,8 @@
 import styles from "@/styles/Home.module.css";
-import Hometable from "../components/hometable";
-import Header from "../components/header";
-import Layout from "../components/layout";
+import Hometable from "../components/HomeTable";
+import Header from "../components/Header";
+import Layout from "../components/Layout";
+import Footer from "../components/Footer";
 
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <Layout>
         <Hometable />
       </Layout>
+      <Footer/>
     </>
   );
 }

@@ -38,11 +38,11 @@ export default function HomeTable() {
               />
             )}
             <div className="card-body p-3">
-              <h5 className="card-title text-center">
+              <h2 className={`${styles.h2} card-title text-center`}>
                 <Link className="stretched-link" href={`event/${event.slug}`}>
                   {event.name}
                 </Link>
-              </h5>
+              </h2>
               <p className="card-text">{event.description}</p>
             </div>
             <div className={`${styles.card_footer} card-footer p-2`}>

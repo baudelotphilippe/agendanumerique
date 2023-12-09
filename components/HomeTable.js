@@ -24,7 +24,7 @@ export default function HomeTable() {
   return (
     <div className="row justify-content-around">
       {data.map((event, index) => (
-        <div className="col-12 col-sm-6 col-md-4 col-lg-3 m-3" key={index}>
+        <div className="col-12 col-6 col-md-6 col-lg-4 col-xxl-3 m-3" key={index}>
           <div className={`${styles.card_bg} card`}>
             {event.image && (
               <Image

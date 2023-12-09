@@ -6,7 +6,7 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 import styles from "@/styles/Home.module.css";
 import CustomIcons from "@/components/CustomIcons";
 
-config.autoAddCss = false;
+config.autoAddCss = false ;
 
 export default function HomeTable() {
   const fetcher = (url) => fetch(url).then((res) => res.json());

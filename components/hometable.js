@@ -8,7 +8,7 @@ import CustomIcons from "@/components/CustomIcons";
 
 config.autoAddCss = false;
 
-export default function Hometable() {
+export default function HomeTable() {
   const fetcher = (url) => fetch(url).then((res) => res.json());
   const { data, error } = useSWR("/api/globalEvents", fetcher);
 

@@ -63,7 +63,7 @@ const Post = () => {
       <Header title={event.name} datas={jsonRaw} />
       <Layout>
         <div className="d-flex flex-column align-items-center justify-content-center">
-          <div className={`${styles.card_bg} col-6`}>
+          <div className={`${styles.card_bg} col-12 col-md-6`}>
             {event.image && (
               <div>
                 <Image

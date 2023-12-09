@@ -31,7 +31,7 @@ export default function Projet() {
             il créé les fichiers correspondant et il se mets à jour tout seul.
           </p>
           <h2>Technique</h2>
-          J&apos;utilise ici le framework Next.js. Le site est hébergé chez Vercel et
+          <p>J&apos;utilise ici le framework Next.js. Le site est hébergé chez Vercel et
           le code source est dans un repo Github public (vous pouvez donc
           regarder le code et aussi y participer). <br />
           Une Github Action permet la mise à jour automatique du site quand le
@@ -45,6 +45,7 @@ export default function Projet() {
             Schema.org
           </a>.<br/> La page d&apos;accueil est une compilation de tous ces fichiers. <br />
           C&apos;est simple, efficace et performant.
+          </p>
           <h2>Design</h2>
           <p>
             Il parait que le graphisme du site &quot;pique&quot;. Pour ma part je

@@ -2,8 +2,8 @@ import Link from "next/link";
 import { FormEvent } from "react";
 // import styles from '../styles/Home.module.css'
 
-import Header from "../components/header";
-import Layout from "../components/layout";
+import Header from "../components/Header";
+import Layout from "../components/Layout";
 
 export default function eventCreate() {
   // Handle the submit event on form submit.

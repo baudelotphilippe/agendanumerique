@@ -31,7 +31,7 @@ const Post = () => {
       <>
         <Header title="Chargement impossible" datas="" />
         <Layout>
-          <div>Chargement impossible</div>
+          <div>Chargement impossible. Erreur : {error.message}</div>
         </Layout>
       </>
     );
@@ -41,7 +41,7 @@ const Post = () => {
       <>
         <Header title="Chargement en cours" datas="" />
         <Layout>
-          <div>Chargement en cours</div>
+          <div>Chargement en cours ...</div>
         </Layout>
       </>
     );
@@ -49,7 +49,7 @@ const Post = () => {
   const $ = cheerio.load(data);
   const jsonRaw = $("script[type='application/ld+json']")[0].children[0].data;
   const event = JSON.parse(jsonRaw);
-  console.log(event);
+  // console.log(event);
 
   const eventStartDate = event.startDate
     ? utilsDates.formatDate(event.startDate)

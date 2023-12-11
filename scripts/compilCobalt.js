@@ -3,7 +3,7 @@ const cheerio = require("cheerio");
 const redresseCobalt = require("./redresseCobalt");
 const utilsFile = require("./utils/file");
 
-const workingFolder = "cobalt";
+const infosFilename={workingFolder:"cobalt", i:false, uniqueId:false}
 
 async function compilCobalt() {
   const { data } = await axios.get(
@@ -13,7 +13,7 @@ async function compilCobalt() {
   await utilsFile.cleanFolder(workingFolder);
   $(".agenda.elem").each((index, item) => {
     const event = redresseCobalt(item);
-    utilsFile.saveFile(workingFolder, event);
+    utilsFile.saveFile(infosFilename, event);
   });
 }
 

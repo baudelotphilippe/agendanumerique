@@ -1,4 +1,3 @@
-import styles from "@/styles/Home.module.css";
 import Hometable from "../components/HomeTable";
 import Header from "../components/Header";
 import Layout from "../components/Layout";

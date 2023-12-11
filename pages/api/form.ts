@@ -10,8 +10,10 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<ResponseData>
 ) {
+  
+  const infosFilename={workingFolder:"manuel", i:false, uniqueId:true}
+
   const body = req.body
-  const workingFolder="manuel"
   const event={...emptyEvent}
   event.name=body.name
   event.description= body.description
@@ -24,30 +26,6 @@ export default function handler(
   event.location.address.streetAddress= body.locationStreetAddress
   event.location.address.addressLocality= body.locationAddressLocality
 //   console.log('body: ', body)
-  utilsFile.saveFile(workingFolder, event);
+  utilsFile.saveFile(infosFilename, event);
   res.json({ data: `${event}` })
 }
-
-
-// const emptyEvent = {
-//     "@context": "https://schema.org",
-//     "@type": "Event",
-//     name: "",
-//     description: "",
-//     startDate: "",
-//     endDate: "",
-//     location: {
-//       "@type": "Place",
-//       name: "",
-//       address: {
-//         "@type": "PostalAddress",
-//         addressLocality: "",
-//         streetAddress: "",
-//       },
-//     },
-//     image: "",
-//     organizer: "",
-//     url: "",
-//   }
-
-// module.exports = emptyEvent;

@@ -5,7 +5,8 @@ const utilsFile = require("./utils/file");
 
 const utilsDates = require("./utils/convertDates");
 const emptyEvent = require("./utils/emptyEvent");
-const workingFolder = "emf";
+
+const infosFilename={workingFolder:"emf", i:false, uniqueId:false}
 
 async function compilEMF(urlEvent) {
   const { data } = await axios.get(urlEvent);
@@ -81,8 +82,8 @@ async function compilEMF(urlEvent) {
     if (subEventList.length > 0) {
       event.subEvent = subEventList;
     }
-
-    utilsFile.saveFile(workingFolder, event, i);
+    infosFilename.i=i;
+    utilsFile.saveFile(infosFilename, event);
     i++;
   }
 }
@@ -107,7 +108,7 @@ const convertDateEMF = (theDate) => {
 };
 
 async function ExtractEMF() {
-  await utilsFile.cleanFolder(workingFolder);
+  await utilsFile.cleanFolder(infosFilename.workingFolder);
   const data = fs.readFileSync(`./events/eventsEMFlist.json`);
 
   const urls = JSON.parse(data).urls;

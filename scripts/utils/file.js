@@ -2,29 +2,31 @@ const fs = require("fs");
 const util = require("util");
 const readdir = util.promisify(fs.readdir);
 const unlink = util.promisify(fs.unlink);
+const { v4: uuidv4 } = require('uuid');
 
-const renameFile = (event, i) => {
-  let filename = event.name.replace(/( |:|#|&)/g, "-");
+const renameFile = (original_filename, i, uniqueId) => {
+  let filename = original_filename.replace(/( |:|#|&)/g, "-");
   filename = filename.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-  if (i == 0) {
-    return filename;
-  } else {
-    return `${filename}-${i}`;
+
+  if (uniqueId) {
+    return uuidv4();
+  }else {
+    return (i == 0 || !i) ? filename : `${filename}-${i}`;
   }
 };
 
-const saveFile = (folder, event, i = 0) => {
+const saveFile = ({workingFolder, i, uniqueId}, event) => {
   // si folder inexistant, il est créé
   try {
-    if (!fs.existsSync(`./events/${folder}`)) {
-      fs.mkdirSync(`./events/${folder}`);
+    if (!fs.existsSync(`./events/${workingFolder}`)) {
+      fs.mkdirSync(`./events/${workingFolder}`);
     }
   } catch (err) {
     console.error(err);
   }
-  const filename = renameFile(event, i);
+  const filename = renameFile(event.name, i, uniqueId);
   fs.writeFileSync(
-    `./events/${folder}/${encodeURIComponent(filename)}.json`,
+    `./events/${workingFolder}/${encodeURIComponent(filename)}.json`,
     `<script type="application/ld+json">${JSON.stringify(event)}</script>`
   );
 };

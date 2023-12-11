@@ -10,7 +10,7 @@ async function compilCobalt() {
     "https://www.cobaltpoitiers.fr/agenda_1550.html"
   );
   const $ = cheerio.load(data);
-  await utilsFile.cleanFolder(workingFolder);
+  await utilsFile.cleanFolder(infosFilename.workingFolder);
   $(".agenda.elem").each((index, item) => {
     const event = redresseCobalt(item);
     utilsFile.saveFile(infosFilename, event);

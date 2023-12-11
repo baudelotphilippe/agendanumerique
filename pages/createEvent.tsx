@@ -7,7 +7,7 @@ import Header from "../components/Header";
 import Layout from "../components/Layout";
 import Footer from "../components/Footer";
 
-export default function eventCreate() {
+export default function EventCreate() {
   const [success, setSuccess] = useState(false);
 
   // Handle the submit event on form submit.

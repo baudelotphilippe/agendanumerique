@@ -1,12 +1,15 @@
 import Link from "next/link";
 import { FormEvent } from "react";
 import styles from "../styles/Home.module.css";
+import { useState } from "react";
 
 import Header from "../components/Header";
 import Layout from "../components/Layout";
 import Footer from "../components/Footer";
 
 export default function eventCreate() {
+  const [success, setSuccess] = useState(false);
+
   // Handle the submit event on form submit.
   const handleSubmit = async (event: FormEvent) => {
     // Stop the form from submitting and refreshing the page.
@@ -40,7 +43,11 @@ export default function eventCreate() {
       // The method is POST because we are sending data.
       method: "POST",
     });
-
+    
+    if (response.ok) {
+      setSuccess(true);
+      // Vous pouvez également rediriger l'utilisateur ici
+    }
     // Get the response data from server as JSON.
     // If server returns the name submitted, that means the form works.
     const result = await response.json();
@@ -129,7 +136,7 @@ export default function eventCreate() {
               <input type="text" id="url" name="url" className="form-control" />
             </div>
             <div className="mt-4">
-              <h3 >Lieu de l&apos;événement</h3>
+              <h3>Lieu de l&apos;événement</h3>
             </div>
             <div>
               <label htmlFor="locationName" className="form-label">
@@ -171,6 +178,8 @@ export default function eventCreate() {
                 value="Enregistrer"
               />
             </div>
+            {success && <div className="alert alert-success mt-3">Événement créé avec succès !</div>}
+
           </form>
         </div>
       </Layout>

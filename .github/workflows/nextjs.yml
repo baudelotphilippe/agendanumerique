@@ -18,6 +18,8 @@ jobs:
       run: node scripts/compilEMF.js
     - name: run compil global
       run: node scripts/compil.js
+    - name: run generate RSS
+      run: node scripts/generateRSSFeed.js
     - name: Commit files
       run: |
         git config user.name github-actions

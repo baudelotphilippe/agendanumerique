@@ -22,6 +22,7 @@
     "cheerio": "^1.0.0-rc.12",
     "eslint": "8.34.0",
     "eslint-config-next": "13.1.6",
+    "feed": "^4.2.2",
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",

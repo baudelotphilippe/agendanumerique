@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Agenda du numérique à Poitiers et ses environs</title>
+        <link>https://agendanumerique.vercel.app</link>
+        <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
+        <lastBuildDate>Thu, 14 Dec 2023 16:37:28 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <item>
+            <title><![CDATA[Afterwork Réseautage givré et Marché de Noël]]></title>
+            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
+            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
+            <pubDate>Tue, 19 Dec 2023 18:00:00 GMT</pubDate>
+            <enclosure url="https://www.cobaltpoitiers.fr/obj/20231123160919_fin-marche-de-noel.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Atelier 2 tonnes]]></title>
+            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
+            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
+            <pubDate>Thu, 18 Jan 2024 18:30:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Fresque de l'eau]]></title>
+            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
+            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
+            <pubDate>Thu, 11 Apr 2024 18:30:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Fresque de la biodiversité]]></title>
+            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
+            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
+            <pubDate>Thu, 07 Mar 2024 18:30:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Capture The Flag #2]]></title>
+            <link>http://pwn-association.org/evenements/capture-the-flag-episode-2/</link>
+            <guid>http://pwn-association.org/evenements/capture-the-flag-episode-2/</guid>
+            <pubDate>Thu, 11 Jan 2024 18:30:00 GMT</pubDate>
+            <enclosure url="http://pwn-association.org/media/filer_public/26/d5/26d53131-2abc-464e-8f5c-5201fba0cffe/giphy_1.gif" length="0" type="image/gif"/>
+        </item>
+        <item>
+            <title><![CDATA[Datamation : comment le no-code permet aux data analyst de mettre un pied dans le produit]]></title>
+            <link>http://pwn-association.org/evenements/datamation-comment-le-no-code-permet-aux-data-analyst-de-mettre-un-pied-dans-le-produit/</link>
+            <guid>http://pwn-association.org/evenements/datamation-comment-le-no-code-permet-aux-data-analyst-de-mettre-un-pied-dans-le-produit/</guid>
+            <pubDate>Thu, 02 May 2024 18:30:00 GMT</pubDate>
+            <enclosure url="http://pwn-association.org/media/filer_public/70/33/70333f8f-a6f4-4d5a-a04d-fb61acb79fb3/giphy_1.gif" length="0" type="image/gif"/>
+        </item>
+        <item>
+            <title><![CDATA[Soirée AFUP / PWN]]></title>
+            <link>http://pwn-association.org/evenements/soiree-afup-pwn/</link>
+            <guid>http://pwn-association.org/evenements/soiree-afup-pwn/</guid>
+            <pubDate>Thu, 07 Mar 2024 19:00:00 GMT</pubDate>
+            <enclosure url="http://pwn-association.org/media/filer_public/b9/be/b9be2ef4-1119-4d08-8097-001a8465800d/logo-afup-pwn.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Vie et mort d’une start-up]]></title>
+            <link>http://pwn-association.org/evenements/vie-et-mort-d-une-startup/</link>
+            <guid>http://pwn-association.org/evenements/vie-et-mort-d-une-startup/</guid>
+            <pubDate>Thu, 01 Feb 2024 18:30:00 GMT</pubDate>
+            <enclosure url="http://pwn-association.org/media/filer_public/04/a3/04a30261-aadd-4719-9601-31120ca4a5af/fantrippers.gif" length="0" type="image/gif"/>
+        </item>
+        <item>
+            <title><![CDATA[Mon premier jeu video – Brickanoid, gare aux briques !]]></title>
+            <link>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</link>
+            <guid>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</guid>
+            <pubDate>Thu, 04 Jan 2024 14:30:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2017/06/Affiche_jeu_brickanoid.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Mon premier jeu video – Les aliens arrivent !]]></title>
+            <link>https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/</link>
+            <guid>https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/</guid>
+            <pubDate>Fri, 05 Jan 2024 14:30:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2017/06/Affiche_jeu_aliens.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Mon premier jeu video – Ninja fruits]]></title>
+            <link>https://emf.fr/ec3_event/mon-premier-jeu-video-ninja-fruits/</link>
+            <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-ninja-fruits/</guid>
+            <pubDate>Sat, 06 Jan 2024 14:30:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2021/06/imagen-fruit-ninja-0thumb.jpeg" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Mon premier jeu video – Pac-Man]]></title>
+            <link>https://emf.fr/ec3_event/mon-premier-jeu-video-pac-man/</link>
+            <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-pac-man/</guid>
+            <pubDate>Tue, 02 Jan 2024 10:00:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2016/05/Animation-Pac-Man-credit-Unsplash-scaled.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Mon premier jeu video – Space invaders]]></title>
+            <link>https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/</link>
+            <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/</guid>
+            <pubDate>Wed, 03 Jan 2024 14:30:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2016/05/Affiche_jeu_la_bataille_planetes.jpg" length="0" type="image/jpg"/>
+        </item>
+    </channel>
+</rss>

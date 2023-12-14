@@ -24,6 +24,9 @@ const Header = ({ title, datas }) => {
         sizes="16x16"
         href="/favicon-16x16.png"
       />
+      <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+      <link rel="alternate" type="application/atom+xml" href="/atom.xml" />
+      <link rel="alternate" type="application/json" href="/feed.json" />
       <link rel="manifest" href="/site.webmanifest"></link>
       <script type="application/ld+json">{datas}</script>
     </Head>

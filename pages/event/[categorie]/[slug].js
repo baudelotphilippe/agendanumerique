@@ -123,9 +123,10 @@ const Post = () => {
                     <CustomIcons type="location" className="me-1" size="36" />
 
                     <span className="ms-2">
-                      {event.location.name} -{" "}
-                      {event.location.address.streetAddress} -{" "}
-                      {event.location.address.addressLocality}
+                      {event.location.name}  
+                      {event.location.address.streetAddress!="" && (<span> - {event.location.address.streetAddress}</span>)}
+                      {event.location.address.addressLocality!="" && (<span> - {event.location.address.addressLocality}</span>)}
+
                     </span>
                   </div>
                 )}

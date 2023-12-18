@@ -2,7 +2,7 @@ const utilsDates = require("./utils/convertDates");
 
 const fs = require("fs");
 const cheerio = require("cheerio");
-const eventsFolder = ["cobalt", "pwn", "emf", "manuel"];
+const eventsFolder = ["cobalt", "pwn", "emf", "afup", "manuel"];
 const newContent = [];
 
 eventsFolder.forEach((folder) => {

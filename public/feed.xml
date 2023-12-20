@@ -4,17 +4,10 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Tue, 19 Dec 2023 01:09:33 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 20 Dec 2023 00:57:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
-        <item>
-            <title><![CDATA[Afterwork Réseautage givré et Marché de Noël]]></title>
-            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
-            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
-            <pubDate>Tue, 19 Dec 2023 18:00:00 GMT</pubDate>
-            <enclosure url="https://www.cobaltpoitiers.fr/obj/20231123160919_fin-marche-de-noel.png" length="0" type="image/png"/>
-        </item>
         <item>
             <title><![CDATA[Atelier 2 tonnes]]></title>
             <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
@@ -62,6 +55,20 @@
             <enclosure url="http://pwn-association.org/media/filer_public/04/a3/04a30261-aadd-4719-9601-31120ca4a5af/fantrippers.gif" length="0" type="image/gif"/>
         </item>
         <item>
+            <title><![CDATA[Les fous du volant | Mon premier jeu video]]></title>
+            <link>https://emf.fr/ec3_event/mon-premier-jeu-video-les-fous-du-volant/</link>
+            <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-les-fous-du-volant/</guid>
+            <pubDate>Tue, 23 Apr 2024 10:00:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2019/04/Affiche_jeu_fou_volant.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Les fous du volant | Mon premier jeu video]]></title>
+            <link>https://emf.fr/ec3_event/mon-premier-jeu-video-les-fous-du-volant/</link>
+            <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-les-fous-du-volant/</guid>
+            <pubDate>Tue, 27 Feb 2024 10:00:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2019/04/Affiche_jeu_fou_volant.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
             <title><![CDATA[Mon premier jeu video – Brickanoid, gare aux briques !]]></title>
             <link>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</link>
             <guid>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</guid>
@@ -95,6 +102,41 @@
             <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/</guid>
             <pubDate>Wed, 03 Jan 2024 14:30:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2016/05/Affiche_jeu_la_bataille_planetes.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Snake, le serpent qui se mord la queue | Mon premier jeu video]]></title>
+            <link>https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/</link>
+            <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/</guid>
+            <pubDate>Thu, 25 Apr 2024 14:30:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2023/01/istockphoto-1363586427-612x612-1.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Snake, le serpent qui se mord la queue | Mon premier jeu video]]></title>
+            <link>https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/</link>
+            <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/</guid>
+            <pubDate>Thu, 29 Feb 2024 14:30:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2023/01/istockphoto-1363586427-612x612-1.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Une IA m’assiste pour creer mon site web]]></title>
+            <link>https://emf.fr/ec3_event/une-ia-massiste-pour-creer-mon-site-web/</link>
+            <guid>https://emf.fr/ec3_event/une-ia-massiste-pour-creer-mon-site-web/</guid>
+            <pubDate>Wed, 14 Feb 2024 14:00:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2023/07/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Une IA m’assiste pour creer mon site web]]></title>
+            <link>https://emf.fr/ec3_event/une-ia-massiste-pour-creer-mon-site-web/</link>
+            <guid>https://emf.fr/ec3_event/une-ia-massiste-pour-creer-mon-site-web/</guid>
+            <pubDate>Tue, 18 Jun 2024 14:00:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2023/07/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Une IA m’assiste pour creer mon site web]]></title>
+            <link>https://emf.fr/ec3_event/une-ia-massiste-pour-creer-mon-site-web/</link>
+            <guid>https://emf.fr/ec3_event/une-ia-massiste-pour-creer-mon-site-web/</guid>
+            <pubDate>Tue, 23 Jan 2024 14:00:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2023/07/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
         </item>
     </channel>
 </rss>

@@ -7,16 +7,6 @@
         {
             "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
-            "title": "Afterwork Réseautage givré et Marché de Noël",
-            "image": "https://www.cobaltpoitiers.fr/obj/20231123160919_fin-marche-de-noel.png",
-            "date_modified": "2023-12-19T18:00:00.000Z",
-            "author": {
-                "name": "Cobalt ; SPN ; French Tech Poitou Charentes"
-            }
-        },
-        {
-            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
-            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "title": "Atelier 2 tonnes",
             "date_modified": "2024-01-18T18:30:00.000Z",
             "author": {
@@ -82,6 +72,26 @@
             }
         },
         {
+            "id": "https://emf.fr/ec3_event/mon-premier-jeu-video-les-fous-du-volant/",
+            "url": "https://emf.fr/ec3_event/mon-premier-jeu-video-les-fous-du-volant/",
+            "title": "Les fous du volant | Mon premier jeu video",
+            "image": "https://emf.fr/wp-content/uploads/2019/04/Affiche_jeu_fou_volant.jpg",
+            "date_modified": "2024-04-23T10:00:00.000Z",
+            "author": {
+                "name": "Espace Mendès France"
+            }
+        },
+        {
+            "id": "https://emf.fr/ec3_event/mon-premier-jeu-video-les-fous-du-volant/",
+            "url": "https://emf.fr/ec3_event/mon-premier-jeu-video-les-fous-du-volant/",
+            "title": "Les fous du volant | Mon premier jeu video",
+            "image": "https://emf.fr/wp-content/uploads/2019/04/Affiche_jeu_fou_volant.jpg",
+            "date_modified": "2024-02-27T10:00:00.000Z",
+            "author": {
+                "name": "Espace Mendès France"
+            }
+        },
+        {
             "id": "https://emf.fr/ec3_event/brickanoid-gare-aux-briques/",
             "url": "https://emf.fr/ec3_event/brickanoid-gare-aux-briques/",
             "title": "Mon premier jeu video – Brickanoid, gare aux briques !",
@@ -127,6 +137,56 @@
             "title": "Mon premier jeu video – Space invaders",
             "image": "https://emf.fr/wp-content/uploads/2016/05/Affiche_jeu_la_bataille_planetes.jpg",
             "date_modified": "2024-01-03T14:30:00.000Z",
+            "author": {
+                "name": "Espace Mendès France"
+            }
+        },
+        {
+            "id": "https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/",
+            "url": "https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/",
+            "title": "Snake, le serpent qui se mord la queue | Mon premier jeu video",
+            "image": "https://emf.fr/wp-content/uploads/2023/01/istockphoto-1363586427-612x612-1.jpg",
+            "date_modified": "2024-04-25T14:30:00.000Z",
+            "author": {
+                "name": "Espace Mendès France"
+            }
+        },
+        {
+            "id": "https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/",
+            "url": "https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/",
+            "title": "Snake, le serpent qui se mord la queue | Mon premier jeu video",
+            "image": "https://emf.fr/wp-content/uploads/2023/01/istockphoto-1363586427-612x612-1.jpg",
+            "date_modified": "2024-02-29T14:30:00.000Z",
+            "author": {
+                "name": "Espace Mendès France"
+            }
+        },
+        {
+            "id": "https://emf.fr/ec3_event/une-ia-massiste-pour-creer-mon-site-web/",
+            "url": "https://emf.fr/ec3_event/une-ia-massiste-pour-creer-mon-site-web/",
+            "title": "Une IA m’assiste pour creer mon site web",
+            "image": "https://emf.fr/wp-content/uploads/2023/07/IA-credit-Pixabay-Cambridge_Spark.png",
+            "date_modified": "2024-02-14T14:00:00.000Z",
+            "author": {
+                "name": "Espace Mendès France"
+            }
+        },
+        {
+            "id": "https://emf.fr/ec3_event/une-ia-massiste-pour-creer-mon-site-web/",
+            "url": "https://emf.fr/ec3_event/une-ia-massiste-pour-creer-mon-site-web/",
+            "title": "Une IA m’assiste pour creer mon site web",
+            "image": "https://emf.fr/wp-content/uploads/2023/07/IA-credit-Pixabay-Cambridge_Spark.png",
+            "date_modified": "2024-06-18T14:00:00.000Z",
+            "author": {
+                "name": "Espace Mendès France"
+            }
+        },
+        {
+            "id": "https://emf.fr/ec3_event/une-ia-massiste-pour-creer-mon-site-web/",
+            "url": "https://emf.fr/ec3_event/une-ia-massiste-pour-creer-mon-site-web/",
+            "title": "Une IA m’assiste pour creer mon site web",
+            "image": "https://emf.fr/wp-content/uploads/2023/07/IA-credit-Pixabay-Cambridge_Spark.png",
+            "date_modified": "2024-01-23T14:00:00.000Z",
             "author": {
                 "name": "Espace Mendès France"
             }

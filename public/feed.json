@@ -122,16 +122,6 @@
             }
         },
         {
-            "id": "https://emf.fr/ec3_event/mon-premier-jeu-video-pac-man/",
-            "url": "https://emf.fr/ec3_event/mon-premier-jeu-video-pac-man/",
-            "title": "Mon premier jeu video – Pac-Man",
-            "image": "https://emf.fr/wp-content/uploads/2016/05/Animation-Pac-Man-credit-Unsplash-scaled.jpg",
-            "date_modified": "2024-01-02T10:00:00.000Z",
-            "author": {
-                "name": "Espace Mendès France"
-            }
-        },
-        {
             "id": "https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/",
             "url": "https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/",
             "title": "Mon premier jeu video – Space invaders",

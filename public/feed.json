@@ -170,6 +170,16 @@
             "author": {
                 "name": "Espace Mendès France"
             }
+        },
+        {
+            "id": "https://www.meetup.com/afup-poitiers-php/events/298275243/",
+            "url": "https://www.meetup.com/afup-poitiers-php/events/298275243/",
+            "title": "Apéro PHP avec Laurent Jardillier  ",
+            "image": "https://secure-content.meetupstatic.com/images/classic-events/515461030/676x676.jpg",
+            "date_modified": "2024-01-25T18:00:00.000Z",
+            "author": {
+                "name": "Afup"
+            }
         }
     ]
 }

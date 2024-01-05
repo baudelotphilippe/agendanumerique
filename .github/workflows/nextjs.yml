@@ -16,6 +16,8 @@ jobs:
       run: node scripts/compilPwn.js
     - name: run compil EMF
       run: node scripts/compilEMF.js
+    - name: run compil Afup
+      run: node scripts/compilAfup.js
     - name: run compil global
       run: node scripts/compil.js
     - name: run generate RSS

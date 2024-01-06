@@ -7,6 +7,16 @@
         {
             "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "title": "Apéro de l'AFUP",
+            "image": "https://www.cobaltpoitiers.fr/obj/20230531121144_afup-poitiers.png",
+            "date_modified": "2024-01-25T19:00:00.000Z",
+            "author": {
+                "name": "AFUP Poitiers"
+            }
+        },
+        {
+            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "title": "Atelier 2 tonnes",
             "date_modified": "2024-01-18T18:30:00.000Z",
             "author": {
@@ -87,26 +97,6 @@
             "title": "Les fous du volant | Mon premier jeu video",
             "image": "https://emf.fr/wp-content/uploads/2019/04/Affiche_jeu_fou_volant.jpg",
             "date_modified": "2024-02-27T10:00:00.000Z",
-            "author": {
-                "name": "Espace Mendès France"
-            }
-        },
-        {
-            "id": "https://emf.fr/ec3_event/brickanoid-gare-aux-briques/",
-            "url": "https://emf.fr/ec3_event/brickanoid-gare-aux-briques/",
-            "title": "Mon premier jeu video – Brickanoid, gare aux briques !",
-            "image": "https://emf.fr/wp-content/uploads/2017/06/Affiche_jeu_brickanoid.jpg",
-            "date_modified": "2024-01-04T14:30:00.000Z",
-            "author": {
-                "name": "Espace Mendès France"
-            }
-        },
-        {
-            "id": "https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/",
-            "url": "https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/",
-            "title": "Mon premier jeu video – Les aliens arrivent !",
-            "image": "https://emf.fr/wp-content/uploads/2017/06/Affiche_jeu_aliens.jpg",
-            "date_modified": "2024-01-05T14:30:00.000Z",
             "author": {
                 "name": "Espace Mendès France"
             }

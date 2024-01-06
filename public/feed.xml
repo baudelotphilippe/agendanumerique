@@ -4,10 +4,17 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Fri, 05 Jan 2024 06:47:09 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Jan 2024 01:08:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
+        <item>
+            <title><![CDATA[Apéro de l'AFUP]]></title>
+            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
+            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
+            <pubDate>Thu, 25 Jan 2024 19:00:00 GMT</pubDate>
+            <enclosure url="https://www.cobaltpoitiers.fr/obj/20230531121144_afup-poitiers.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Atelier 2 tonnes]]></title>
             <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
@@ -67,20 +74,6 @@
             <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-les-fous-du-volant/</guid>
             <pubDate>Tue, 27 Feb 2024 10:00:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2019/04/Affiche_jeu_fou_volant.jpg" length="0" type="image/jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Mon premier jeu video – Brickanoid, gare aux briques !]]></title>
-            <link>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</link>
-            <guid>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</guid>
-            <pubDate>Thu, 04 Jan 2024 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2017/06/Affiche_jeu_brickanoid.jpg" length="0" type="image/jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Mon premier jeu video – Les aliens arrivent !]]></title>
-            <link>https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/</link>
-            <guid>https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/</guid>
-            <pubDate>Fri, 05 Jan 2024 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2017/06/Affiche_jeu_aliens.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Mon premier jeu video – Ninja fruits]]></title>

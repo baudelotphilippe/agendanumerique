@@ -102,16 +102,6 @@
             }
         },
         {
-            "id": "https://emf.fr/ec3_event/mon-premier-jeu-video-ninja-fruits/",
-            "url": "https://emf.fr/ec3_event/mon-premier-jeu-video-ninja-fruits/",
-            "title": "Mon premier jeu video – Ninja fruits",
-            "image": "https://emf.fr/wp-content/uploads/2021/06/imagen-fruit-ninja-0thumb.jpeg",
-            "date_modified": "2024-01-06T14:30:00.000Z",
-            "author": {
-                "name": "Espace Mendès France"
-            }
-        },
-        {
             "id": "https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/",
             "url": "https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/",
             "title": "Snake, le serpent qui se mord la queue | Mon premier jeu video",

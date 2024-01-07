@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Sat, 06 Jan 2024 01:08:52 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 07 Jan 2024 01:15:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -74,13 +74,6 @@
             <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-les-fous-du-volant/</guid>
             <pubDate>Tue, 27 Feb 2024 10:00:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2019/04/Affiche_jeu_fou_volant.jpg" length="0" type="image/jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Mon premier jeu video – Ninja fruits]]></title>
-            <link>https://emf.fr/ec3_event/mon-premier-jeu-video-ninja-fruits/</link>
-            <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-ninja-fruits/</guid>
-            <pubDate>Sat, 06 Jan 2024 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2021/06/imagen-fruit-ninja-0thumb.jpeg" length="0" type="image/jpeg"/>
         </item>
         <item>
             <title><![CDATA[Snake, le serpent qui se mord la queue | Mon premier jeu video]]></title>

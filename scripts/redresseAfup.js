@@ -1,7 +1,7 @@
-const emptyEvent = require("./utils/emptyEvent");
-const cheerio = require("cheerio");
+import {emptyEvent} from "./utils/emptyEvent.js";
+import * as cheerio from "cheerio";
 
-const redresseAfup = (data) => {
+export default function redresseAfup (data) {
   const $ = cheerio.load(data);
   const event = {
     ...emptyEvent,
@@ -29,5 +29,3 @@ const redresseAfup = (data) => {
 
   return event;
 };
-
-module.exports = redresseAfup;

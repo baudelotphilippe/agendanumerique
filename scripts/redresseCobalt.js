@@ -1,11 +1,8 @@
-const { type } = require("os");
-const { stringify } = require("querystring");
-const emptyEvent = require("./utils/emptyEvent");
-const utilsDates = require("./utils/convertDates");
-const cheerio = require("cheerio");
-const { info } = require("console");
+import {emptyEvent} from "./utils/emptyEvent.js";
+import {prependNumber} from "./utils/convertDates.js";
+import * as cheerio from "cheerio";
 
-const redresseCobalt = (element) => {
+export default function redresseCobalt(element) {
   const event = {
     ...emptyEvent,
   };
@@ -67,9 +64,8 @@ const redresseCobalt = (element) => {
 
 const reformatHeure = (heure) => {
   const arrHeure = heure.split("h");
-  return `${utilsDates.prependNumber(
+  return `${prependNumber(
     arrHeure[0].trim()
-  )}:${utilsDates.prependNumber(arrHeure[1].trim())}:00`;
+  )}:${prependNumber(arrHeure[1].trim())}:00`;
 };
 
-module.exports = redresseCobalt;

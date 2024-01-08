@@ -1,7 +1,7 @@
-const cheerio = require("cheerio");
-const fs = require("fs");
-const utilsFile = require("./utils/file");
-const redresseAfup = require("./redresseAfup");
+import * as cheerio from "cheerio";
+
+import {cleanFolder,saveFile} from "./utils/file.js";
+import redresseAfup from "./redresseAfup.js";
 
 const infosFilename = { workingFolder: "afup", i: false, uniqueId: false };
 
@@ -10,7 +10,7 @@ async function loadEvent(urlEvent) {
   const text = await data.text();
 
   const event = redresseAfup(text);
-  utilsFile.saveFile(infosFilename, event);
+  saveFile(infosFilename, event);
 }
 
 async function compilAfup() {
@@ -20,7 +20,7 @@ async function compilAfup() {
   const text = await data.text();
 
   const $ = cheerio.load(text);
-  await utilsFile.cleanFolder(infosFilename.workingFolder);
+  await cleanFolder(infosFilename.workingFolder);
   for (const item of $("ul.w-full>li>div>a").toArray()) {
     loadEvent(item.attribs.href);
   }

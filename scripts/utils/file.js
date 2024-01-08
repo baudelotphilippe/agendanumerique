@@ -1,8 +1,10 @@
-const fs = require("fs");
-const util = require("util");
+import fs from "fs";
+import util from "util";
+import { v4 as uuidv4 } from 'uuid';
+
+
 const readdir = util.promisify(fs.readdir);
 const unlink = util.promisify(fs.unlink);
-const { v4: uuidv4 } = require('uuid');
 
 const renameFile = (original_filename, i, uniqueId) => {
   let filename = original_filename.replace(/( |:|#|&)/g, "-");
@@ -15,7 +17,7 @@ const renameFile = (original_filename, i, uniqueId) => {
   }
 };
 
-const saveFile = ({workingFolder, i, uniqueId}, event) => {
+export const saveFile = ({workingFolder, i, uniqueId}, event) => {
   // si folder inexistant, il est créé
   try {
     if (!fs.existsSync(`./events/${workingFolder}`)) {
@@ -31,7 +33,7 @@ const saveFile = ({workingFolder, i, uniqueId}, event) => {
   );
 };
 
-async function cleanFolder(folder) {
+export async function cleanFolder(folder) {
   let files;
   try {
     files = await readdir(`./events/${folder}/`);
@@ -48,4 +50,3 @@ async function cleanFolder(folder) {
   }
 }
 
-module.exports = { saveFile, cleanFolder };

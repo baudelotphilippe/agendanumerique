@@ -1,5 +1,5 @@
-const fs = require("fs");
-const Feed = require("feed").Feed;
+import fs from "fs";
+import { Feed } from "feed";
 
 async function generateRSSFeed() {
   const data = fs.readFileSync(`./events/events.json`);

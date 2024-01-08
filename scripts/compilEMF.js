@@ -1,20 +1,20 @@
-const fs = require("fs");
-const axios = require("axios");
-const cheerio = require("cheerio");
-const utilsFile = require("./utils/file");
+import fs from "fs";
+import axios from "axios";
+import * as cheerio from "cheerio";
 
-const utilsDates = require("./utils/convertDates");
-const emptyEvent = require("./utils/emptyEvent");
+import {saveFile,cleanFolder} from "./utils/file.js";
+import {moisEnChiffre,prependNumber} from "./utils/convertDates.js";
+import {emptyEvent} from "./utils/emptyEvent.js";
 
 const infosFilename={workingFolder:"emf", i:false, uniqueId:false}
 
 async function compilEMF(urlEvent) {
+  console.log(urlEvent)
   const { data } = await axios.get(urlEvent);
   const $ = cheerio.load(data);
   const event = {
     ...emptyEvent,
   };
-  
   // cherche si le bloc date est grisé, si oui, date dépassée donc pas d'evenet à gérer
   const pastEvent = $(".ec3_iconlet.ec3_past").text();
   if (pastEvent != "") return;
@@ -45,6 +45,7 @@ async function compilEMF(urlEvent) {
   const dates = $(".ec3_schedule_date.ec3_schedule_next");
 
   let i = 0;
+  console.log("ok",typeof(dates), dates)
   for (oneDate of dates) {
     //loop
     const childWithDates = oneDate.children[0].children;
@@ -83,7 +84,7 @@ async function compilEMF(urlEvent) {
       event.subEvent = subEventList;
     }
     infosFilename.i=i;
-    utilsFile.saveFile(infosFilename, event);
+    saveFile(infosFilename, event);
     i++;
   }
 }
@@ -102,13 +103,13 @@ const convertHeureEMF = (pos, heure) => {
 
 const convertDateEMF = (theDate) => {
   laDate = theDate.split("->")[0].split(" ");
-  return `${laDate[2]}-${utilsDates.moisEnChiffre(
+  return `${laDate[2]}-${moisEnChiffre(
     laDate[1]
-  )}-${utilsDates.prependNumber(laDate[0])}`;
+  )}-${prependNumber(laDate[0])}`;
 };
 
 async function ExtractEMF() {
-  await utilsFile.cleanFolder(infosFilename.workingFolder);
+  await cleanFolder(infosFilename.workingFolder);
   const data = fs.readFileSync(`./events/eventsEMFlist.json`);
 
   const urls = JSON.parse(data).urls;

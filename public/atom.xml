@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://agendanumerique.vercel.app</id>
     <title>Agenda du numérique à Poitiers et ses environs</title>
-    <updated>2024-01-08T01:11:16.158Z</updated>
+    <updated>2024-01-09T01:11:03.434Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://agendanumerique.vercel.app"/>
     <subtitle>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</subtitle>
@@ -79,6 +79,42 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Brickanoid, gare aux briques ! | Mon premier jeu video –]]></title>
+        <id>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</id>
+        <link href="https://emf.fr/ec3_event/brickanoid-gare-aux-briques/"/>
+        <updated>2024-04-17T14:30:00.000Z</updated>
+        <author>
+            <name>Espace Mendès France</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Brickanoid, gare aux briques ! | Mon premier jeu video –]]></title>
+        <id>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</id>
+        <link href="https://emf.fr/ec3_event/brickanoid-gare-aux-briques/"/>
+        <updated>2024-02-22T14:30:00.000Z</updated>
+        <author>
+            <name>Espace Mendès France</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Les aliens arrivent ! | Mon premier jeu video]]></title>
+        <id>https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/</id>
+        <link href="https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/"/>
+        <updated>2024-04-19T14:30:00.000Z</updated>
+        <author>
+            <name>Espace Mendès France</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Les aliens arrivent ! | Mon premier jeu video]]></title>
+        <id>https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/</id>
+        <link href="https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/"/>
+        <updated>2024-02-23T14:30:00.000Z</updated>
+        <author>
+            <name>Espace Mendès France</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Les fous du volant | Mon premier jeu video]]></title>
         <id>https://emf.fr/ec3_event/mon-premier-jeu-video-les-fous-du-volant/</id>
         <link href="https://emf.fr/ec3_event/mon-premier-jeu-video-les-fous-du-volant/"/>
@@ -97,6 +133,42 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Ninja fruits | Mon premier jeu video]]></title>
+        <id>https://emf.fr/ec3_event/mon-premier-jeu-video-ninja-fruits/</id>
+        <link href="https://emf.fr/ec3_event/mon-premier-jeu-video-ninja-fruits/"/>
+        <updated>2024-04-20T14:30:00.000Z</updated>
+        <author>
+            <name>Espace Mendès France</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ninja fruits | Mon premier jeu video]]></title>
+        <id>https://emf.fr/ec3_event/mon-premier-jeu-video-ninja-fruits/</id>
+        <link href="https://emf.fr/ec3_event/mon-premier-jeu-video-ninja-fruits/"/>
+        <updated>2024-02-24T14:30:00.000Z</updated>
+        <author>
+            <name>Espace Mendès France</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pac-Man | Mon premier jeu video]]></title>
+        <id>https://emf.fr/ec3_event/mon-premier-jeu-video-pac-man/</id>
+        <link href="https://emf.fr/ec3_event/mon-premier-jeu-video-pac-man/"/>
+        <updated>2024-04-16T10:00:00.000Z</updated>
+        <author>
+            <name>Espace Mendès France</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pac-Man | Mon premier jeu video]]></title>
+        <id>https://emf.fr/ec3_event/mon-premier-jeu-video-pac-man/</id>
+        <link href="https://emf.fr/ec3_event/mon-premier-jeu-video-pac-man/"/>
+        <updated>2024-02-20T10:00:00.000Z</updated>
+        <author>
+            <name>Espace Mendès France</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Snake, le serpent qui se mord la queue | Mon premier jeu video]]></title>
         <id>https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/</id>
         <link href="https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/"/>
@@ -110,6 +182,24 @@
         <id>https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/</id>
         <link href="https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/"/>
         <updated>2024-02-29T14:30:00.000Z</updated>
+        <author>
+            <name>Espace Mendès France</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Space invaders | Mon premier jeu video]]></title>
+        <id>https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/</id>
+        <link href="https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/"/>
+        <updated>2024-04-17T14:30:00.000Z</updated>
+        <author>
+            <name>Espace Mendès France</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Space invaders | Mon premier jeu video]]></title>
+        <id>https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/</id>
+        <link href="https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/"/>
+        <updated>2024-02-21T14:30:00.000Z</updated>
         <author>
             <name>Espace Mendès France</name>
         </author>

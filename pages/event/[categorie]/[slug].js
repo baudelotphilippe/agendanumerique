@@ -11,7 +11,7 @@ import styles from "@/styles/Home.module.css";
 import Header from "../../../components/Header";
 import Layout from "../../../components/Layout";
 import Footer from "../../../components/Footer"
-import utilsDates from "../../../scripts/utils/convertDates";
+import {formatDate} from "../../../scripts/utils/convertDates";
 import Link from "next/link";
 
 const Post = () => {
@@ -52,10 +52,10 @@ const Post = () => {
   // console.log(event);
 
   const eventStartDate = event.startDate
-    ? utilsDates.formatDate(event.startDate)
+    ? formatDate(event.startDate)
     : null;
   const eventEndDate = event.endDate
-    ? utilsDates.formatDate(event.endDate)
+    ? formatDate(event.endDate)
     : null;
 
   return (

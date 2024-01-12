@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import emptyEvent from '../../scripts/utils/emptyEvent'
-import utilsFile from '../../scripts/utils/file'
+import {emptyEvent} from '../../scripts/utils/emptyEvent'
+import {saveFile} from '../../scripts/utils/file'
 
 type ResponseData = {
   data: string
@@ -26,6 +26,6 @@ export default function handler(
   event.location.address.streetAddress= body.locationStreetAddress
   event.location.address.addressLocality= body.locationAddressLocality
 //   console.log('body: ', body)
-  utilsFile.saveFile(infosFilename, event);
+  saveFile(infosFilename, event);
   res.json({ data: `${event}` })
 }

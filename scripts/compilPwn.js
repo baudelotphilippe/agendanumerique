@@ -1,14 +1,14 @@
-const axios = require("axios");
-const redressePwn = require("./redressePwn");
-const cheerio = require("cheerio");
-const utilsFile = require("./utils/file");
+import axios from "axios";
+import redressePwn from "./redressePwn.js"
+import * as cheerio from "cheerio";
+import {saveFile, cleanFolder} from "./utils/file.js";
 
 const infosFilename={workingFolder:"pwn", i:false, uniqueId:false}
 
 async function loadEvent(urlEvent) {
   const { data } = await axios.get(`https://pwn-association.org${urlEvent}`);
   const event = redressePwn(data);
-  utilsFile.saveFile(infosFilename, event);
+  saveFile(infosFilename, event);
 }
 
 async function compilPwn() {
@@ -16,7 +16,7 @@ async function compilPwn() {
     "https://pwn-association.org/tous-les-evenements-pwn/"
   );
   const $ = cheerio.load(data);
-  await utilsFile.cleanFolder(infosFilename.workingFolder)
+  await cleanFolder(infosFilename.workingFolder)
   // get all urls from page events
   $(".upcoming-events .event-inner>a").each((index, item) => {
     loadEvent(item.attribs.href);

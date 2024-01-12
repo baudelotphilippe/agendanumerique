@@ -36,7 +36,7 @@ const months = {
   "déc.": "12",
 };
 
-const formatDate = (originalDate) => {
+export const formatDate = (originalDate) => {
   const splitJourHour = originalDate.split("T");
   const arrJour = splitJourHour[0].split("-");
   const mois = listeMois[arrJour[1] - 1];
@@ -47,8 +47,7 @@ const formatDate = (originalDate) => {
   };
 };
 
-const moisEnChiffre = (mois) => months[mois];
+export const moisEnChiffre = (mois) => months[mois];
 
-const prependNumber = theNumber => ("0" + theNumber).slice(-2);
+export const prependNumber = theNumber => ("0" + theNumber).slice(-2);
 
-module.exports = {formatDate,moisEnChiffre, prependNumber};

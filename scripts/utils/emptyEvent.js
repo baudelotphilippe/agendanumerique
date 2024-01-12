@@ -1,4 +1,4 @@
-const emptyEvent = {
+export const emptyEvent = {
     "@context": "https://schema.org",
     "@type": "Event",
     name: "",
@@ -18,5 +18,3 @@ const emptyEvent = {
     organizer: "",
     url: "",
   }
-  
-module.exports = emptyEvent;

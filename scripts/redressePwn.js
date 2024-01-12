@@ -1,16 +1,16 @@
-
-const cheerio = require("cheerio");
-const emptyEvent = require("./utils/emptyEvent")
-const utilsDates = require("./utils/convertDates");
+import * as cheerio from "cheerio";
+import {emptyEvent} from "./utils/emptyEvent.js";
+import {moisEnChiffre} from "./utils/convertDates.js";
 
 const convertDatePwn=(datePwn) => {
   const jourHeureDebut=datePwn.split("à")
   const arrJourDebut=jourHeureDebut[0].trim().split(" ")
   // retire , et force sur 2 digits
   const formatDay=("0"+arrJourDebut[1].slice(0,-1)).slice(-2)
-   return `${arrJourDebut[2]}-${utilsDates.moisEnChiffre(arrJourDebut[0])}-${formatDay}T${jourHeureDebut[1].trim()}:00`
+   return `${arrJourDebut[2]}-${moisEnChiffre(arrJourDebut[0])}-${formatDay}T${jourHeureDebut[1].trim()}:00`
 }
-const redressePwn = (data) => {
+
+export default function redressePwn(data) {
   const $ = cheerio.load(data);
   let name=$('.event-title')[0].children[0].data
   const event = {
@@ -62,6 +62,3 @@ const redressePwn = (data) => {
   event.organizer="Pwn"
   return event
 };
-
-
-module.exports = redressePwn;

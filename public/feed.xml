@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Thu, 11 Jan 2024 01:10:57 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 12 Jan 2024 01:11:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -32,13 +32,6 @@
             <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
             <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
             <pubDate>Thu, 07 Mar 2024 18:30:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Capture The Flag #2]]></title>
-            <link>http://pwn-association.org/evenements/capture-the-flag-episode-2/</link>
-            <guid>http://pwn-association.org/evenements/capture-the-flag-episode-2/</guid>
-            <pubDate>Thu, 11 Jan 2024 18:30:00 GMT</pubDate>
-            <enclosure url="http://pwn-association.org/media/filer_public/26/d5/26d53131-2abc-464e-8f5c-5201fba0cffe/giphy_1.gif" length="0" type="image/gif"/>
         </item>
         <item>
             <title><![CDATA[Datamation : comment le no-code permet aux data analyst de mettre un pied dans le produit]]></title>

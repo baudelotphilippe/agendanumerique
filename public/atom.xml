@@ -2,10 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://agendanumerique.vercel.app</id>
     <title>Agenda du numérique à Poitiers et ses environs</title>
-    <updated>2024-01-05T06:47:09.462Z</updated>
+    <updated>2024-01-12T17:04:47.457Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://agendanumerique.vercel.app"/>
     <subtitle>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Apéro de l'AFUP]]></title>
+        <id>https://www.cobaltpoitiers.fr/agenda_1550.html</id>
+        <link href="https://www.cobaltpoitiers.fr/agenda_1550.html"/>
+        <updated>2024-01-25T19:00:00.000Z</updated>
+        <author>
+            <name>AFUP Poitiers</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Atelier 2 tonnes]]></title>
         <id>https://www.cobaltpoitiers.fr/agenda_1550.html</id>
@@ -34,15 +43,6 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Capture The Flag #2]]></title>
-        <id>http://pwn-association.org/evenements/capture-the-flag-episode-2/</id>
-        <link href="http://pwn-association.org/evenements/capture-the-flag-episode-2/"/>
-        <updated>2024-01-11T18:30:00.000Z</updated>
-        <author>
-            <name>Pwn</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Datamation : comment le no-code permet aux data analyst de mettre un pied dans le produit]]></title>
         <id>http://pwn-association.org/evenements/datamation-comment-le-no-code-permet-aux-data-analyst-de-mettre-un-pied-dans-le-produit/</id>
         <link href="http://pwn-association.org/evenements/datamation-comment-le-no-code-permet-aux-data-analyst-de-mettre-un-pied-dans-le-produit/"/>
@@ -55,7 +55,7 @@
         <title type="html"><![CDATA[Soirée AFUP / PWN]]></title>
         <id>http://pwn-association.org/evenements/soiree-afup-pwn/</id>
         <link href="http://pwn-association.org/evenements/soiree-afup-pwn/"/>
-        <updated>2024-03-07T19:00:00.000Z</updated>
+        <updated>2024-03-13T19:00:00.000Z</updated>
         <author>
             <name>Pwn</name>
         </author>
@@ -67,6 +67,42 @@
         <updated>2024-02-01T18:30:00.000Z</updated>
         <author>
             <name>Pwn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Brickanoid, gare aux briques ! | Mon premier jeu video –]]></title>
+        <id>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</id>
+        <link href="https://emf.fr/ec3_event/brickanoid-gare-aux-briques/"/>
+        <updated>2024-04-17T14:30:00.000Z</updated>
+        <author>
+            <name>Espace Mendès France</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Brickanoid, gare aux briques ! | Mon premier jeu video –]]></title>
+        <id>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</id>
+        <link href="https://emf.fr/ec3_event/brickanoid-gare-aux-briques/"/>
+        <updated>2024-02-22T14:30:00.000Z</updated>
+        <author>
+            <name>Espace Mendès France</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Les aliens arrivent ! | Mon premier jeu video]]></title>
+        <id>https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/</id>
+        <link href="https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/"/>
+        <updated>2024-04-19T14:30:00.000Z</updated>
+        <author>
+            <name>Espace Mendès France</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Les aliens arrivent ! | Mon premier jeu video]]></title>
+        <id>https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/</id>
+        <link href="https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/"/>
+        <updated>2024-02-23T14:30:00.000Z</updated>
+        <author>
+            <name>Espace Mendès France</name>
         </author>
     </entry>
     <entry>
@@ -88,28 +124,37 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Mon premier jeu video – Brickanoid, gare aux briques !]]></title>
-        <id>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</id>
-        <link href="https://emf.fr/ec3_event/brickanoid-gare-aux-briques/"/>
-        <updated>2024-01-04T14:30:00.000Z</updated>
-        <author>
-            <name>Espace Mendès France</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mon premier jeu video – Les aliens arrivent !]]></title>
-        <id>https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/</id>
-        <link href="https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/"/>
-        <updated>2024-01-05T14:30:00.000Z</updated>
-        <author>
-            <name>Espace Mendès France</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mon premier jeu video – Ninja fruits]]></title>
+        <title type="html"><![CDATA[Ninja fruits | Mon premier jeu video]]></title>
         <id>https://emf.fr/ec3_event/mon-premier-jeu-video-ninja-fruits/</id>
         <link href="https://emf.fr/ec3_event/mon-premier-jeu-video-ninja-fruits/"/>
-        <updated>2024-01-06T14:30:00.000Z</updated>
+        <updated>2024-04-20T14:30:00.000Z</updated>
+        <author>
+            <name>Espace Mendès France</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ninja fruits | Mon premier jeu video]]></title>
+        <id>https://emf.fr/ec3_event/mon-premier-jeu-video-ninja-fruits/</id>
+        <link href="https://emf.fr/ec3_event/mon-premier-jeu-video-ninja-fruits/"/>
+        <updated>2024-02-24T14:30:00.000Z</updated>
+        <author>
+            <name>Espace Mendès France</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pac-Man | Mon premier jeu video]]></title>
+        <id>https://emf.fr/ec3_event/mon-premier-jeu-video-pac-man/</id>
+        <link href="https://emf.fr/ec3_event/mon-premier-jeu-video-pac-man/"/>
+        <updated>2024-04-16T10:00:00.000Z</updated>
+        <author>
+            <name>Espace Mendès France</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pac-Man | Mon premier jeu video]]></title>
+        <id>https://emf.fr/ec3_event/mon-premier-jeu-video-pac-man/</id>
+        <link href="https://emf.fr/ec3_event/mon-premier-jeu-video-pac-man/"/>
+        <updated>2024-02-20T10:00:00.000Z</updated>
         <author>
             <name>Espace Mendès France</name>
         </author>
@@ -128,6 +173,24 @@
         <id>https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/</id>
         <link href="https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/"/>
         <updated>2024-02-29T14:30:00.000Z</updated>
+        <author>
+            <name>Espace Mendès France</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Space invaders | Mon premier jeu video]]></title>
+        <id>https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/</id>
+        <link href="https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/"/>
+        <updated>2024-04-17T14:30:00.000Z</updated>
+        <author>
+            <name>Espace Mendès France</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Space invaders | Mon premier jeu video]]></title>
+        <id>https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/</id>
+        <link href="https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/"/>
+        <updated>2024-02-21T14:30:00.000Z</updated>
         <author>
             <name>Espace Mendès France</name>
         </author>

@@ -45,8 +45,8 @@ async function compilEMF(urlEvent) {
   const dates = $(".ec3_schedule_date.ec3_schedule_next");
 
   let i = 0;
-  console.log("ok",typeof(dates), dates)
-  for (oneDate of dates) {
+  
+  for (const oneDate of dates) {
     //loop
     const childWithDates = oneDate.children[0].children;
     let subEventList = [];
@@ -102,7 +102,7 @@ const convertHeureEMF = (pos, heure) => {
 };
 
 const convertDateEMF = (theDate) => {
-  laDate = theDate.split("->")[0].split(" ");
+  const laDate = theDate.split("->")[0].split(" ");
   return `${laDate[2]}-${moisEnChiffre(
     laDate[1]
   )}-${prependNumber(laDate[0])}`;

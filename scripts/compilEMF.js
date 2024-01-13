@@ -1,5 +1,4 @@
 import fs from "fs";
-import axios from "axios";
 import * as cheerio from "cheerio";
 
 import {saveFile,cleanFolder} from "./utils/file.js";
@@ -9,13 +8,12 @@ import {emptyEvent} from "./utils/emptyEvent.js";
 const infosFilename={workingFolder:"emf", i:false, uniqueId:false}
 
 async function compilEMF(urlEvent) {
-  console.log(urlEvent)
-  const { data } = await axios.get(urlEvent);
+  const data =  await fetch(urlEvent).then(res => res.text())
   const $ = cheerio.load(data);
   const event = {
     ...emptyEvent,
   };
-  // cherche si le bloc date est grisé, si oui, date dépassée donc pas d'evenet à gérer
+  // cherche si le bloc date est grisé, si oui, date dépassée donc pas d'event à gérer
   const pastEvent = $(".ec3_iconlet.ec3_past").text();
   if (pastEvent != "") return;
 

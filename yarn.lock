@@ -93,10 +93,10 @@
   dependencies:
     glob "7.1.7"
 
-"@next/font@^13.2.1":
-  version "13.5.6"
-  resolved "https://registry.npmjs.org/@next/font/-/font-13.5.6.tgz"
-  integrity sha512-urmUq05uCVJsBqAAJEV+xK5OTTodrSxdiG+351SOSjlWctywdBM6qX+K9pIe3K48RxjfnxlBbXjGyOJAji+pfw==
+"@next/font@13.2.1":
+  version "13.2.1"
+  resolved "https://registry.npmjs.org/@next/font/-/font-13.2.1.tgz"
+  integrity sha512-4sergLt7xp9+mZuKME/xM4tLlHGTcmL7naCq0qCTcAlof6NnttshYgiLOdhSiy0NcI+/yM3BjvdEk++O96UzTg==
 
 "@next/swc-linux-x64-gnu@13.1.6":
   version "13.1.6"

@@ -1,6 +1,5 @@
 import {formatDate} from "./utils/convertDates.js";
 import fs from "fs";
-import * as cheerio from "cheerio";
 
 const eventsFolder = ["cobalt", "pwn", "emf", "afup", "manuel"];
 const newContent = [];
@@ -12,9 +11,7 @@ eventsFolder.forEach((folder) => {
 
   jsonsDir.forEach((file) => {
     const data = fs.readFileSync(`./events/${folder}/${file}`);
-    const $ = cheerio.load(data);
-    const jsonRaw = $("script[type='application/ld+json']")[0].children[0].data;
-    const event = JSON.parse(jsonRaw);
+    const event = JSON.parse(data);
     const fileWithoutExt = file.split(".").slice(0, -1).join(".");
     const filterContent = {
       name: event.name ?? "",

@@ -29,7 +29,7 @@ export const saveFile = ({workingFolder, i, uniqueId}, event) => {
   const filename = renameFile(event.name, i, uniqueId);
   fs.writeFileSync(
     `./events/${workingFolder}/${encodeURIComponent(filename)}.json`,
-    `<script type="application/ld+json">${JSON.stringify(event)}</script>`
+    `${JSON.stringify(event)}`
   );
 };
 

@@ -1,6 +1,5 @@
 import { useRouter } from "next/router";
 import useSWR from "swr";
-import * as cheerio from "cheerio";
 import Image from "next/image";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
@@ -46,9 +45,7 @@ const Post = () => {
       </>
     );
 
-  const $ = cheerio.load(data);
-  const jsonRaw = $("script[type='application/ld+json']")[0].children[0].data;
-  const event = JSON.parse(jsonRaw);
+  const event = JSON.parse(data);
   // console.log(event);
 
   const eventStartDate = event.startDate
@@ -60,7 +57,7 @@ const Post = () => {
 
   return (
     <>
-      <Header title={event.name} datas={jsonRaw} />
+      <Header title={event.name} datas={data} />
       <Layout>
         <div className="d-flex flex-column align-items-center justify-content-center">
           <div className={`${styles.card_bg} col-12 col-md-6`}>

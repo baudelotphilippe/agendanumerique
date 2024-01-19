@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Thu, 18 Jan 2024 01:10:44 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Jan 2024 01:11:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,12 +14,6 @@
             <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
             <pubDate>Thu, 25 Jan 2024 19:00:00 GMT</pubDate>
             <enclosure url="https://www.cobaltpoitiers.fr/obj/20230531121144_afup-poitiers.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Atelier 2 tonnes]]></title>
-            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
-            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
-            <pubDate>Thu, 18 Jan 2024 18:30:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Fresque de l'eau]]></title>

@@ -2,10 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://agendanumerique.vercel.app</id>
     <title>Agenda du numérique à Poitiers et ses environs</title>
-    <updated>2024-01-19T01:11:28.994Z</updated>
+    <updated>2024-01-20T01:10:14.043Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://agendanumerique.vercel.app"/>
     <subtitle>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</subtitle>
+    <entry>
+        <title type="html"><![CDATA[AFUP Day]]></title>
+        <id>https://www.cobaltpoitiers.fr/agenda_1550.html</id>
+        <link href="https://www.cobaltpoitiers.fr/agenda_1550.html"/>
+        <updated>2024-05-24T09:00:00.000Z</updated>
+        <author>
+            <name>AFUP Poitiers</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Apéro de l'AFUP]]></title>
         <id>https://www.cobaltpoitiers.fr/agenda_1550.html</id>
@@ -13,6 +22,15 @@
         <updated>2024-01-25T19:00:00.000Z</updated>
         <author>
             <name>AFUP Poitiers</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Digital Expresso #1 : Les tendances RH 2024 : l'innovation au service de l'attractivité, l'engagement et la fidélisation des salariés.]]></title>
+        <id>https://www.cobaltpoitiers.fr/agenda_1550.html</id>
+        <link href="https://www.cobaltpoitiers.fr/agenda_1550.html"/>
+        <updated>2024-02-06T08:30:00.000Z</updated>
+        <author>
+            <name>SPN ; CCI Vienne ; Grand Poitiers ; RéseauCom86</name>
         </author>
     </entry>
     <entry>

@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Fri, 26 Jan 2024 01:07:16 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Jan 2024 06:49:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -56,6 +56,13 @@
             <enclosure url="http://pwn-association.org/media/filer_public/04/a3/04a30261-aadd-4719-9601-31120ca4a5af/fantrippers.gif" length="0" type="image/gif"/>
         </item>
         <item>
+            <title><![CDATA[Application Earsketch | Lea Ikkache]]></title>
+            <link>https://emf.fr/ec3_event/application-earsketch-lea-ikkache/</link>
+            <guid>https://emf.fr/ec3_event/application-earsketch-lea-ikkache/</guid>
+            <pubDate>Wed, 31 Jan 2024 14:00:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2023/12/Lieu-multiple-Earsketch-credit-Earsketch.png" length="0" type="image/png"/>
+        </item>
+        <item>
             <title><![CDATA[Brickanoid, gare aux briques ! | Mon premier jeu video –]]></title>
             <link>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</link>
             <guid>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</guid>
@@ -68,6 +75,62 @@
             <guid>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</guid>
             <pubDate>Thu, 22 Feb 2024 14:30:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2017/06/Affiche_jeu_brickanoid.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Je cree un photomontage avec Gimp]]></title>
+            <link>https://emf.fr/ec3_event/je-cree-un-photomontage-avec-gimp-2/</link>
+            <guid>https://emf.fr/ec3_event/je-cree-un-photomontage-avec-gimp-2/</guid>
+            <pubDate>Sat, 10 Feb 2024 14:00:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2022/08/Affiche_gimp_2023.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Je debute avec ChatGPT]]></title>
+            <link>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</link>
+            <guid>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</guid>
+            <pubDate>Thu, 08 Feb 2024 10:00:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2023/07/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Je debute avec ChatGPT]]></title>
+            <link>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</link>
+            <guid>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</guid>
+            <pubDate>Tue, 19 Mar 2024 10:00:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2023/07/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Je debute avec ChatGPT]]></title>
+            <link>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</link>
+            <guid>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</guid>
+            <pubDate>Thu, 04 Apr 2024 10:00:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2023/07/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Je debute avec ChatGPT]]></title>
+            <link>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</link>
+            <guid>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</guid>
+            <pubDate>Thu, 02 May 2024 10:00:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2023/07/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Je debute avec ChatGPT]]></title>
+            <link>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</link>
+            <guid>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</guid>
+            <pubDate>Tue, 04 Jun 2024 14:00:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2023/07/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Je debute avec ChatGPT]]></title>
+            <link>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</link>
+            <guid>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</guid>
+            <pubDate>Thu, 13 Jun 2024 10:00:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2023/07/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Je debute avec ChatGPT]]></title>
+            <link>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</link>
+            <guid>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</guid>
+            <pubDate>Wed, 31 Jan 2024 14:00:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2023/07/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Les aliens arrivent ! | Mon premier jeu video]]></title>

@@ -12,7 +12,7 @@ export default function redresseAfup (data) {
   event.name = dataJsonParsed.name;
 
   event.url = dataJsonParsed.url;
-  event.image = dataJsonParsed.image[0];
+  event.image = dataJsonParsed.image//[0];
 
   event.description = $("div.break-words").html().replace(/<br>/g, "\n");
 

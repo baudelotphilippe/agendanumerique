@@ -55,31 +55,11 @@
         {
             "id": "http://pwn-association.org/evenements/soiree-afup-pwn/",
             "url": "http://pwn-association.org/evenements/soiree-afup-pwn/",
-            "title": "Soirée AFUP / PWN",
+            "title": "Soirée AFUP / PWN : En route vers la Dystopie",
             "image": "http://pwn-association.org/media/filer_public/b9/be/b9be2ef4-1119-4d08-8097-001a8465800d/logo-afup-pwn.png",
             "date_modified": "2024-03-13T19:00:00.000Z",
             "author": {
                 "name": "Pwn"
-            }
-        },
-        {
-            "id": "http://pwn-association.org/evenements/vie-et-mort-d-une-startup/",
-            "url": "http://pwn-association.org/evenements/vie-et-mort-d-une-startup/",
-            "title": "Vie et mort d’une start-up",
-            "image": "http://pwn-association.org/media/filer_public/04/a3/04a30261-aadd-4719-9601-31120ca4a5af/fantrippers.gif",
-            "date_modified": "2024-02-01T18:30:00.000Z",
-            "author": {
-                "name": "Pwn"
-            }
-        },
-        {
-            "id": "https://emf.fr/ec3_event/application-earsketch-lea-ikkache/",
-            "url": "https://emf.fr/ec3_event/application-earsketch-lea-ikkache/",
-            "title": "Application Earsketch | Lea Ikkache",
-            "image": "https://emf.fr/wp-content/uploads/2023/12/Lieu-multiple-Earsketch-credit-Earsketch.png",
-            "date_modified": "2024-01-31T14:00:00.000Z",
-            "author": {
-                "name": "Espace Mendès France"
             }
         },
         {
@@ -108,16 +88,6 @@
             "title": "Je cree un photomontage avec Gimp",
             "image": "https://emf.fr/wp-content/uploads/2022/08/Affiche_gimp_2023.jpg",
             "date_modified": "2024-02-10T14:00:00.000Z",
-            "author": {
-                "name": "Espace Mendès France"
-            }
-        },
-        {
-            "id": "https://emf.fr/ec3_event/je-debute-avec-chatgpt/",
-            "url": "https://emf.fr/ec3_event/je-debute-avec-chatgpt/",
-            "title": "Je debute avec ChatGPT",
-            "image": "https://emf.fr/wp-content/uploads/2023/07/IA-credit-Pixabay-Cambridge_Spark.png",
-            "date_modified": "2024-02-08T10:00:00.000Z",
             "author": {
                 "name": "Espace Mendès France"
             }
@@ -177,7 +147,7 @@
             "url": "https://emf.fr/ec3_event/je-debute-avec-chatgpt/",
             "title": "Je debute avec ChatGPT",
             "image": "https://emf.fr/wp-content/uploads/2023/07/IA-credit-Pixabay-Cambridge_Spark.png",
-            "date_modified": "2024-01-31T14:00:00.000Z",
+            "date_modified": "2024-02-08T10:00:00.000Z",
             "author": {
                 "name": "Espace Mendès France"
             }
@@ -320,6 +290,16 @@
             "date_modified": "2024-02-14T14:00:00.000Z",
             "author": {
                 "name": "Espace Mendès France"
+            }
+        },
+        {
+            "id": "https://www.meetup.com/afup-poitiers-php/events/298859811/",
+            "url": "https://www.meetup.com/afup-poitiers-php/events/298859811/",
+            "title": "Ft. PWN 🤩 - SUPER APERO PHP -  En route vers la dystopie !",
+            "image": "https://secure.meetupstatic.com/photos/event/9/7/c/a/600_511718858.jpeg",
+            "date_modified": "2024-03-13T18:00:00.000Z",
+            "author": {
+                "name": "Afup"
             }
         }
     ]

@@ -33,6 +33,15 @@
             }
         },
         {
+            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "title": "La fresque du numérique",
+            "date_modified": "2024-02-15T18:30:00.000Z",
+            "author": {
+                "name": "Cobalt ; Olivier Van Straelen"
+            }
+        },
+        {
             "id": "http://pwn-association.org/evenements/datamation-comment-le-no-code-permet-aux-data-analyst-de-mettre-un-pied-dans-le-produit/",
             "url": "http://pwn-association.org/evenements/datamation-comment-le-no-code-permet-aux-data-analyst-de-mettre-un-pied-dans-le-produit/",
             "title": "Datamation : comment le no-code permet aux data analyst de mettre un pied dans le produit",
@@ -76,7 +85,7 @@
             "id": "https://emf.fr/ec3_event/je-cree-un-photomontage-avec-gimp-2/",
             "url": "https://emf.fr/ec3_event/je-cree-un-photomontage-avec-gimp-2/",
             "title": "Je cree un photomontage avec Gimp",
-            "image": "https://emf.fr/wp-content/uploads/2022/08/Affiche_gimp_2023.jpg",
+            "image": "https://emf.fr/wp-content/uploads/2022/08/gimp-210-min-scaled.jpg",
             "date_modified": "2024-02-10T14:00:00.000Z",
             "author": {
                 "name": "Espace Mendès France"

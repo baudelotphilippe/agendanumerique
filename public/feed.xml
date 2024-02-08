@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Wed, 07 Feb 2024 01:03:42 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 08 Feb 2024 01:04:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -26,6 +26,12 @@
             <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
             <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
             <pubDate>Thu, 07 Mar 2024 18:30:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[La fresque du numérique]]></title>
+            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
+            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
+            <pubDate>Thu, 15 Feb 2024 18:30:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Datamation : comment le no-code permet aux data analyst de mettre un pied dans le produit]]></title>
@@ -60,7 +66,7 @@
             <link>https://emf.fr/ec3_event/je-cree-un-photomontage-avec-gimp-2/</link>
             <guid>https://emf.fr/ec3_event/je-cree-un-photomontage-avec-gimp-2/</guid>
             <pubDate>Sat, 10 Feb 2024 14:00:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2022/08/Affiche_gimp_2023.jpg" length="0" type="image/jpg"/>
+            <enclosure url="https://emf.fr/wp-content/uploads/2022/08/gimp-210-min-scaled.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Je debute avec ChatGPT]]></title>

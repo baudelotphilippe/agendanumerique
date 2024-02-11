@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Sat, 10 Feb 2024 01:03:33 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 11 Feb 2024 01:10:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -60,13 +60,6 @@
             <guid>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</guid>
             <pubDate>Thu, 22 Feb 2024 14:30:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2017/06/Affiche_jeu_brickanoid.jpg" length="0" type="image/jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Je cree un photomontage avec Gimp]]></title>
-            <link>https://emf.fr/ec3_event/je-cree-un-photomontage-avec-gimp-2/</link>
-            <guid>https://emf.fr/ec3_event/je-cree-un-photomontage-avec-gimp-2/</guid>
-            <pubDate>Sat, 10 Feb 2024 14:00:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2022/08/gimp-210-min-scaled.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Je debute avec ChatGPT]]></title>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://agendanumerique.vercel.app</id>
     <title>Agenda du numérique à Poitiers et ses environs</title>
-    <updated>2024-02-10T01:03:33.762Z</updated>
+    <updated>2024-02-11T01:10:05.315Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://agendanumerique.vercel.app"/>
     <subtitle>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</subtitle>
@@ -74,15 +74,6 @@
         <id>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</id>
         <link href="https://emf.fr/ec3_event/brickanoid-gare-aux-briques/"/>
         <updated>2024-02-22T14:30:00.000Z</updated>
-        <author>
-            <name>Espace Mendès France</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Je cree un photomontage avec Gimp]]></title>
-        <id>https://emf.fr/ec3_event/je-cree-un-photomontage-avec-gimp-2/</id>
-        <link href="https://emf.fr/ec3_event/je-cree-un-photomontage-avec-gimp-2/"/>
-        <updated>2024-02-10T14:00:00.000Z</updated>
         <author>
             <name>Espace Mendès France</name>
         </author>

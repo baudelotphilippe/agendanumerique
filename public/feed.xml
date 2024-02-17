@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Thu, 15 Feb 2024 01:05:41 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 Feb 2024 01:04:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,6 +14,13 @@
             <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
             <pubDate>Fri, 24 May 2024 09:00:00 GMT</pubDate>
             <enclosure url="https://www.cobaltpoitiers.fr/obj/20230531121144_afup-poitiers.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Digital Expresso #2 : Introduction à la cybersécurité ; Un enjeu sous estimé chez les PME]]></title>
+            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
+            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
+            <pubDate>Tue, 05 Mar 2024 08:30:00 GMT</pubDate>
+            <enclosure url="https://www.cobaltpoitiers.fr/obj/20240215111820_digital-expresso-yann-pilpre.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Fresque de l'eau]]></title>
@@ -26,12 +33,14 @@
             <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
             <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
             <pubDate>Thu, 07 Mar 2024 18:30:00 GMT</pubDate>
+            <enclosure url="https://www.cobaltpoitiers.fr/obj/20240216143948_logo-fresque-de-la-biodiversite-1.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
-            <title><![CDATA[La fresque du numérique]]></title>
+            <title><![CDATA[Super Apéro PHP by AFUP & PWN :]]></title>
             <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
             <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
-            <pubDate>Thu, 15 Feb 2024 18:30:00 GMT</pubDate>
+            <pubDate>Wed, 13 Mar 2024 19:00:00 GMT</pubDate>
+            <enclosure url="https://www.cobaltpoitiers.fr/obj/20240215113314_logo-afup-pwn.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Datamation : comment le no-code permet aux data analyst de mettre un pied dans le produit]]></title>
@@ -52,14 +61,14 @@
             <link>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</link>
             <guid>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</guid>
             <pubDate>Wed, 17 Apr 2024 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2017/06/Affiche_jeu_brickanoid.jpg" length="0" type="image/jpg"/>
+            <enclosure url="https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Brickanoid, gare aux briques ! | Mon premier jeu video –]]></title>
             <link>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</link>
             <guid>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</guid>
             <pubDate>Thu, 22 Feb 2024 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2017/06/Affiche_jeu_brickanoid.jpg" length="0" type="image/jpg"/>
+            <enclosure url="https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Je debute avec ChatGPT]]></title>
@@ -101,84 +110,84 @@
             <link>https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/</link>
             <guid>https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/</guid>
             <pubDate>Fri, 19 Apr 2024 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2017/06/Affiche_jeu_aliens.jpg" length="0" type="image/jpg"/>
+            <enclosure url="https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Les aliens arrivent ! | Mon premier jeu video]]></title>
             <link>https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/</link>
             <guid>https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/</guid>
             <pubDate>Fri, 23 Feb 2024 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2017/06/Affiche_jeu_aliens.jpg" length="0" type="image/jpg"/>
+            <enclosure url="https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Les fous du volant | Mon premier jeu video]]></title>
             <link>https://emf.fr/ec3_event/mon-premier-jeu-video-les-fous-du-volant/</link>
             <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-les-fous-du-volant/</guid>
             <pubDate>Tue, 23 Apr 2024 10:00:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2019/04/Affiche_jeu_fou_volant.jpg" length="0" type="image/jpg"/>
+            <enclosure url="https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Les fous du volant | Mon premier jeu video]]></title>
             <link>https://emf.fr/ec3_event/mon-premier-jeu-video-les-fous-du-volant/</link>
             <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-les-fous-du-volant/</guid>
             <pubDate>Tue, 27 Feb 2024 10:00:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2019/04/Affiche_jeu_fou_volant.jpg" length="0" type="image/jpg"/>
+            <enclosure url="https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Ninja fruits | Mon premier jeu video]]></title>
             <link>https://emf.fr/ec3_event/mon-premier-jeu-video-ninja-fruits/</link>
             <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-ninja-fruits/</guid>
             <pubDate>Sat, 20 Apr 2024 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2021/06/imagen-fruit-ninja-0thumb.jpeg" length="0" type="image/jpeg"/>
+            <enclosure url="https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Ninja fruits | Mon premier jeu video]]></title>
             <link>https://emf.fr/ec3_event/mon-premier-jeu-video-ninja-fruits/</link>
             <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-ninja-fruits/</guid>
             <pubDate>Sat, 24 Feb 2024 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2021/06/imagen-fruit-ninja-0thumb.jpeg" length="0" type="image/jpeg"/>
+            <enclosure url="https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Pac-Man | Mon premier jeu video]]></title>
             <link>https://emf.fr/ec3_event/mon-premier-jeu-video-pac-man/</link>
             <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-pac-man/</guid>
             <pubDate>Tue, 16 Apr 2024 10:00:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2016/05/Animation-Pac-Man-credit-Unsplash-scaled.jpg" length="0" type="image/jpg"/>
+            <enclosure url="https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Pac-Man | Mon premier jeu video]]></title>
             <link>https://emf.fr/ec3_event/mon-premier-jeu-video-pac-man/</link>
             <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-pac-man/</guid>
             <pubDate>Tue, 20 Feb 2024 10:00:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2016/05/Animation-Pac-Man-credit-Unsplash-scaled.jpg" length="0" type="image/jpg"/>
+            <enclosure url="https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Snake, le serpent qui se mord la queue | Mon premier jeu video]]></title>
             <link>https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/</link>
             <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/</guid>
             <pubDate>Thu, 25 Apr 2024 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2023/01/istockphoto-1363586427-612x612-1.jpg" length="0" type="image/jpg"/>
+            <enclosure url="https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Snake, le serpent qui se mord la queue | Mon premier jeu video]]></title>
             <link>https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/</link>
             <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/</guid>
             <pubDate>Thu, 29 Feb 2024 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2023/01/istockphoto-1363586427-612x612-1.jpg" length="0" type="image/jpg"/>
+            <enclosure url="https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Space invaders | Mon premier jeu video]]></title>
             <link>https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/</link>
             <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/</guid>
             <pubDate>Wed, 17 Apr 2024 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2016/05/image-e1707925349588.png" length="0" type="image/png"/>
+            <enclosure url="https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Space invaders | Mon premier jeu video]]></title>
             <link>https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/</link>
             <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/</guid>
             <pubDate>Wed, 21 Feb 2024 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2016/05/image-e1707925349588.png" length="0" type="image/png"/>
+            <enclosure url="https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Une IA m’assiste pour creer mon site web]]></title>

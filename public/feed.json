@@ -17,6 +17,16 @@
         {
             "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "title": "Digital Expresso #2 : Introduction à la cybersécurité ; Un enjeu sous estimé chez les PME",
+            "image": "https://www.cobaltpoitiers.fr/obj/20240215111820_digital-expresso-yann-pilpre.png",
+            "date_modified": "2024-03-05T08:30:00.000Z",
+            "author": {
+                "name": "SPN ; CCI Vienne ; Grand Poitiers ; RéseauCom86"
+            }
+        },
+        {
+            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "title": "Fresque de l'eau",
             "date_modified": "2024-04-11T18:30:00.000Z",
             "author": {
@@ -27,6 +37,7 @@
             "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "title": "Fresque de la biodiversité",
+            "image": "https://www.cobaltpoitiers.fr/obj/20240216143948_logo-fresque-de-la-biodiversite-1.jpg",
             "date_modified": "2024-03-07T18:30:00.000Z",
             "author": {
                 "name": "Cobalt ; Olivier Van Straelen"
@@ -35,10 +46,11 @@
         {
             "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
-            "title": "La fresque du numérique",
-            "date_modified": "2024-02-15T18:30:00.000Z",
+            "title": "Super Apéro PHP by AFUP & PWN :",
+            "image": "https://www.cobaltpoitiers.fr/obj/20240215113314_logo-afup-pwn.png",
+            "date_modified": "2024-03-13T19:00:00.000Z",
             "author": {
-                "name": "Cobalt ; Olivier Van Straelen"
+                "name": "AFUP Poitiers ; PWN"
             }
         },
         {
@@ -65,7 +77,7 @@
             "id": "https://emf.fr/ec3_event/brickanoid-gare-aux-briques/",
             "url": "https://emf.fr/ec3_event/brickanoid-gare-aux-briques/",
             "title": "Brickanoid, gare aux briques ! | Mon premier jeu video –",
-            "image": "https://emf.fr/wp-content/uploads/2017/06/Affiche_jeu_brickanoid.jpg",
+            "image": "https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
             "date_modified": "2024-04-17T14:30:00.000Z",
             "author": {
                 "name": "Espace Mendès France"
@@ -75,7 +87,7 @@
             "id": "https://emf.fr/ec3_event/brickanoid-gare-aux-briques/",
             "url": "https://emf.fr/ec3_event/brickanoid-gare-aux-briques/",
             "title": "Brickanoid, gare aux briques ! | Mon premier jeu video –",
-            "image": "https://emf.fr/wp-content/uploads/2017/06/Affiche_jeu_brickanoid.jpg",
+            "image": "https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
             "date_modified": "2024-02-22T14:30:00.000Z",
             "author": {
                 "name": "Espace Mendès France"
@@ -135,7 +147,7 @@
             "id": "https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/",
             "url": "https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/",
             "title": "Les aliens arrivent ! | Mon premier jeu video",
-            "image": "https://emf.fr/wp-content/uploads/2017/06/Affiche_jeu_aliens.jpg",
+            "image": "https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
             "date_modified": "2024-04-19T14:30:00.000Z",
             "author": {
                 "name": "Espace Mendès France"
@@ -145,7 +157,7 @@
             "id": "https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/",
             "url": "https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/",
             "title": "Les aliens arrivent ! | Mon premier jeu video",
-            "image": "https://emf.fr/wp-content/uploads/2017/06/Affiche_jeu_aliens.jpg",
+            "image": "https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
             "date_modified": "2024-02-23T14:30:00.000Z",
             "author": {
                 "name": "Espace Mendès France"
@@ -155,7 +167,7 @@
             "id": "https://emf.fr/ec3_event/mon-premier-jeu-video-les-fous-du-volant/",
             "url": "https://emf.fr/ec3_event/mon-premier-jeu-video-les-fous-du-volant/",
             "title": "Les fous du volant | Mon premier jeu video",
-            "image": "https://emf.fr/wp-content/uploads/2019/04/Affiche_jeu_fou_volant.jpg",
+            "image": "https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
             "date_modified": "2024-04-23T10:00:00.000Z",
             "author": {
                 "name": "Espace Mendès France"
@@ -165,7 +177,7 @@
             "id": "https://emf.fr/ec3_event/mon-premier-jeu-video-les-fous-du-volant/",
             "url": "https://emf.fr/ec3_event/mon-premier-jeu-video-les-fous-du-volant/",
             "title": "Les fous du volant | Mon premier jeu video",
-            "image": "https://emf.fr/wp-content/uploads/2019/04/Affiche_jeu_fou_volant.jpg",
+            "image": "https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
             "date_modified": "2024-02-27T10:00:00.000Z",
             "author": {
                 "name": "Espace Mendès France"
@@ -175,7 +187,7 @@
             "id": "https://emf.fr/ec3_event/mon-premier-jeu-video-ninja-fruits/",
             "url": "https://emf.fr/ec3_event/mon-premier-jeu-video-ninja-fruits/",
             "title": "Ninja fruits | Mon premier jeu video",
-            "image": "https://emf.fr/wp-content/uploads/2021/06/imagen-fruit-ninja-0thumb.jpeg",
+            "image": "https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
             "date_modified": "2024-04-20T14:30:00.000Z",
             "author": {
                 "name": "Espace Mendès France"
@@ -185,7 +197,7 @@
             "id": "https://emf.fr/ec3_event/mon-premier-jeu-video-ninja-fruits/",
             "url": "https://emf.fr/ec3_event/mon-premier-jeu-video-ninja-fruits/",
             "title": "Ninja fruits | Mon premier jeu video",
-            "image": "https://emf.fr/wp-content/uploads/2021/06/imagen-fruit-ninja-0thumb.jpeg",
+            "image": "https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
             "date_modified": "2024-02-24T14:30:00.000Z",
             "author": {
                 "name": "Espace Mendès France"
@@ -195,7 +207,7 @@
             "id": "https://emf.fr/ec3_event/mon-premier-jeu-video-pac-man/",
             "url": "https://emf.fr/ec3_event/mon-premier-jeu-video-pac-man/",
             "title": "Pac-Man | Mon premier jeu video",
-            "image": "https://emf.fr/wp-content/uploads/2016/05/Animation-Pac-Man-credit-Unsplash-scaled.jpg",
+            "image": "https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
             "date_modified": "2024-04-16T10:00:00.000Z",
             "author": {
                 "name": "Espace Mendès France"
@@ -205,7 +217,7 @@
             "id": "https://emf.fr/ec3_event/mon-premier-jeu-video-pac-man/",
             "url": "https://emf.fr/ec3_event/mon-premier-jeu-video-pac-man/",
             "title": "Pac-Man | Mon premier jeu video",
-            "image": "https://emf.fr/wp-content/uploads/2016/05/Animation-Pac-Man-credit-Unsplash-scaled.jpg",
+            "image": "https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
             "date_modified": "2024-02-20T10:00:00.000Z",
             "author": {
                 "name": "Espace Mendès France"
@@ -215,7 +227,7 @@
             "id": "https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/",
             "url": "https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/",
             "title": "Snake, le serpent qui se mord la queue | Mon premier jeu video",
-            "image": "https://emf.fr/wp-content/uploads/2023/01/istockphoto-1363586427-612x612-1.jpg",
+            "image": "https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
             "date_modified": "2024-04-25T14:30:00.000Z",
             "author": {
                 "name": "Espace Mendès France"
@@ -225,7 +237,7 @@
             "id": "https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/",
             "url": "https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/",
             "title": "Snake, le serpent qui se mord la queue | Mon premier jeu video",
-            "image": "https://emf.fr/wp-content/uploads/2023/01/istockphoto-1363586427-612x612-1.jpg",
+            "image": "https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
             "date_modified": "2024-02-29T14:30:00.000Z",
             "author": {
                 "name": "Espace Mendès France"
@@ -235,7 +247,7 @@
             "id": "https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/",
             "url": "https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/",
             "title": "Space invaders | Mon premier jeu video",
-            "image": "https://emf.fr/wp-content/uploads/2016/05/image-e1707925349588.png",
+            "image": "https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
             "date_modified": "2024-04-17T14:30:00.000Z",
             "author": {
                 "name": "Espace Mendès France"
@@ -245,7 +257,7 @@
             "id": "https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/",
             "url": "https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/",
             "title": "Space invaders | Mon premier jeu video",
-            "image": "https://emf.fr/wp-content/uploads/2016/05/image-e1707925349588.png",
+            "image": "https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
             "date_modified": "2024-02-21T14:30:00.000Z",
             "author": {
                 "name": "Espace Mendès France"

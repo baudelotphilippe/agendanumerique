@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Thu, 22 Feb 2024 01:04:46 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 Feb 2024 01:04:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -46,7 +46,7 @@
             <title><![CDATA[Datamation : comment le no-code permet aux data analyst de mettre un pied dans le produit]]></title>
             <link>http://pwn-association.org/evenements/datamation-comment-le-no-code-permet-aux-data-analyst-de-mettre-un-pied-dans-le-produit/</link>
             <guid>http://pwn-association.org/evenements/datamation-comment-le-no-code-permet-aux-data-analyst-de-mettre-un-pied-dans-le-produit/</guid>
-            <pubDate>Thu, 02 May 2024 18:30:00 GMT</pubDate>
+            <pubDate>Thu, 04 Apr 2024 18:30:00 GMT</pubDate>
             <enclosure url="http://pwn-association.org/media/filer_public/70/33/70333f8f-a6f4-4d5a-a04d-fb61acb79fb3/giphy_1.gif" length="0" type="image/gif"/>
         </item>
         <item>
@@ -173,13 +173,6 @@
             <link>https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/</link>
             <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/</guid>
             <pubDate>Wed, 17 Apr 2024 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Space invaders | Mon premier jeu video]]></title>
-            <link>https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/</link>
-            <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/</guid>
-            <pubDate>Wed, 21 Feb 2024 14:30:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>

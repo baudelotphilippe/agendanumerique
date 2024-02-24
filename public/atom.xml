@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://agendanumerique.vercel.app</id>
     <title>Agenda du numérique à Poitiers et ses environs</title>
-    <updated>2024-02-23T01:04:05.103Z</updated>
+    <updated>2024-02-24T01:02:29.973Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://agendanumerique.vercel.app"/>
     <subtitle>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</subtitle>
@@ -74,15 +74,6 @@
         <id>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</id>
         <link href="https://emf.fr/ec3_event/brickanoid-gare-aux-briques/"/>
         <updated>2024-04-17T14:30:00.000Z</updated>
-        <author>
-            <name>Espace Mendès France</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Brickanoid, gare aux briques ! | Mon premier jeu video –]]></title>
-        <id>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</id>
-        <link href="https://emf.fr/ec3_event/brickanoid-gare-aux-briques/"/>
-        <updated>2024-02-22T14:30:00.000Z</updated>
         <author>
             <name>Espace Mendès France</name>
         </author>

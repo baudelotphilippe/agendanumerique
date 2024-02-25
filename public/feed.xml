@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Sat, 24 Feb 2024 01:02:29 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 Feb 2024 01:09:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -103,13 +103,6 @@
             <link>https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/</link>
             <guid>https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/</guid>
             <pubDate>Fri, 19 Apr 2024 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Les aliens arrivent ! | Mon premier jeu video]]></title>
-            <link>https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/</link>
-            <guid>https://emf.fr/ec3_event/la-chasse-aux-aliens-commence/</guid>
-            <pubDate>Fri, 23 Feb 2024 14:30:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>

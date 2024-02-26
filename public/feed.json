@@ -174,16 +174,6 @@
             }
         },
         {
-            "id": "https://emf.fr/ec3_event/mon-premier-jeu-video-ninja-fruits/",
-            "url": "https://emf.fr/ec3_event/mon-premier-jeu-video-ninja-fruits/",
-            "title": "Ninja fruits | Mon premier jeu video",
-            "image": "https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
-            "date_modified": "2024-02-24T14:30:00.000Z",
-            "author": {
-                "name": "Espace Mendès France"
-            }
-        },
-        {
             "id": "https://emf.fr/ec3_event/mon-premier-jeu-video-pac-man/",
             "url": "https://emf.fr/ec3_event/mon-premier-jeu-video-pac-man/",
             "title": "Pac-Man | Mon premier jeu video",

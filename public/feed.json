@@ -17,16 +17,6 @@
         {
             "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
-            "title": "Digital Expresso #2 : Introduction à la cybersécurité ; Un enjeu sous estimé chez les PME",
-            "image": "https://www.cobaltpoitiers.fr/obj/20240215111820_digital-expresso-yann-pilpre.png",
-            "date_modified": "2024-03-05T08:30:00.000Z",
-            "author": {
-                "name": "SPN ; CCI Vienne ; Grand Poitiers ; RéseauCom86"
-            }
-        },
-        {
-            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
-            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "title": "Fresque de l'eau",
             "date_modified": "2024-04-11T18:30:00.000Z",
             "author": {
@@ -74,11 +64,31 @@
             }
         },
         {
+            "id": "https://emf.fr/ec3_event/surexposition-aux-ecrans-quel-impact-sur-nos-enfants/",
+            "url": "https://emf.fr/ec3_event/surexposition-aux-ecrans-quel-impact-sur-nos-enfants/",
+            "title": "(Sur)exposition aux ecrans : quel impact sur nos enfants ?",
+            "image": "https://emf.fr/wp-content/uploads/2023/12/2024-03-27_CFR-2024-03-15_TAB-Surexposition-aux-ecrans-enfants-LKevent.png",
+            "date_modified": "2024-03-15T18:30:00.000Z",
+            "author": {
+                "name": "Espace Mendès France"
+            }
+        },
+        {
             "id": "https://emf.fr/ec3_event/brickanoid-gare-aux-briques/",
             "url": "https://emf.fr/ec3_event/brickanoid-gare-aux-briques/",
             "title": "Brickanoid, gare aux briques ! | Mon premier jeu video –",
             "image": "https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
             "date_modified": "2024-04-17T14:30:00.000Z",
+            "author": {
+                "name": "Espace Mendès France"
+            }
+        },
+        {
+            "id": "https://emf.fr/ec3_event/ia-et-creation-le-champ-des-possibles/",
+            "url": "https://emf.fr/ec3_event/ia-et-creation-le-champ-des-possibles/",
+            "title": "IA et creation : quels defis a venir ?",
+            "image": "https://emf.fr/wp-content/uploads/2024/01/2024-03-07_ATE-Champs-des-possibles-affiche-A3_page-0001.jpg",
+            "date_modified": "2024-03-07T10:00:00.000Z",
             "author": {
                 "name": "Espace Mendès France"
             }
@@ -129,6 +139,16 @@
             "title": "Je debute avec ChatGPT",
             "image": "https://emf.fr/wp-content/uploads/2023/07/IA-credit-Pixabay-Cambridge_Spark.png",
             "date_modified": "2024-03-19T10:00:00.000Z",
+            "author": {
+                "name": "Espace Mendès France"
+            }
+        },
+        {
+            "id": "https://emf.fr/ec3_event/je-mets-en-page-avec-scribus-2/",
+            "url": "https://emf.fr/ec3_event/je-mets-en-page-avec-scribus-2/",
+            "title": "Je mets en page avec Scribus",
+            "image": "https://emf.fr/wp-content/uploads/2022/08/altumcode-fPPwHFn6Eis-unsplash-scaled.jpg",
+            "date_modified": "2024-03-16T14:00:00.000Z",
             "author": {
                 "name": "Espace Mendès France"
             }

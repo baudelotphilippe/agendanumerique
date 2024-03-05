@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://agendanumerique.vercel.app</id>
     <title>Agenda du numérique à Poitiers et ses environs</title>
-    <updated>2024-03-05T01:04:53.981Z</updated>
+    <updated>2024-03-05T14:53:28.897Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://agendanumerique.vercel.app"/>
     <subtitle>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</subtitle>
@@ -13,15 +13,6 @@
         <updated>2024-05-24T09:00:00.000Z</updated>
         <author>
             <name>AFUP Poitiers</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Digital Expresso #2 : Introduction à la cybersécurité ; Un enjeu sous estimé chez les PME]]></title>
-        <id>https://www.cobaltpoitiers.fr/agenda_1550.html</id>
-        <link href="https://www.cobaltpoitiers.fr/agenda_1550.html"/>
-        <updated>2024-03-05T08:30:00.000Z</updated>
-        <author>
-            <name>SPN ; CCI Vienne ; Grand Poitiers ; RéseauCom86</name>
         </author>
     </entry>
     <entry>
@@ -70,10 +61,28 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[(Sur)exposition aux ecrans : quel impact sur nos enfants ?]]></title>
+        <id>https://emf.fr/ec3_event/surexposition-aux-ecrans-quel-impact-sur-nos-enfants/</id>
+        <link href="https://emf.fr/ec3_event/surexposition-aux-ecrans-quel-impact-sur-nos-enfants/"/>
+        <updated>2024-03-15T18:30:00.000Z</updated>
+        <author>
+            <name>Espace Mendès France</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Brickanoid, gare aux briques ! | Mon premier jeu video –]]></title>
         <id>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</id>
         <link href="https://emf.fr/ec3_event/brickanoid-gare-aux-briques/"/>
         <updated>2024-04-17T14:30:00.000Z</updated>
+        <author>
+            <name>Espace Mendès France</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IA et creation : quels defis a venir ?]]></title>
+        <id>https://emf.fr/ec3_event/ia-et-creation-le-champ-des-possibles/</id>
+        <link href="https://emf.fr/ec3_event/ia-et-creation-le-champ-des-possibles/"/>
+        <updated>2024-03-07T10:00:00.000Z</updated>
         <author>
             <name>Espace Mendès France</name>
         </author>
@@ -119,6 +128,15 @@
         <id>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</id>
         <link href="https://emf.fr/ec3_event/je-debute-avec-chatgpt/"/>
         <updated>2024-03-19T10:00:00.000Z</updated>
+        <author>
+            <name>Espace Mendès France</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Je mets en page avec Scribus]]></title>
+        <id>https://emf.fr/ec3_event/je-mets-en-page-avec-scribus-2/</id>
+        <link href="https://emf.fr/ec3_event/je-mets-en-page-avec-scribus-2/"/>
+        <updated>2024-03-16T14:00:00.000Z</updated>
         <author>
             <name>Espace Mendès France</name>
         </author>

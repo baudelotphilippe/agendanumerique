@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Tue, 05 Mar 2024 01:04:53 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 05 Mar 2024 14:53:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,13 +14,6 @@
             <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
             <pubDate>Fri, 24 May 2024 09:00:00 GMT</pubDate>
             <enclosure url="https://www.cobaltpoitiers.fr/obj/20230531121144_afup-poitiers.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Digital Expresso #2 : Introduction à la cybersécurité ; Un enjeu sous estimé chez les PME]]></title>
-            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
-            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
-            <pubDate>Tue, 05 Mar 2024 08:30:00 GMT</pubDate>
-            <enclosure url="https://www.cobaltpoitiers.fr/obj/20240215111820_digital-expresso-yann-pilpre.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Fresque de l'eau]]></title>
@@ -57,11 +50,25 @@
             <enclosure url="http://pwn-association.org/media/filer_public/b9/be/b9be2ef4-1119-4d08-8097-001a8465800d/logo-afup-pwn.png" length="0" type="image/png"/>
         </item>
         <item>
+            <title><![CDATA[(Sur)exposition aux ecrans : quel impact sur nos enfants ?]]></title>
+            <link>https://emf.fr/ec3_event/surexposition-aux-ecrans-quel-impact-sur-nos-enfants/</link>
+            <guid>https://emf.fr/ec3_event/surexposition-aux-ecrans-quel-impact-sur-nos-enfants/</guid>
+            <pubDate>Fri, 15 Mar 2024 18:30:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2023/12/2024-03-27_CFR-2024-03-15_TAB-Surexposition-aux-ecrans-enfants-LKevent.png" length="0" type="image/png"/>
+        </item>
+        <item>
             <title><![CDATA[Brickanoid, gare aux briques ! | Mon premier jeu video –]]></title>
             <link>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</link>
             <guid>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</guid>
             <pubDate>Wed, 17 Apr 2024 14:30:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[IA et creation : quels defis a venir ?]]></title>
+            <link>https://emf.fr/ec3_event/ia-et-creation-le-champ-des-possibles/</link>
+            <guid>https://emf.fr/ec3_event/ia-et-creation-le-champ-des-possibles/</guid>
+            <pubDate>Thu, 07 Mar 2024 10:00:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2024/01/2024-03-07_ATE-Champs-des-possibles-affiche-A3_page-0001.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Je debute avec ChatGPT]]></title>
@@ -97,6 +104,13 @@
             <guid>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</guid>
             <pubDate>Tue, 19 Mar 2024 10:00:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2023/07/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Je mets en page avec Scribus]]></title>
+            <link>https://emf.fr/ec3_event/je-mets-en-page-avec-scribus-2/</link>
+            <guid>https://emf.fr/ec3_event/je-mets-en-page-avec-scribus-2/</guid>
+            <pubDate>Sat, 16 Mar 2024 14:00:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2022/08/altumcode-fPPwHFn6Eis-unsplash-scaled.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Les aliens arrivent ! | Mon premier jeu video]]></title>

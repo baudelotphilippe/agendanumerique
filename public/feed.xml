@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Thu, 07 Mar 2024 00:54:15 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 08 Mar 2024 01:04:53 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -26,13 +26,6 @@
             <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
             <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
             <pubDate>Thu, 11 Apr 2024 18:30:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Fresque de la biodiversité]]></title>
-            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
-            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
-            <pubDate>Thu, 07 Mar 2024 18:30:00 GMT</pubDate>
-            <enclosure url="https://www.cobaltpoitiers.fr/obj/20240216143948_logo-fresque-de-la-biodiversite-1.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Super Apéro PHP by AFUP & PWN :]]></title>

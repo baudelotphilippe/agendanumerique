@@ -17,6 +17,16 @@
         {
             "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "title": "Afterwork Pépite : Nos plus belles réussites et nos plus beaux échecs",
+            "image": "https://www.cobaltpoitiers.fr/obj/20240308153528_afterwork-pepite.jpeg",
+            "date_modified": "2024-03-28T18:00:00.000Z",
+            "author": {
+                "name": "Pépite Poitiers ; Cobalt ; SPN ; Université de Poitiers ; Région Nouvelle Aquitaine"
+            }
+        },
+        {
+            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "title": "Digital Expresso #3 : La vidéo et la photo comme outil de valorisation de votre entreprise",
             "date_modified": "2024-04-02T08:30:00.000Z",
             "author": {
@@ -78,16 +88,6 @@
             "title": "Brickanoid, gare aux briques ! | Mon premier jeu video –",
             "image": "https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
             "date_modified": "2024-04-17T14:30:00.000Z",
-            "author": {
-                "name": "Espace Mendès France"
-            }
-        },
-        {
-            "id": "https://emf.fr/ec3_event/ia-et-creation-le-champ-des-possibles/",
-            "url": "https://emf.fr/ec3_event/ia-et-creation-le-champ-des-possibles/",
-            "title": "IA et creation : quels defis a venir ?",
-            "image": "https://emf.fr/wp-content/uploads/2024/01/2024-03-07_ATE-Champs-des-possibles-affiche-A3_page-0001.jpg",
-            "date_modified": "2024-03-07T10:00:00.000Z",
             "author": {
                 "name": "Espace Mendès France"
             }

@@ -53,16 +53,6 @@
             }
         },
         {
-            "id": "https://emf.fr/ec3_event/surexposition-aux-ecrans-quel-impact-sur-nos-enfants/",
-            "url": "https://emf.fr/ec3_event/surexposition-aux-ecrans-quel-impact-sur-nos-enfants/",
-            "title": "(Sur)exposition aux ecrans : quel impact sur nos enfants ?",
-            "image": "https://emf.fr/wp-content/uploads/2023/12/2024-03-27_CFR-2024-03-15_TAB-Surexposition-aux-ecrans-enfants-LKevent.png",
-            "date_modified": "2024-03-15T18:30:00.000Z",
-            "author": {
-                "name": "Espace Mendès France"
-            }
-        },
-        {
             "id": "https://emf.fr/ec3_event/brickanoid-gare-aux-briques/",
             "url": "https://emf.fr/ec3_event/brickanoid-gare-aux-briques/",
             "title": "Brickanoid, gare aux briques ! | Mon premier jeu video –",
@@ -118,16 +108,6 @@
             "title": "Je debute avec ChatGPT",
             "image": "https://emf.fr/wp-content/uploads/2023/07/IA-credit-Pixabay-Cambridge_Spark.png",
             "date_modified": "2024-03-19T10:00:00.000Z",
-            "author": {
-                "name": "Espace Mendès France"
-            }
-        },
-        {
-            "id": "https://emf.fr/ec3_event/je-mets-en-page-avec-scribus-2/",
-            "url": "https://emf.fr/ec3_event/je-mets-en-page-avec-scribus-2/",
-            "title": "Je mets en page avec Scribus",
-            "image": "https://emf.fr/wp-content/uploads/2022/08/altumcode-fPPwHFn6Eis-unsplash-scaled.jpg",
-            "date_modified": "2024-03-16T14:00:00.000Z",
             "author": {
                 "name": "Espace Mendès France"
             }

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://agendanumerique.vercel.app</id>
     <title>Agenda du numérique à Poitiers et ses environs</title>
-    <updated>2024-03-16T01:04:06.637Z</updated>
+    <updated>2024-03-18T01:06:31.674Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://agendanumerique.vercel.app"/>
     <subtitle>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</subtitle>
@@ -49,15 +49,6 @@
         <updated>2024-04-04T18:30:00.000Z</updated>
         <author>
             <name>Pwn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[(Sur)exposition aux ecrans : quel impact sur nos enfants ?]]></title>
-        <id>https://emf.fr/ec3_event/surexposition-aux-ecrans-quel-impact-sur-nos-enfants/</id>
-        <link href="https://emf.fr/ec3_event/surexposition-aux-ecrans-quel-impact-sur-nos-enfants/"/>
-        <updated>2024-03-15T18:30:00.000Z</updated>
-        <author>
-            <name>Espace Mendès France</name>
         </author>
     </entry>
     <entry>
@@ -110,15 +101,6 @@
         <id>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</id>
         <link href="https://emf.fr/ec3_event/je-debute-avec-chatgpt/"/>
         <updated>2024-03-19T10:00:00.000Z</updated>
-        <author>
-            <name>Espace Mendès France</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Je mets en page avec Scribus]]></title>
-        <id>https://emf.fr/ec3_event/je-mets-en-page-avec-scribus-2/</id>
-        <link href="https://emf.fr/ec3_event/je-mets-en-page-avec-scribus-2/"/>
-        <updated>2024-03-16T14:00:00.000Z</updated>
         <author>
             <name>Espace Mendès France</name>
         </author>

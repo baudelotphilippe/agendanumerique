@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Mon, 25 Mar 2024 01:07:36 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Mar 2024 01:05:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -33,6 +33,13 @@
             <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
             <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
             <pubDate>Thu, 11 Apr 2024 18:30:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Table ronde, comment l'IA va-t-elle VRAIMENT impacter nos métiers ?]]></title>
+            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
+            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
+            <pubDate>Thu, 11 Apr 2024 18:00:00 GMT</pubDate>
+            <enclosure url="https://www.cobaltpoitiers.fr/obj/20240325161753_flyer-table-ronde-ia-11-avril-2024.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Datamation : comment le no-code permet aux data analyst de mettre un pied dans le produit]]></title>

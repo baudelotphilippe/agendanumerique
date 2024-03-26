@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://agendanumerique.vercel.app</id>
     <title>Agenda du numérique à Poitiers et ses environs</title>
-    <updated>2024-03-25T01:07:36.414Z</updated>
+    <updated>2024-03-26T01:05:54.485Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://agendanumerique.vercel.app"/>
     <subtitle>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</subtitle>
@@ -40,6 +40,15 @@
         <updated>2024-04-11T18:30:00.000Z</updated>
         <author>
             <name>Cobalt ; Olivier Van Straelen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Table ronde, comment l'IA va-t-elle VRAIMENT impacter nos métiers ?]]></title>
+        <id>https://www.cobaltpoitiers.fr/agenda_1550.html</id>
+        <link href="https://www.cobaltpoitiers.fr/agenda_1550.html"/>
+        <updated>2024-04-11T18:00:00.000Z</updated>
+        <author>
+            <name>Jean-Christian Rivet</name>
         </author>
     </entry>
     <entry>

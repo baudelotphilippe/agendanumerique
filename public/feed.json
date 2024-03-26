@@ -43,6 +43,16 @@
             }
         },
         {
+            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "title": "Table ronde, comment l'IA va-t-elle VRAIMENT impacter nos métiers ?",
+            "image": "https://www.cobaltpoitiers.fr/obj/20240325161753_flyer-table-ronde-ia-11-avril-2024.png",
+            "date_modified": "2024-04-11T18:00:00.000Z",
+            "author": {
+                "name": "Jean-Christian Rivet"
+            }
+        },
+        {
             "id": "http://pwn-association.org/evenements/datamation-comment-le-no-code-permet-aux-data-analyst-de-mettre-un-pied-dans-le-produit/",
             "url": "http://pwn-association.org/evenements/datamation-comment-le-no-code-permet-aux-data-analyst-de-mettre-un-pied-dans-le-produit/",
             "title": "Datamation : comment le no-code permet aux data analyst de mettre un pied dans le produit",

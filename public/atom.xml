@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://agendanumerique.vercel.app</id>
     <title>Agenda du numérique à Poitiers et ses environs</title>
-    <updated>2024-03-27T01:05:35.220Z</updated>
+    <updated>2024-03-29T01:06:15.147Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://agendanumerique.vercel.app"/>
     <subtitle>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</subtitle>
@@ -16,19 +16,19 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Afterwork Pépite : Nos plus belles réussites et nos plus beaux échecs]]></title>
-        <id>https://www.cobaltpoitiers.fr/agenda_1550.html</id>
-        <link href="https://www.cobaltpoitiers.fr/agenda_1550.html"/>
-        <updated>2024-03-28T18:00:00.000Z</updated>
-        <author>
-            <name>Pépite Poitiers ; Cobalt ; SPN ; Université de Poitiers ; Région Nouvelle Aquitaine</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Digital Expresso #3 : La vidéo et la photo comme outil de valorisation de votre entreprise]]></title>
         <id>https://www.cobaltpoitiers.fr/agenda_1550.html</id>
         <link href="https://www.cobaltpoitiers.fr/agenda_1550.html"/>
         <updated>2024-04-02T08:30:00.000Z</updated>
+        <author>
+            <name>SPN ; CCI Vienne ; Grand Poitiers ; RéseauCom86</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Digital Expresso #4 : Objectif zéro inbox : comment bien gérer sa boite mail pour ne plus être submergé ?]]></title>
+        <id>https://www.cobaltpoitiers.fr/agenda_1550.html</id>
+        <link href="https://www.cobaltpoitiers.fr/agenda_1550.html"/>
+        <updated>2024-05-07T08:30:00.000Z</updated>
         <author>
             <name>SPN ; CCI Vienne ; Grand Poitiers ; RéseauCom86</name>
         </author>
@@ -40,6 +40,15 @@
         <updated>2024-04-11T18:30:00.000Z</updated>
         <author>
             <name>Cobalt ; Olivier Van Straelen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Réveil Entrepreneurial by BGE]]></title>
+        <id>https://www.cobaltpoitiers.fr/agenda_1550.html</id>
+        <link href="https://www.cobaltpoitiers.fr/agenda_1550.html"/>
+        <updated>2024-04-09T09:00:00.000Z</updated>
+        <author>
+            <name>BGE</name>
         </author>
     </entry>
     <entry>

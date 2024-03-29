@@ -17,18 +17,18 @@
         {
             "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
-            "title": "Afterwork Pépite : Nos plus belles réussites et nos plus beaux échecs",
-            "image": "https://www.cobaltpoitiers.fr/obj/20240308153528_afterwork-pepite.jpeg",
-            "date_modified": "2024-03-28T18:00:00.000Z",
+            "title": "Digital Expresso #3 : La vidéo et la photo comme outil de valorisation de votre entreprise",
+            "date_modified": "2024-04-02T08:30:00.000Z",
             "author": {
-                "name": "Pépite Poitiers ; Cobalt ; SPN ; Université de Poitiers ; Région Nouvelle Aquitaine"
+                "name": "SPN ; CCI Vienne ; Grand Poitiers ; RéseauCom86"
             }
         },
         {
             "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
-            "title": "Digital Expresso #3 : La vidéo et la photo comme outil de valorisation de votre entreprise",
-            "date_modified": "2024-04-02T08:30:00.000Z",
+            "title": "Digital Expresso #4 : Objectif zéro inbox : comment bien gérer sa boite mail pour ne plus être submergé ?",
+            "image": "https://www.cobaltpoitiers.fr/obj/20240328160233_template-digital-expresso-digilux.png",
+            "date_modified": "2024-05-07T08:30:00.000Z",
             "author": {
                 "name": "SPN ; CCI Vienne ; Grand Poitiers ; RéseauCom86"
             }
@@ -40,6 +40,16 @@
             "date_modified": "2024-04-11T18:30:00.000Z",
             "author": {
                 "name": "Cobalt ; Olivier Van Straelen"
+            }
+        },
+        {
+            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "title": "Réveil Entrepreneurial by BGE",
+            "image": "https://www.cobaltpoitiers.fr/obj/20240328142426_bge.jpeg",
+            "date_modified": "2024-04-09T09:00:00.000Z",
+            "author": {
+                "name": "BGE"
             }
         },
         {

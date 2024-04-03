@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Tue, 02 Apr 2024 01:09:41 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Apr 2024 01:06:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,12 +14,6 @@
             <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
             <pubDate>Fri, 24 May 2024 09:00:00 GMT</pubDate>
             <enclosure url="https://www.cobaltpoitiers.fr/obj/20230531121144_afup-poitiers.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Digital Expresso #3 : La vidéo et la photo comme outil de valorisation de votre entreprise]]></title>
-            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
-            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
-            <pubDate>Tue, 02 Apr 2024 08:30:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Digital Expresso #4 : Objectif zéro inbox : comment bien gérer sa boite mail pour ne plus être submergé ?]]></title>

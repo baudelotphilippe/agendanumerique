@@ -54,16 +54,6 @@
             }
         },
         {
-            "id": "http://pwn-association.org/evenements/datamation-comment-le-no-code-permet-aux-data-analyst-de-mettre-un-pied-dans-le-produit/",
-            "url": "http://pwn-association.org/evenements/datamation-comment-le-no-code-permet-aux-data-analyst-de-mettre-un-pied-dans-le-produit/",
-            "title": "Datamation : comment le no-code permet aux data analyst de mettre un pied dans le produit",
-            "image": "http://pwn-association.org/media/filer_public/70/33/70333f8f-a6f4-4d5a-a04d-fb61acb79fb3/giphy_1.gif",
-            "date_modified": "2024-04-04T18:30:00.000Z",
-            "author": {
-                "name": "Pwn"
-            }
-        },
-        {
             "id": "https://emf.fr/ec3_event/brickanoid-gare-aux-briques/",
             "url": "https://emf.fr/ec3_event/brickanoid-gare-aux-briques/",
             "title": "Brickanoid, gare aux briques ! | Mon premier jeu video –",

@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Fri, 05 Apr 2024 01:06:45 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Apr 2024 01:04:59 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -53,13 +53,6 @@
             <title><![CDATA[Je debute avec ChatGPT]]></title>
             <link>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</link>
             <guid>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</guid>
-            <pubDate>Thu, 02 May 2024 10:00:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2023/07/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Je debute avec ChatGPT]]></title>
-            <link>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</link>
-            <guid>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</guid>
             <pubDate>Tue, 04 Jun 2024 14:00:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2023/07/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
         </item>
@@ -74,7 +67,7 @@
             <title><![CDATA[Je debute avec ChatGPT]]></title>
             <link>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</link>
             <guid>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</guid>
-            <pubDate>Thu, 04 Apr 2024 10:00:00 GMT</pubDate>
+            <pubDate>Thu, 02 May 2024 10:00:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2023/07/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
         </item>
         <item>

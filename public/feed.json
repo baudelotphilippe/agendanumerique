@@ -25,25 +25,6 @@
             }
         },
         {
-            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
-            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
-            "title": "Fresque de l'eau",
-            "date_modified": "2024-04-11T18:30:00.000Z",
-            "author": {
-                "name": "Cobalt ; Olivier Van Straelen"
-            }
-        },
-        {
-            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
-            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
-            "title": "Table ronde, comment l'IA va-t-elle VRAIMENT impacter nos métiers ?",
-            "image": "https://www.cobaltpoitiers.fr/obj/20240325161753_flyer-table-ronde-ia-11-avril-2024.png",
-            "date_modified": "2024-04-11T18:00:00.000Z",
-            "author": {
-                "name": "Jean-Christian Rivet"
-            }
-        },
-        {
             "id": "https://emf.fr/ec3_event/brickanoid-gare-aux-briques/",
             "url": "https://emf.fr/ec3_event/brickanoid-gare-aux-briques/",
             "title": "Brickanoid, gare aux briques ! | Mon premier jeu video –",

@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Wed, 17 Apr 2024 01:07:29 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Apr 2024 01:07:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -72,24 +72,10 @@
             <enclosure url="https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>
-            <title><![CDATA[Pac-Man | Mon premier jeu video]]></title>
-            <link>https://emf.fr/ec3_event/mon-premier-jeu-video-pac-man/</link>
-            <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-pac-man/</guid>
-            <pubDate>Tue, 16 Apr 2024 10:00:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
-        </item>
-        <item>
             <title><![CDATA[Snake, le serpent qui se mord la queue | Mon premier jeu video]]></title>
             <link>https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/</link>
             <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/</guid>
             <pubDate>Thu, 25 Apr 2024 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Space invaders | Mon premier jeu video]]></title>
-            <link>https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/</link>
-            <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/</guid>
-            <pubDate>Wed, 17 Apr 2024 14:30:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>

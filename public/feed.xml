@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Sun, 21 Apr 2024 01:12:35 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 23 Apr 2024 01:08:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -55,13 +55,6 @@
             <link>https://emf.fr/ec3_event/mon-premier-jeu-video-les-fous-du-volant/</link>
             <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-les-fous-du-volant/</guid>
             <pubDate>Tue, 23 Apr 2024 10:00:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Ninja fruits | Mon premier jeu video]]></title>
-            <link>https://emf.fr/ec3_event/mon-premier-jeu-video-ninja-fruits/</link>
-            <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-ninja-fruits/</guid>
-            <pubDate>Sat, 20 Apr 2024 14:30:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>

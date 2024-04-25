@@ -65,16 +65,6 @@
             }
         },
         {
-            "id": "https://emf.fr/ec3_event/mon-premier-jeu-video-les-fous-du-volant/",
-            "url": "https://emf.fr/ec3_event/mon-premier-jeu-video-les-fous-du-volant/",
-            "title": "Les fous du volant | Mon premier jeu video",
-            "image": "https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
-            "date_modified": "2024-04-23T10:00:00.000Z",
-            "author": {
-                "name": "Espace Mendès France"
-            }
-        },
-        {
             "id": "https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/",
             "url": "https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/",
             "title": "Snake, le serpent qui se mord la queue | Mon premier jeu video",

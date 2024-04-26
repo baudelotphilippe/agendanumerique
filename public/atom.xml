@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://agendanumerique.vercel.app</id>
     <title>Agenda du numérique à Poitiers et ses environs</title>
-    <updated>2024-04-25T01:10:05.277Z</updated>
+    <updated>2024-04-26T01:08:21.321Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://agendanumerique.vercel.app"/>
     <subtitle>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</subtitle>
@@ -56,15 +56,6 @@
         <id>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</id>
         <link href="https://emf.fr/ec3_event/je-debute-avec-chatgpt/"/>
         <updated>2024-05-02T10:00:00.000Z</updated>
-        <author>
-            <name>Espace Mendès France</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Snake, le serpent qui se mord la queue | Mon premier jeu video]]></title>
-        <id>https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/</id>
-        <link href="https://emf.fr/ec3_event/mon-premier-jeu-video-snake-le-serpent-qui-se-mord-la-queue/"/>
-        <updated>2024-04-25T14:30:00.000Z</updated>
         <author>
             <name>Espace Mendès France</name>
         </author>

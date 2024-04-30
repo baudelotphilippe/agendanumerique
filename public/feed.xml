@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Mon, 29 Apr 2024 01:09:30 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 Apr 2024 01:08:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -28,6 +28,13 @@
             <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
             <pubDate>Thu, 16 May 2024 18:30:00 GMT</pubDate>
             <enclosure url="https://www.cobaltpoitiers.fr/obj/20240419094158_fresque-du-numerique.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[PWN Quickies #5]]></title>
+            <link>http://pwn-association.org/evenements/pwn-quickies-5/</link>
+            <guid>http://pwn-association.org/evenements/pwn-quickies-5/</guid>
+            <pubDate>Thu, 16 May 2024 18:30:00 GMT</pubDate>
+            <enclosure url="http://pwn-association.org/media/filer_public/5a/9f/5a9f7149-2826-47c0-8c9d-ffb2fb33eb80/giphylkjbh.gif" length="0" type="image/gif"/>
         </item>
         <item>
             <title><![CDATA[Je debute avec ChatGPT]]></title>

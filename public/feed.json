@@ -35,6 +35,16 @@
             }
         },
         {
+            "id": "http://pwn-association.org/evenements/pwn-quickies-5/",
+            "url": "http://pwn-association.org/evenements/pwn-quickies-5/",
+            "title": "PWN Quickies #5",
+            "image": "http://pwn-association.org/media/filer_public/5a/9f/5a9f7149-2826-47c0-8c9d-ffb2fb33eb80/giphylkjbh.gif",
+            "date_modified": "2024-05-16T18:30:00.000Z",
+            "author": {
+                "name": "Pwn"
+            }
+        },
+        {
             "id": "https://emf.fr/ec3_event/je-debute-avec-chatgpt/",
             "url": "https://emf.fr/ec3_event/je-debute-avec-chatgpt/",
             "title": "Je debute avec ChatGPT",

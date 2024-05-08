@@ -4,10 +4,17 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Tue, 07 May 2024 01:09:50 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 May 2024 00:57:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
+        <item>
+            <title><![CDATA[[Conférence] Une Start-Up, ce n’est pas ce que vous croyez 🚀]]></title>
+            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
+            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
+            <pubDate>Thu, 06 Jun 2024 18:00:00 GMT</pubDate>
+            <enclosure url="https://www.cobaltpoitiers.fr/obj/20240507160615_conference-ftpc-gaubilafterwork-ftpc-2023@4x-1024x576.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[AFUP Day]]></title>
             <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
@@ -16,11 +23,23 @@
             <enclosure url="https://www.cobaltpoitiers.fr/obj/20230531121144_afup-poitiers.png" length="0" type="image/png"/>
         </item>
         <item>
-            <title><![CDATA[Digital Expresso #4 : Objectif zéro inbox : comment bien gérer sa boite mail pour ne plus être submergé ?]]></title>
+            <title><![CDATA[Digital Expresso #5 ; IA : Libérer du temps de rédaction grâce à l'intelligence artificielle]]></title>
             <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
             <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
-            <pubDate>Tue, 07 May 2024 08:30:00 GMT</pubDate>
-            <enclosure url="https://www.cobaltpoitiers.fr/obj/20240328160233_template-digital-expresso-digilux.png" length="0" type="image/png"/>
+            <pubDate>Tue, 04 Jun 2024 08:30:00 GMT</pubDate>
+            <enclosure url="https://www.cobaltpoitiers.fr/obj/20240507141733_digital-expresso-vincent-renard.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Fresque Océane]]></title>
+            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
+            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
+            <pubDate>Sun, 07 Jul 2024 18:30:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Fresque de la forêt]]></title>
+            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
+            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
+            <pubDate>Thu, 13 Jun 2024 18:30:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Fresque du numérique]]></title>

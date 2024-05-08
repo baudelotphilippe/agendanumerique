@@ -7,6 +7,16 @@
         {
             "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "title": "[Conférence] Une Start-Up, ce n’est pas ce que vous croyez 🚀",
+            "image": "https://www.cobaltpoitiers.fr/obj/20240507160615_conference-ftpc-gaubilafterwork-ftpc-2023@4x-1024x576.png",
+            "date_modified": "2024-06-06T18:00:00.000Z",
+            "author": {
+                "name": "FrenchTech Poitou Charentes ; SPN"
+            }
+        },
+        {
+            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "title": "AFUP Day",
             "image": "https://www.cobaltpoitiers.fr/obj/20230531121144_afup-poitiers.png",
             "date_modified": "2024-05-24T09:00:00.000Z",
@@ -17,11 +27,29 @@
         {
             "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
-            "title": "Digital Expresso #4 : Objectif zéro inbox : comment bien gérer sa boite mail pour ne plus être submergé ?",
-            "image": "https://www.cobaltpoitiers.fr/obj/20240328160233_template-digital-expresso-digilux.png",
-            "date_modified": "2024-05-07T08:30:00.000Z",
+            "title": "Digital Expresso #5 ; IA : Libérer du temps de rédaction grâce à l'intelligence artificielle",
+            "image": "https://www.cobaltpoitiers.fr/obj/20240507141733_digital-expresso-vincent-renard.png",
+            "date_modified": "2024-06-04T08:30:00.000Z",
             "author": {
                 "name": "SPN ; CCI Vienne ; Grand Poitiers ; RéseauCom86"
+            }
+        },
+        {
+            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "title": "Fresque Océane",
+            "date_modified": "2024-07-07T18:30:00.000Z",
+            "author": {
+                "name": "Cobalt ; Olivier Van Straelen"
+            }
+        },
+        {
+            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "title": "Fresque de la forêt",
+            "date_modified": "2024-06-13T18:30:00.000Z",
+            "author": {
+                "name": "Cobalt ; Olivier Van Straelen"
             }
         },
         {

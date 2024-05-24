@@ -27,9 +27,39 @@
         {
             "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "title": "Apéro de l'AFUP : Élections & IA",
+            "image": "https://www.cobaltpoitiers.fr/obj/20230531121144_afup-poitiers.png",
+            "date_modified": "2024-06-13T19:00:00.000Z",
+            "author": {
+                "name": "AFUP Poitiers"
+            }
+        },
+        {
+            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "title": "Comment innover par le cloud ?",
+            "image": "https://www.cobaltpoitiers.fr/obj/20240523111053_visuel-conf-aws-paul-santus.png",
+            "date_modified": "2024-06-18T18:00:00.000Z",
+            "author": {
+                "name": "Poitiers AWS User Group"
+            }
+        },
+        {
+            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "title": "Digital Expresso #5 ; IA : Libérer du temps de rédaction grâce à l'intelligence artificielle",
             "image": "https://www.cobaltpoitiers.fr/obj/20240507141733_digital-expresso-vincent-renard.png",
             "date_modified": "2024-06-04T08:30:00.000Z",
+            "author": {
+                "name": "SPN ; CCI Vienne ; Grand Poitiers ; RéseauCom86"
+            }
+        },
+        {
+            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "title": "Digital Expresso #6 : Comment réussir une communication interne sans accroc ?",
+            "image": "https://www.cobaltpoitiers.fr/obj/20240523121334_digital-expresso-elodie-poudevigne.png",
+            "date_modified": "2024-07-02T08:30:00.000Z",
             "author": {
                 "name": "SPN ; CCI Vienne ; Grand Poitiers ; RéseauCom86"
             }
@@ -47,9 +77,20 @@
             "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "title": "Fresque de la forêt",
+            "image": "https://www.cobaltpoitiers.fr/obj/20240523103653_fresque-de-la-foret.png",
             "date_modified": "2024-06-13T18:30:00.000Z",
             "author": {
                 "name": "Cobalt ; Olivier Van Straelen"
+            }
+        },
+        {
+            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "title": "Workshop développeurs et IA : Programme ton réseau de neurones",
+            "image": "https://www.cobaltpoitiers.fr/obj/20240523104900_club-des-devs.png",
+            "date_modified": "2024-07-04T14:00:00.000Z",
+            "author": {
+                "name": "Cobalt ; SPN"
             }
         },
         {

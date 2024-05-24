@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Thu, 23 May 2024 01:10:35 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 May 2024 01:11:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -23,11 +23,32 @@
             <enclosure url="https://www.cobaltpoitiers.fr/obj/20230531121144_afup-poitiers.png" length="0" type="image/png"/>
         </item>
         <item>
+            <title><![CDATA[Apéro de l'AFUP : Élections & IA]]></title>
+            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
+            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
+            <pubDate>Thu, 13 Jun 2024 19:00:00 GMT</pubDate>
+            <enclosure url="https://www.cobaltpoitiers.fr/obj/20230531121144_afup-poitiers.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Comment innover par le cloud ?]]></title>
+            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
+            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
+            <pubDate>Tue, 18 Jun 2024 18:00:00 GMT</pubDate>
+            <enclosure url="https://www.cobaltpoitiers.fr/obj/20240523111053_visuel-conf-aws-paul-santus.png" length="0" type="image/png"/>
+        </item>
+        <item>
             <title><![CDATA[Digital Expresso #5 ; IA : Libérer du temps de rédaction grâce à l'intelligence artificielle]]></title>
             <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
             <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
             <pubDate>Tue, 04 Jun 2024 08:30:00 GMT</pubDate>
             <enclosure url="https://www.cobaltpoitiers.fr/obj/20240507141733_digital-expresso-vincent-renard.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Digital Expresso #6 : Comment réussir une communication interne sans accroc ?]]></title>
+            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
+            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
+            <pubDate>Tue, 02 Jul 2024 08:30:00 GMT</pubDate>
+            <enclosure url="https://www.cobaltpoitiers.fr/obj/20240523121334_digital-expresso-elodie-poudevigne.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Fresque Océane]]></title>
@@ -40,6 +61,14 @@
             <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
             <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
             <pubDate>Thu, 13 Jun 2024 18:30:00 GMT</pubDate>
+            <enclosure url="https://www.cobaltpoitiers.fr/obj/20240523103653_fresque-de-la-foret.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Workshop développeurs et IA : Programme ton réseau de neurones]]></title>
+            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
+            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
+            <pubDate>Thu, 04 Jul 2024 14:00:00 GMT</pubDate>
+            <enclosure url="https://www.cobaltpoitiers.fr/obj/20240523104900_club-des-devs.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Brickanoid, gare aux briques ! | Mon premier jeu video –]]></title>

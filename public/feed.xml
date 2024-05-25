@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Fri, 24 May 2024 01:11:17 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 25 May 2024 01:10:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,13 +14,6 @@
             <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
             <pubDate>Thu, 06 Jun 2024 18:00:00 GMT</pubDate>
             <enclosure url="https://www.cobaltpoitiers.fr/obj/20240507160615_conference-ftpc-gaubilafterwork-ftpc-2023@4x-1024x576.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[AFUP Day]]></title>
-            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
-            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
-            <pubDate>Fri, 24 May 2024 09:00:00 GMT</pubDate>
-            <enclosure url="https://www.cobaltpoitiers.fr/obj/20230531121144_afup-poitiers.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Apéro de l'AFUP : Élections & IA]]></title>

@@ -4,37 +4,16 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Wed, 29 May 2024 01:14:50 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 14 Jun 2024 01:13:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
-        <item>
-            <title><![CDATA[[Conférence] Une Start-Up, ce n’est pas ce que vous croyez 🚀]]></title>
-            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
-            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
-            <pubDate>Thu, 06 Jun 2024 18:00:00 GMT</pubDate>
-            <enclosure url="https://www.cobaltpoitiers.fr/obj/20240507160615_conference-ftpc-gaubilafterwork-ftpc-2023@4x-1024x576.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Apéro de l'AFUP : Élections & IA]]></title>
-            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
-            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
-            <pubDate>Thu, 13 Jun 2024 19:00:00 GMT</pubDate>
-            <enclosure url="https://www.cobaltpoitiers.fr/obj/20230531121144_afup-poitiers.png" length="0" type="image/png"/>
-        </item>
         <item>
             <title><![CDATA[Comment innover par le cloud ?]]></title>
             <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
             <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
             <pubDate>Tue, 18 Jun 2024 18:00:00 GMT</pubDate>
             <enclosure url="https://www.cobaltpoitiers.fr/obj/20240523111053_visuel-conf-aws-paul-santus.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Digital Expresso #5 ; IA : Libérer du temps de rédaction grâce à l'intelligence artificielle]]></title>
-            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
-            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
-            <pubDate>Tue, 04 Jun 2024 08:30:00 GMT</pubDate>
-            <enclosure url="https://www.cobaltpoitiers.fr/obj/20240507141733_digital-expresso-vincent-renard.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Digital Expresso #6 : Comment réussir une communication interne sans accroc ?]]></title>
@@ -47,14 +26,7 @@
             <title><![CDATA[Fresque Océane]]></title>
             <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
             <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
-            <pubDate>Sun, 07 Jul 2024 18:30:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Fresque de la forêt]]></title>
-            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
-            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
-            <pubDate>Thu, 13 Jun 2024 18:30:00 GMT</pubDate>
-            <enclosure url="https://www.cobaltpoitiers.fr/obj/20240523103653_fresque-de-la-foret.png" length="0" type="image/png"/>
+            <pubDate>Thu, 04 Jul 2024 18:30:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Workshop développeurs et IA : Programme ton réseau de neurones]]></title>
@@ -62,6 +34,13 @@
             <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
             <pubDate>Thu, 04 Jul 2024 14:00:00 GMT</pubDate>
             <enclosure url="https://www.cobaltpoitiers.fr/obj/20240523104900_club-des-devs.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[PWN PowerPoint Karaoke #3]]></title>
+            <link>http://pwn-association.org/evenements/pwn-powerpoint-karaoke-3/</link>
+            <guid>http://pwn-association.org/evenements/pwn-powerpoint-karaoke-3/</guid>
+            <pubDate>Thu, 20 Jun 2024 18:30:00 GMT</pubDate>
+            <enclosure url="http://pwn-association.org/media/filer_public/7e/33/7e33da00-9e9b-4787-8451-149a7a173253/giphy.gif" length="0" type="image/gif"/>
         </item>
         <item>
             <title><![CDATA[Brickanoid, gare aux briques ! | Mon premier jeu video –]]></title>
@@ -82,13 +61,6 @@
             <link>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</link>
             <guid>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</guid>
             <pubDate>Thu, 13 Jun 2024 10:00:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2023/07/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Je debute avec ChatGPT]]></title>
-            <link>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</link>
-            <guid>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</guid>
-            <pubDate>Tue, 04 Jun 2024 14:00:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2023/07/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -160,13 +132,6 @@
             <guid>https://emf.fr/ec3_event/une-ia-massiste-pour-creer-mon-site-web/</guid>
             <pubDate>Tue, 18 Jun 2024 14:00:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2023/07/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[🚀 Election + Echange libre autour de l'IA 🚀]]></title>
-            <link>https://www.meetup.com/afup-poitiers-php/events/301174914/</link>
-            <guid>https://www.meetup.com/afup-poitiers-php/events/301174914/</guid>
-            <pubDate>Thu, 13 Jun 2024 17:00:00 GMT</pubDate>
-            <enclosure url="https://secure.meetupstatic.com/photos/event/9/7/c/a/600_511718858.jpeg" length="0" type="image/jpeg"/>
         </item>
     </channel>
 </rss>

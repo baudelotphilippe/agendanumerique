@@ -7,41 +7,11 @@
         {
             "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
-            "title": "[Conférence] Une Start-Up, ce n’est pas ce que vous croyez 🚀",
-            "image": "https://www.cobaltpoitiers.fr/obj/20240507160615_conference-ftpc-gaubilafterwork-ftpc-2023@4x-1024x576.png",
-            "date_modified": "2024-06-06T18:00:00.000Z",
-            "author": {
-                "name": "FrenchTech Poitou Charentes ; SPN"
-            }
-        },
-        {
-            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
-            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
-            "title": "Apéro de l'AFUP : Élections & IA",
-            "image": "https://www.cobaltpoitiers.fr/obj/20230531121144_afup-poitiers.png",
-            "date_modified": "2024-06-13T19:00:00.000Z",
-            "author": {
-                "name": "AFUP Poitiers"
-            }
-        },
-        {
-            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
-            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "title": "Comment innover par le cloud ?",
             "image": "https://www.cobaltpoitiers.fr/obj/20240523111053_visuel-conf-aws-paul-santus.png",
             "date_modified": "2024-06-18T18:00:00.000Z",
             "author": {
                 "name": "Poitiers AWS User Group"
-            }
-        },
-        {
-            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
-            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
-            "title": "Digital Expresso #5 ; IA : Libérer du temps de rédaction grâce à l'intelligence artificielle",
-            "image": "https://www.cobaltpoitiers.fr/obj/20240507141733_digital-expresso-vincent-renard.png",
-            "date_modified": "2024-06-04T08:30:00.000Z",
-            "author": {
-                "name": "SPN ; CCI Vienne ; Grand Poitiers ; RéseauCom86"
             }
         },
         {
@@ -58,17 +28,7 @@
             "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "title": "Fresque Océane",
-            "date_modified": "2024-07-07T18:30:00.000Z",
-            "author": {
-                "name": "Cobalt ; Olivier Van Straelen"
-            }
-        },
-        {
-            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
-            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
-            "title": "Fresque de la forêt",
-            "image": "https://www.cobaltpoitiers.fr/obj/20240523103653_fresque-de-la-foret.png",
-            "date_modified": "2024-06-13T18:30:00.000Z",
+            "date_modified": "2024-07-04T18:30:00.000Z",
             "author": {
                 "name": "Cobalt ; Olivier Van Straelen"
             }
@@ -81,6 +41,16 @@
             "date_modified": "2024-07-04T14:00:00.000Z",
             "author": {
                 "name": "Cobalt ; SPN"
+            }
+        },
+        {
+            "id": "http://pwn-association.org/evenements/pwn-powerpoint-karaoke-3/",
+            "url": "http://pwn-association.org/evenements/pwn-powerpoint-karaoke-3/",
+            "title": "PWN PowerPoint Karaoke #3",
+            "image": "http://pwn-association.org/media/filer_public/7e/33/7e33da00-9e9b-4787-8451-149a7a173253/giphy.gif",
+            "date_modified": "2024-06-20T18:30:00.000Z",
+            "author": {
+                "name": "Pwn"
             }
         },
         {
@@ -109,16 +79,6 @@
             "title": "Je debute avec ChatGPT",
             "image": "https://emf.fr/wp-content/uploads/2023/07/IA-credit-Pixabay-Cambridge_Spark.png",
             "date_modified": "2024-06-13T10:00:00.000Z",
-            "author": {
-                "name": "Espace Mendès France"
-            }
-        },
-        {
-            "id": "https://emf.fr/ec3_event/je-debute-avec-chatgpt/",
-            "url": "https://emf.fr/ec3_event/je-debute-avec-chatgpt/",
-            "title": "Je debute avec ChatGPT",
-            "image": "https://emf.fr/wp-content/uploads/2023/07/IA-credit-Pixabay-Cambridge_Spark.png",
-            "date_modified": "2024-06-04T14:00:00.000Z",
             "author": {
                 "name": "Espace Mendès France"
             }
@@ -221,16 +181,6 @@
             "date_modified": "2024-06-18T14:00:00.000Z",
             "author": {
                 "name": "Espace Mendès France"
-            }
-        },
-        {
-            "id": "https://www.meetup.com/afup-poitiers-php/events/301174914/",
-            "url": "https://www.meetup.com/afup-poitiers-php/events/301174914/",
-            "title": "🚀 Election + Echange libre autour de l'IA 🚀",
-            "image": "https://secure.meetupstatic.com/photos/event/9/7/c/a/600_511718858.jpeg",
-            "date_modified": "2024-06-13T17:00:00.000Z",
-            "author": {
-                "name": "Afup"
             }
         }
     ]

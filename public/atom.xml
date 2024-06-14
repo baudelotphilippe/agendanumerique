@@ -2,28 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://agendanumerique.vercel.app</id>
     <title>Agenda du numérique à Poitiers et ses environs</title>
-    <updated>2024-05-29T01:14:50.024Z</updated>
+    <updated>2024-06-14T01:13:29.703Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://agendanumerique.vercel.app"/>
     <subtitle>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</subtitle>
-    <entry>
-        <title type="html"><![CDATA[[Conférence] Une Start-Up, ce n’est pas ce que vous croyez 🚀]]></title>
-        <id>https://www.cobaltpoitiers.fr/agenda_1550.html</id>
-        <link href="https://www.cobaltpoitiers.fr/agenda_1550.html"/>
-        <updated>2024-06-06T18:00:00.000Z</updated>
-        <author>
-            <name>FrenchTech Poitou Charentes ; SPN</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apéro de l'AFUP : Élections & IA]]></title>
-        <id>https://www.cobaltpoitiers.fr/agenda_1550.html</id>
-        <link href="https://www.cobaltpoitiers.fr/agenda_1550.html"/>
-        <updated>2024-06-13T19:00:00.000Z</updated>
-        <author>
-            <name>AFUP Poitiers</name>
-        </author>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Comment innover par le cloud ?]]></title>
         <id>https://www.cobaltpoitiers.fr/agenda_1550.html</id>
@@ -31,15 +13,6 @@
         <updated>2024-06-18T18:00:00.000Z</updated>
         <author>
             <name>Poitiers AWS User Group</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Digital Expresso #5 ; IA : Libérer du temps de rédaction grâce à l'intelligence artificielle]]></title>
-        <id>https://www.cobaltpoitiers.fr/agenda_1550.html</id>
-        <link href="https://www.cobaltpoitiers.fr/agenda_1550.html"/>
-        <updated>2024-06-04T08:30:00.000Z</updated>
-        <author>
-            <name>SPN ; CCI Vienne ; Grand Poitiers ; RéseauCom86</name>
         </author>
     </entry>
     <entry>
@@ -55,16 +28,7 @@
         <title type="html"><![CDATA[Fresque Océane]]></title>
         <id>https://www.cobaltpoitiers.fr/agenda_1550.html</id>
         <link href="https://www.cobaltpoitiers.fr/agenda_1550.html"/>
-        <updated>2024-07-07T18:30:00.000Z</updated>
-        <author>
-            <name>Cobalt ; Olivier Van Straelen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fresque de la forêt]]></title>
-        <id>https://www.cobaltpoitiers.fr/agenda_1550.html</id>
-        <link href="https://www.cobaltpoitiers.fr/agenda_1550.html"/>
-        <updated>2024-06-13T18:30:00.000Z</updated>
+        <updated>2024-07-04T18:30:00.000Z</updated>
         <author>
             <name>Cobalt ; Olivier Van Straelen</name>
         </author>
@@ -76,6 +40,15 @@
         <updated>2024-07-04T14:00:00.000Z</updated>
         <author>
             <name>Cobalt ; SPN</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PWN PowerPoint Karaoke #3]]></title>
+        <id>http://pwn-association.org/evenements/pwn-powerpoint-karaoke-3/</id>
+        <link href="http://pwn-association.org/evenements/pwn-powerpoint-karaoke-3/"/>
+        <updated>2024-06-20T18:30:00.000Z</updated>
+        <author>
+            <name>Pwn</name>
         </author>
     </entry>
     <entry>
@@ -101,15 +74,6 @@
         <id>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</id>
         <link href="https://emf.fr/ec3_event/je-debute-avec-chatgpt/"/>
         <updated>2024-06-13T10:00:00.000Z</updated>
-        <author>
-            <name>Espace Mendès France</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Je debute avec ChatGPT]]></title>
-        <id>https://emf.fr/ec3_event/je-debute-avec-chatgpt/</id>
-        <link href="https://emf.fr/ec3_event/je-debute-avec-chatgpt/"/>
-        <updated>2024-06-04T14:00:00.000Z</updated>
         <author>
             <name>Espace Mendès France</name>
         </author>
@@ -202,15 +166,6 @@
         <updated>2024-06-18T14:00:00.000Z</updated>
         <author>
             <name>Espace Mendès France</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🚀 Election + Echange libre autour de l'IA 🚀]]></title>
-        <id>https://www.meetup.com/afup-poitiers-php/events/301174914/</id>
-        <link href="https://www.meetup.com/afup-poitiers-php/events/301174914/"/>
-        <updated>2024-06-13T17:00:00.000Z</updated>
-        <author>
-            <name>Afup</name>
         </author>
     </entry>
 </feed>

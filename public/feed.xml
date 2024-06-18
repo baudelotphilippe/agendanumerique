@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Sun, 16 Jun 2024 01:19:10 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Jun 2024 01:14:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -27,6 +27,7 @@
             <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
             <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
             <pubDate>Thu, 04 Jul 2024 18:30:00 GMT</pubDate>
+            <enclosure url="https://www.cobaltpoitiers.fr/obj/20240617144826_fresque-oceane.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Workshop développeurs et IA : Programme ton réseau de neurones]]></title>

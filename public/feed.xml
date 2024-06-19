@@ -4,17 +4,10 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Tue, 18 Jun 2024 01:14:09 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 19 Jun 2024 01:14:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
-        <item>
-            <title><![CDATA[Comment innover par le cloud ?]]></title>
-            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
-            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
-            <pubDate>Tue, 18 Jun 2024 18:00:00 GMT</pubDate>
-            <enclosure url="https://www.cobaltpoitiers.fr/obj/20240523111053_visuel-conf-aws-paul-santus.png" length="0" type="image/png"/>
-        </item>
         <item>
             <title><![CDATA[Digital Expresso #6 : Comment réussir une communication interne sans accroc ?]]></title>
             <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>

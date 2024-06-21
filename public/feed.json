@@ -35,16 +35,6 @@
             }
         },
         {
-            "id": "http://pwn-association.org/evenements/pwn-powerpoint-karaoke-3/",
-            "url": "http://pwn-association.org/evenements/pwn-powerpoint-karaoke-3/",
-            "title": "PWN PowerPoint Karaoke #3",
-            "image": "http://pwn-association.org/media/filer_public/7e/33/7e33da00-9e9b-4787-8451-149a7a173253/giphy.gif",
-            "date_modified": "2024-06-20T18:30:00.000Z",
-            "author": {
-                "name": "Pwn"
-            }
-        },
-        {
             "id": "https://emf.fr/ec3_event/brickanoid-gare-aux-briques/",
             "url": "https://emf.fr/ec3_event/brickanoid-gare-aux-briques/",
             "title": "Brickanoid, gare aux briques ! | Mon premier jeu video –",

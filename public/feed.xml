@@ -4,17 +4,10 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Tue, 02 Jul 2024 01:14:38 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Jul 2024 01:14:26 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
-        <item>
-            <title><![CDATA[Digital Expresso #6 : Comment réussir une communication interne sans accroc ?]]></title>
-            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
-            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
-            <pubDate>Tue, 02 Jul 2024 08:30:00 GMT</pubDate>
-            <enclosure url="https://www.cobaltpoitiers.fr/obj/20240523121334_digital-expresso-elodie-poudevigne.png" length="0" type="image/png"/>
-        </item>
         <item>
             <title><![CDATA[Fresque Océane]]></title>
             <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>

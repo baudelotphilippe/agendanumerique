@@ -4,24 +4,10 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Thu, 04 Jul 2024 01:14:40 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 05 Jul 2024 01:14:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
-        <item>
-            <title><![CDATA[Fresque Océane]]></title>
-            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
-            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
-            <pubDate>Thu, 04 Jul 2024 18:30:00 GMT</pubDate>
-            <enclosure url="https://www.cobaltpoitiers.fr/obj/20240617144826_fresque-oceane.jpg" length="0" type="image/jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Workshop développeurs et IA : Programme ton réseau de neurones]]></title>
-            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
-            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
-            <pubDate>Thu, 04 Jul 2024 14:00:00 GMT</pubDate>
-            <enclosure url="https://www.cobaltpoitiers.fr/obj/20240523104900_club-des-devs.png" length="0" type="image/png"/>
-        </item>
         <item>
             <title><![CDATA[Brickanoid, gare aux briques ! | Mon premier jeu video –]]></title>
             <link>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</link>

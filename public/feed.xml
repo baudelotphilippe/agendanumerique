@@ -4,10 +4,17 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Mon, 08 Jul 2024 01:16:50 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 27 Nov 2024 15:17:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
+        <item>
+            <title><![CDATA[La Com dans un label musical]]></title>
+            <link>http://pwn-association.org/evenements/la-com-dans-un-label-musical/</link>
+            <guid>http://pwn-association.org/evenements/la-com-dans-un-label-musical/</guid>
+            <pubDate>Thu, 05 Dec 2024 18:30:00 GMT</pubDate>
+            <enclosure url="http://pwn-association.org/media/filer_public/81/d7/81d7e8c9-0154-4add-9471-75362e2191c2/unnamed.gif" length="0" type="image/gif"/>
+        </item>
         <item>
             <title><![CDATA[Brickanoid, gare aux briques ! | Mon premier jeu video –]]></title>
             <link>https://emf.fr/ec3_event/brickanoid-gare-aux-briques/</link>

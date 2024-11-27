@@ -5,6 +5,16 @@
     "description": "Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.",
     "items": [
         {
+            "id": "http://pwn-association.org/evenements/la-com-dans-un-label-musical/",
+            "url": "http://pwn-association.org/evenements/la-com-dans-un-label-musical/",
+            "title": "La Com dans un label musical",
+            "image": "http://pwn-association.org/media/filer_public/81/d7/81d7e8c9-0154-4add-9471-75362e2191c2/unnamed.gif",
+            "date_modified": "2024-12-05T18:30:00.000Z",
+            "author": {
+                "name": "Pwn"
+            }
+        },
+        {
             "id": "https://emf.fr/ec3_event/brickanoid-gare-aux-briques/",
             "url": "https://emf.fr/ec3_event/brickanoid-gare-aux-briques/",
             "title": "Brickanoid, gare aux briques ! | Mon premier jeu video –",

@@ -5,11 +5,9 @@ import { moisEnChiffre } from "./utils/convertDates.js";
 const convertDatePwn = (datePwn) => {
   const jourHeureDebut = datePwn.split("à");
   const arrJourDebut = jourHeureDebut[0].trim().split(" ");
-  // retire , et force sur 2 digits
-  const formatDay = ("0" + arrJourDebut[1].slice(0, -1)).slice(-2);
   return `${arrJourDebut[2]}-${moisEnChiffre(
-    arrJourDebut[0]
-  )}-${formatDay}T${jourHeureDebut[1].trim()}:00`;
+    arrJourDebut[1]
+  )}-${arrJourDebut[0]}T${jourHeureDebut[1].trim()}:00`;
 };
 
 export default function redressePwn(data) {
@@ -42,7 +40,7 @@ export default function redressePwn(data) {
           .replace(/\s+/g, " ")
           .replace("Date et heure :", "")
           .trim();
-
+          
         event.startDate = convertDatePwn(laDate);
         event.endDate = event.startDate;
         const locationElement = $("div.event-description li").filter(
@@ -60,12 +58,14 @@ export default function redressePwn(data) {
       }
       if (beginRecord) {
         elem.children.forEach((subElem) => {
-          if (subElem.data) {
-            contentDescription += subElem.data;
+          if (subElem.children[0].data) {
+            contentDescription += subElem.children[0].data;
           }
         });
       }
-      if (elem.children[0].data == "description de l'intervention") {
+      // console.log("*"+elem.children[0].data+"*")
+      if (elem.children[0].data?.trim() == "description de l'intervention") {
+
         beginRecord = true;
       }
     }

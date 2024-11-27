@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Wed, 27 Nov 2024 15:17:51 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 27 Nov 2024 15:27:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -91,6 +91,13 @@
             <guid>https://emf.fr/ec3_event/mon-premier-jeu-video-la-bataille-des-planetes/</guid>
             <pubDate>Tue, 06 Aug 2024 14:30:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2016/05/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Apéro PHP - Symfony Authentication: What's next?]]></title>
+            <link>https://www.meetup.com/afup-poitiers-php/events/304626149/</link>
+            <guid>https://www.meetup.com/afup-poitiers-php/events/304626149/</guid>
+            <pubDate>Thu, 12 Dec 2024 18:00:00 GMT</pubDate>
+            <enclosure url="https://secure.meetupstatic.com/photos/event/9/7/c/a/600_511718858.jpeg" length="0" type="image/jpeg"/>
         </item>
     </channel>
 </rss>

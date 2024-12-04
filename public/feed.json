@@ -13,6 +13,94 @@
             "author": {
                 "name": "Pwn"
             }
+        },
+        {
+            "id": "https://emf.fr/event/je-debute-avec-chatgpt/",
+            "url": "https://emf.fr/event/je-debute-avec-chatgpt/",
+            "title": "Débuter avec ChatGPT et l'IA",
+            "image": "https://emf.fr/wp-content/uploads/2024/04/IA-credit-Pixabay-Cambridge_Spark.png",
+            "date_modified": "2024-12-10T10:00:00.000Z",
+            "author": {
+                "name": "EMF"
+            }
+        },
+        {
+            "id": "https://emf.fr/event/decouverte-dadacraft-et-de-lia/",
+            "url": "https://emf.fr/event/decouverte-dadacraft-et-de-lia/",
+            "title": "Découverte d'Adacraft et de l'IA",
+            "image": "https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg",
+            "date_modified": "2024-12-11T14:30:00.000Z",
+            "author": {
+                "name": "EMF"
+            }
+        },
+        {
+            "id": "https://emf.fr/event/iapero-face-aux-pirates-2-0/",
+            "url": "https://emf.fr/event/iapero-face-aux-pirates-2-0/",
+            "title": "IApéro | Face aux pirates 2.0",
+            "date_modified": "2025-04-03T19:00:00.000Z",
+            "author": {
+                "name": "EMF"
+            }
+        },
+        {
+            "id": "https://emf.fr/event/iapero-la-fabrique-du-faux/",
+            "url": "https://emf.fr/event/iapero-la-fabrique-du-faux/",
+            "title": "IApéro | La Fabrique du faux",
+            "date_modified": "2025-05-22T19:00:00.000Z",
+            "author": {
+                "name": "EMF"
+            }
+        },
+        {
+            "id": "https://emf.fr/event/mille-mots-valent-mieux-quune-image/",
+            "url": "https://emf.fr/event/mille-mots-valent-mieux-quune-image/",
+            "title": "Mille mots valent mieux qu'une image",
+            "image": "https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg",
+            "date_modified": "2024-12-10T14:30:00.000Z",
+            "author": {
+                "name": "EMF"
+            }
+        },
+        {
+            "id": "https://emf.fr/event/modeliser-en-3d/",
+            "url": "https://emf.fr/event/modeliser-en-3d/",
+            "title": "Modéliser en 3D",
+            "image": "https://emf.fr/wp-content/uploads/2024/04/modeliser_3D-769x400-1.jpg",
+            "date_modified": "2024-12-07T14:30:00.000Z",
+            "author": {
+                "name": "EMF"
+            }
+        },
+        {
+            "id": "https://emf.fr/event/pac-man-mon-premier-jeu-video/",
+            "url": "https://emf.fr/event/pac-man-mon-premier-jeu-video/",
+            "title": "Pac-Man | Mon premier jeu vidéo",
+            "image": "https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
+            "date_modified": "2024-12-21T14:30:00.000Z",
+            "author": {
+                "name": "EMF"
+            }
+        },
+        {
+            "id": "https://emf.fr/event/realiser-une-animation-3d/",
+            "url": "https://emf.fr/event/realiser-une-animation-3d/",
+            "title": "Réaliser une animation en 3D",
+            "image": "https://emf.fr/wp-content/uploads/2024/04/190668.jpg",
+            "date_modified": "2024-12-14T14:30:00.000Z",
+            "author": {
+                "name": "EMF"
+            }
+        },
+        {
+            "id": "https://emf.fr/event/retoucher-des-photos-a-laide-de-lia/",
+            "url": "https://emf.fr/event/retoucher-des-photos-a-laide-de-lia/",
+            "title": "Retoucher des photos à l'aide de l'IA",
+            "image": "https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg",
+            "date_modified": "2024-12-18T14:30:00.000Z",
+            "author": {
+                "name": "EMF"
+            }
         }
     ]
 }

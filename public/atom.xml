@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://agendanumerique.vercel.app</id>
     <title>Agenda du numérique à Poitiers et ses environs</title>
-    <updated>2024-12-04T14:34:58.745Z</updated>
+    <updated>2024-12-04T15:08:28.879Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://agendanumerique.vercel.app"/>
     <subtitle>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</subtitle>
@@ -13,6 +13,87 @@
         <updated>2024-12-05T18:30:00.000Z</updated>
         <author>
             <name>Pwn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Débuter avec ChatGPT et l'IA]]></title>
+        <id>https://emf.fr/event/je-debute-avec-chatgpt/</id>
+        <link href="https://emf.fr/event/je-debute-avec-chatgpt/"/>
+        <updated>2024-12-10T10:00:00.000Z</updated>
+        <author>
+            <name>EMF</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Découverte d'Adacraft et de l'IA]]></title>
+        <id>https://emf.fr/event/decouverte-dadacraft-et-de-lia/</id>
+        <link href="https://emf.fr/event/decouverte-dadacraft-et-de-lia/"/>
+        <updated>2024-12-11T14:30:00.000Z</updated>
+        <author>
+            <name>EMF</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IApéro | Face aux pirates 2.0]]></title>
+        <id>https://emf.fr/event/iapero-face-aux-pirates-2-0/</id>
+        <link href="https://emf.fr/event/iapero-face-aux-pirates-2-0/"/>
+        <updated>2025-04-03T19:00:00.000Z</updated>
+        <author>
+            <name>EMF</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IApéro | La Fabrique du faux]]></title>
+        <id>https://emf.fr/event/iapero-la-fabrique-du-faux/</id>
+        <link href="https://emf.fr/event/iapero-la-fabrique-du-faux/"/>
+        <updated>2025-05-22T19:00:00.000Z</updated>
+        <author>
+            <name>EMF</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mille mots valent mieux qu'une image]]></title>
+        <id>https://emf.fr/event/mille-mots-valent-mieux-quune-image/</id>
+        <link href="https://emf.fr/event/mille-mots-valent-mieux-quune-image/"/>
+        <updated>2024-12-10T14:30:00.000Z</updated>
+        <author>
+            <name>EMF</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Modéliser en 3D]]></title>
+        <id>https://emf.fr/event/modeliser-en-3d/</id>
+        <link href="https://emf.fr/event/modeliser-en-3d/"/>
+        <updated>2024-12-07T14:30:00.000Z</updated>
+        <author>
+            <name>EMF</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pac-Man | Mon premier jeu vidéo]]></title>
+        <id>https://emf.fr/event/pac-man-mon-premier-jeu-video/</id>
+        <link href="https://emf.fr/event/pac-man-mon-premier-jeu-video/"/>
+        <updated>2024-12-21T14:30:00.000Z</updated>
+        <author>
+            <name>EMF</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Réaliser une animation en 3D]]></title>
+        <id>https://emf.fr/event/realiser-une-animation-3d/</id>
+        <link href="https://emf.fr/event/realiser-une-animation-3d/"/>
+        <updated>2024-12-14T14:30:00.000Z</updated>
+        <author>
+            <name>EMF</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Retoucher des photos à l'aide de l'IA]]></title>
+        <id>https://emf.fr/event/retoucher-des-photos-a-laide-de-lia/</id>
+        <link href="https://emf.fr/event/retoucher-des-photos-a-laide-de-lia/"/>
+        <updated>2024-12-18T14:30:00.000Z</updated>
+        <author>
+            <name>EMF</name>
         </author>
     </entry>
 </feed>

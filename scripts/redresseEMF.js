@@ -4,9 +4,8 @@ import { moisEnChiffre,prependNumber } from "./utils/convertDates.js";
 
 const reformatHeure = (heure) => {
   const arrHeure = heure.split("h");
-  return `${prependNumber(
-    arrHeure[0].trim()
-  )}:${prependNumber(arrHeure[1].trim())}:00`;
+  const hour = arrHeure[1].split(" ");
+  return `${prependNumber(arrHeure[0].trim())}:${prependNumber(hour[0].trim())}:00`;
 };
 
 const convertDateEmf = (dateEMF) => {
@@ -35,8 +34,6 @@ export default function redresseEMF (data) {
   event.description = infos.description;
 
   const infosDates=convertDateEmf($(".elementor-element.elementor-element-c2a5359 .elementor-heading-title ").text())
-  // ${arrJourDebut[0]}T${jourHeureDebut[1].trim()}
-  console.log(infosDates)
   event.startDate =infosDates
   event.endDate = infosDates
 

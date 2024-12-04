@@ -27,7 +27,9 @@ export default function redresseEMF (data) {
   const dataJsonParsed = JSON.parse(dataJson[0].children[0].data);
   const infos=dataJsonParsed['@graph'][0]
   
-  event.name = infos.name;
+  const title = infos.name;
+ event.name = title.substring(0, title.lastIndexOf(" - "));
+
   event.url = infos.url;
   event.image = infos.thumbnailUrl;
   event.description = infos.description;

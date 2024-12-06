@@ -3,9 +3,10 @@ import * as cheerio from "cheerio";
 import { moisEnChiffre,prependNumber } from "./utils/convertDates.js";
 
 const reformatHeure = (heure) => {
-  const arrHeure = heure.split("h");
-  const hour = arrHeure[1].split(" ");
-  return `${prependNumber(arrHeure[0].trim())}:${prependNumber(hour[0].trim())}:00`;
+  const arrHeure = heure.split("h");  
+  // vire les ajouts du type annulé, complet, qui sont ajoutés avec l'heure
+  const minutes = prependNumber((arrHeure[1].split(" "))[0]);
+  return `${prependNumber(arrHeure[0].trim())}:${minutes}:00`;
 };
 
 const convertDateEmf = (dateEMF) => {

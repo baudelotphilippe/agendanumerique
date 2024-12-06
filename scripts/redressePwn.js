@@ -16,19 +16,16 @@ export default function redressePwn(data) {
   const event = {
     ...emptyEvent,
   };
-  // trim enlève char avant et après string
+
   event.name = name.replace(/(\r\n|\n|\r|\t)/gm, "").trim();
 
   event.url = $("meta[property='og:url']").attr("content");
   event.image = $("meta[property='og:image']").attr("content");
-
-  let description = $(".event-description")[0].children; //.length//[4]
+  let description = $(".event-description")[0].children;
 
   let beginRecord = false;
   let contentDescription = "";
   description.forEach((elem, index) => {
-    // console.log("index >", index)
-
     if (elem.children) {
       if (elem.children[0].data == "infos pratiques") {
         const dateElement = $("div.event-description li").filter((i, el) => {

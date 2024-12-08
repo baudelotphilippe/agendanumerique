@@ -55,7 +55,7 @@ export default function redressePwn(data) {
       }
       if (beginRecord) {
         elem.children.forEach((subElem) => {
-          if (subElem.children[0].data) {
+          if (subElem.children?.[0]?.data) {
             contentDescription += subElem.children[0].data;
           }
         });

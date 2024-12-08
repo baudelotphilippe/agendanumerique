@@ -5,11 +5,31 @@
     "description": "Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.",
     "items": [
         {
-            "id": "http://pwn-association.org/evenements/la-com-dans-un-label-musical/",
-            "url": "http://pwn-association.org/evenements/la-com-dans-un-label-musical/",
-            "title": "La Com dans un label musical",
-            "image": "http://pwn-association.org/media/filer_public/81/d7/81d7e8c9-0154-4add-9471-75362e2191c2/unnamed.gif",
-            "date_modified": "2024-12-05T18:30:00.000Z",
+            "id": "http://pwn-association.org/evenements/pwn-powerpoint-karaoke-4/",
+            "url": "http://pwn-association.org/evenements/pwn-powerpoint-karaoke-4/",
+            "title": "PWN PowerPoint Karaoke #4",
+            "image": "http://pwn-association.org/media/filer_public/f4/c1/f4c1c711-d150-4d35-8aa4-b22795dc8eef/giphy.gif",
+            "date_modified": "2025-06-12T18:30:00.000Z",
+            "author": {
+                "name": "Pwn"
+            }
+        },
+        {
+            "id": "http://pwn-association.org/evenements/pwn-quickies-6/",
+            "url": "http://pwn-association.org/evenements/pwn-quickies-6/",
+            "title": "PWN Quickies #6",
+            "image": "http://pwn-association.org/media/filer_public/4a/e8/4ae8e8d7-ea4f-47c7-9e96-1083c54d1447/giphylkjbh.gif",
+            "date_modified": "2025-01-09T18:30:00.000Z",
+            "author": {
+                "name": "Pwn"
+            }
+        },
+        {
+            "id": "http://pwn-association.org/evenements/un-projet-chez-betagouv-ca-ressemble-a-quoi/",
+            "url": "http://pwn-association.org/evenements/un-projet-chez-betagouv-ca-ressemble-a-quoi/",
+            "title": "Un projet chez beta.gouv, ça ressemble à quoi ?",
+            "image": "http://pwn-association.org/media/filer_public/8f/70/8f704674-f211-4a6d-84ee-3be019f2039e/tenor.gif",
+            "date_modified": "2025-05-15T18:30:00.000Z",
             "author": {
                 "name": "Pwn"
             }

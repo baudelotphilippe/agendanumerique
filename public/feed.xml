@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Tue, 10 Dec 2024 00:59:37 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Dec 2024 14:16:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -63,13 +63,6 @@
             <enclosure url="https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
-            <title><![CDATA[Modéliser en 3D]]></title>
-            <link>https://emf.fr/event/modeliser-en-3d/</link>
-            <guid>https://emf.fr/event/modeliser-en-3d/</guid>
-            <pubDate>Sat, 07 Dec 2024 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2024/04/modeliser_3D-769x400-1.jpg" length="0" type="image/jpg"/>
-        </item>
-        <item>
             <title><![CDATA[Pac-Man | Mon premier jeu vidéo]]></title>
             <link>https://emf.fr/event/pac-man-mon-premier-jeu-video/</link>
             <guid>https://emf.fr/event/pac-man-mon-premier-jeu-video/</guid>
@@ -89,6 +82,13 @@
             <guid>https://emf.fr/event/retoucher-des-photos-a-laide-de-lia/</guid>
             <pubDate>Wed, 18 Dec 2024 14:30:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Apéro PHP - Symfony Authentication: What's next?]]></title>
+            <link>https://www.meetup.com/afup-poitiers-php/events/304626149/</link>
+            <guid>https://www.meetup.com/afup-poitiers-php/events/304626149/</guid>
+            <pubDate>Thu, 12 Dec 2024 18:00:00 GMT</pubDate>
+            <enclosure url="https://secure.meetupstatic.com/photos/event/9/7/c/a/600_511718858.jpeg" length="0" type="image/jpeg"/>
         </item>
     </channel>
 </rss>

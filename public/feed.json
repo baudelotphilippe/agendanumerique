@@ -83,16 +83,6 @@
             }
         },
         {
-            "id": "https://emf.fr/event/modeliser-en-3d/",
-            "url": "https://emf.fr/event/modeliser-en-3d/",
-            "title": "Modéliser en 3D",
-            "image": "https://emf.fr/wp-content/uploads/2024/04/modeliser_3D-769x400-1.jpg",
-            "date_modified": "2024-12-07T14:30:00.000Z",
-            "author": {
-                "name": "EMF"
-            }
-        },
-        {
             "id": "https://emf.fr/event/pac-man-mon-premier-jeu-video/",
             "url": "https://emf.fr/event/pac-man-mon-premier-jeu-video/",
             "title": "Pac-Man | Mon premier jeu vidéo",
@@ -120,6 +110,16 @@
             "date_modified": "2024-12-18T14:30:00.000Z",
             "author": {
                 "name": "EMF"
+            }
+        },
+        {
+            "id": "https://www.meetup.com/afup-poitiers-php/events/304626149/",
+            "url": "https://www.meetup.com/afup-poitiers-php/events/304626149/",
+            "title": "Apéro PHP - Symfony Authentication: What's next?",
+            "image": "https://secure.meetupstatic.com/photos/event/9/7/c/a/600_511718858.jpeg",
+            "date_modified": "2024-12-12T18:00:00.000Z",
+            "author": {
+                "name": "Afup"
             }
         }
     ]

@@ -4,16 +4,30 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Thu, 05 Dec 2024 12:00:07 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Dec 2024 00:59:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
         <item>
-            <title><![CDATA[La Com dans un label musical]]></title>
-            <link>http://pwn-association.org/evenements/la-com-dans-un-label-musical/</link>
-            <guid>http://pwn-association.org/evenements/la-com-dans-un-label-musical/</guid>
-            <pubDate>Thu, 05 Dec 2024 18:30:00 GMT</pubDate>
-            <enclosure url="http://pwn-association.org/media/filer_public/81/d7/81d7e8c9-0154-4add-9471-75362e2191c2/unnamed.gif" length="0" type="image/gif"/>
+            <title><![CDATA[PWN PowerPoint Karaoke #4]]></title>
+            <link>http://pwn-association.org/evenements/pwn-powerpoint-karaoke-4/</link>
+            <guid>http://pwn-association.org/evenements/pwn-powerpoint-karaoke-4/</guid>
+            <pubDate>Thu, 12 Jun 2025 18:30:00 GMT</pubDate>
+            <enclosure url="http://pwn-association.org/media/filer_public/f4/c1/f4c1c711-d150-4d35-8aa4-b22795dc8eef/giphy.gif" length="0" type="image/gif"/>
+        </item>
+        <item>
+            <title><![CDATA[PWN Quickies #6]]></title>
+            <link>http://pwn-association.org/evenements/pwn-quickies-6/</link>
+            <guid>http://pwn-association.org/evenements/pwn-quickies-6/</guid>
+            <pubDate>Thu, 09 Jan 2025 18:30:00 GMT</pubDate>
+            <enclosure url="http://pwn-association.org/media/filer_public/4a/e8/4ae8e8d7-ea4f-47c7-9e96-1083c54d1447/giphylkjbh.gif" length="0" type="image/gif"/>
+        </item>
+        <item>
+            <title><![CDATA[Un projet chez beta.gouv, ça ressemble à quoi ?]]></title>
+            <link>http://pwn-association.org/evenements/un-projet-chez-betagouv-ca-ressemble-a-quoi/</link>
+            <guid>http://pwn-association.org/evenements/un-projet-chez-betagouv-ca-ressemble-a-quoi/</guid>
+            <pubDate>Thu, 15 May 2025 18:30:00 GMT</pubDate>
+            <enclosure url="http://pwn-association.org/media/filer_public/8f/70/8f704674-f211-4a6d-84ee-3be019f2039e/tenor.gif" length="0" type="image/gif"/>
         </item>
         <item>
             <title><![CDATA[Débuter avec ChatGPT et l'IA]]></title>
@@ -75,13 +89,6 @@
             <guid>https://emf.fr/event/retoucher-des-photos-a-laide-de-lia/</guid>
             <pubDate>Wed, 18 Dec 2024 14:30:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg" length="0" type="image/jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Apéro PHP - Symfony Authentication: What's next?]]></title>
-            <link>https://www.meetup.com/afup-poitiers-php/events/304626149/</link>
-            <guid>https://www.meetup.com/afup-poitiers-php/events/304626149/</guid>
-            <pubDate>Thu, 12 Dec 2024 18:00:00 GMT</pubDate>
-            <enclosure url="https://secure.meetupstatic.com/photos/event/9/7/c/a/600_511718858.jpeg" length="0" type="image/jpeg"/>
         </item>
     </channel>
 </rss>

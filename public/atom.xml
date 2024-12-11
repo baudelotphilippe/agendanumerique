@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://agendanumerique.vercel.app</id>
     <title>Agenda du numérique à Poitiers et ses environs</title>
-    <updated>2024-12-10T14:16:10.390Z</updated>
+    <updated>2024-12-11T00:58:46.239Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://agendanumerique.vercel.app"/>
     <subtitle>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</subtitle>
@@ -52,7 +52,7 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[IApéro | Face aux pirates 2.0]]></title>
+        <title type="html"><![CDATA[IApéro | Cybersécurité : face aux pirates 2.0]]></title>
         <id>https://emf.fr/event/iapero-face-aux-pirates-2-0/</id>
         <link href="https://emf.fr/event/iapero-face-aux-pirates-2-0/"/>
         <updated>2025-04-03T19:00:00.000Z</updated>
@@ -103,15 +103,6 @@
         <updated>2024-12-18T14:30:00.000Z</updated>
         <author>
             <name>EMF</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apéro PHP - Symfony Authentication: What's next?]]></title>
-        <id>https://www.meetup.com/afup-poitiers-php/events/304626149/</id>
-        <link href="https://www.meetup.com/afup-poitiers-php/events/304626149/"/>
-        <updated>2024-12-12T18:00:00.000Z</updated>
-        <author>
-            <name>Afup</name>
         </author>
     </entry>
 </feed>

@@ -57,7 +57,7 @@
         {
             "id": "https://emf.fr/event/iapero-face-aux-pirates-2-0/",
             "url": "https://emf.fr/event/iapero-face-aux-pirates-2-0/",
-            "title": "IApéro | Face aux pirates 2.0",
+            "title": "IApéro | Cybersécurité : face aux pirates 2.0",
             "date_modified": "2025-04-03T19:00:00.000Z",
             "author": {
                 "name": "EMF"
@@ -110,16 +110,6 @@
             "date_modified": "2024-12-18T14:30:00.000Z",
             "author": {
                 "name": "EMF"
-            }
-        },
-        {
-            "id": "https://www.meetup.com/afup-poitiers-php/events/304626149/",
-            "url": "https://www.meetup.com/afup-poitiers-php/events/304626149/",
-            "title": "Apéro PHP - Symfony Authentication: What's next?",
-            "image": "https://secure.meetupstatic.com/photos/event/9/7/c/a/600_511718858.jpeg",
-            "date_modified": "2024-12-12T18:00:00.000Z",
-            "author": {
-                "name": "Afup"
             }
         }
     ]

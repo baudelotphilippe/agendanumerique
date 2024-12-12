@@ -5,6 +5,16 @@
     "description": "Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.",
     "items": [
         {
+            "id": "http://pwn-association.org/evenements/de-limportance-de-la-maitrise-de-la-dette-technique/",
+            "url": "http://pwn-association.org/evenements/de-limportance-de-la-maitrise-de-la-dette-technique/",
+            "title": "De l'importance de la maîtrise de la dette technique",
+            "image": "http://pwn-association.org/media/filer_public/d3/70/d3707601-4926-489b-8f9f-7e12efde2317/giphy.webp",
+            "date_modified": "2025-04-03T18:30:00.000Z",
+            "author": {
+                "name": "Pwn"
+            }
+        },
+        {
             "id": "http://pwn-association.org/evenements/pwn-powerpoint-karaoke-4/",
             "url": "http://pwn-association.org/evenements/pwn-powerpoint-karaoke-4/",
             "title": "PWN PowerPoint Karaoke #4",
@@ -39,17 +49,7 @@
             "url": "https://emf.fr/event/je-debute-avec-chatgpt/",
             "title": "Débuter avec ChatGPT et l'IA",
             "image": "https://emf.fr/wp-content/uploads/2024/04/IA-credit-Pixabay-Cambridge_Spark.png",
-            "date_modified": "2024-12-10T10:00:00.000Z",
-            "author": {
-                "name": "EMF"
-            }
-        },
-        {
-            "id": "https://emf.fr/event/decouverte-dadacraft-et-de-lia/",
-            "url": "https://emf.fr/event/decouverte-dadacraft-et-de-lia/",
-            "title": "Découverte d'Adacraft et de l'IA",
-            "image": "https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg",
-            "date_modified": "2024-12-11T14:30:00.000Z",
+            "date_modified": "2024-12-17T10:00:00.000Z",
             "author": {
                 "name": "EMF"
             }
@@ -57,7 +57,7 @@
         {
             "id": "https://emf.fr/event/iapero-face-aux-pirates-2-0/",
             "url": "https://emf.fr/event/iapero-face-aux-pirates-2-0/",
-            "title": "IApéro | Face aux pirates 2.0",
+            "title": "IApéro | Cybersécurité : face aux pirates 2.0",
             "date_modified": "2025-04-03T19:00:00.000Z",
             "author": {
                 "name": "EMF"
@@ -77,17 +77,7 @@
             "url": "https://emf.fr/event/mille-mots-valent-mieux-quune-image/",
             "title": "Mille mots valent mieux qu'une image",
             "image": "https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg",
-            "date_modified": "2024-12-10T14:30:00.000Z",
-            "author": {
-                "name": "EMF"
-            }
-        },
-        {
-            "id": "https://emf.fr/event/modeliser-en-3d/",
-            "url": "https://emf.fr/event/modeliser-en-3d/",
-            "title": "Modéliser en 3D",
-            "image": "https://emf.fr/wp-content/uploads/2024/04/modeliser_3D-769x400-1.jpg",
-            "date_modified": "2024-12-07T14:30:00.000Z",
+            "date_modified": "2024-12-17T14:30:00.000Z",
             "author": {
                 "name": "EMF"
             }

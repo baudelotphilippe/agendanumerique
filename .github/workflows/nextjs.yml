@@ -22,6 +22,8 @@ jobs:
       run: node scripts/compil.js
     - name: run generate RSS
       run: node scripts/generateRSSFeed.js
+    - name: run generate date update
+      run: node scripts/utils/infoCommit.js
     - name: Commit files
       run: |
         git config user.name github-actions

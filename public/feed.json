@@ -45,16 +45,6 @@
             }
         },
         {
-            "id": "https://emf.fr/event/je-debute-avec-chatgpt/",
-            "url": "https://emf.fr/event/je-debute-avec-chatgpt/",
-            "title": "Débuter avec ChatGPT et l'IA",
-            "image": "https://emf.fr/wp-content/uploads/2024/04/IA-credit-Pixabay-Cambridge_Spark.png",
-            "date_modified": "2024-12-17T10:00:00.000Z",
-            "author": {
-                "name": "EMF"
-            }
-        },
-        {
             "id": "https://emf.fr/event/iapero-face-aux-pirates-2-0/",
             "url": "https://emf.fr/event/iapero-face-aux-pirates-2-0/",
             "title": "IApéro | Cybersécurité : face aux pirates 2.0",
@@ -68,16 +58,6 @@
             "url": "https://emf.fr/event/iapero-la-fabrique-du-faux/",
             "title": "IApéro | La Fabrique du faux",
             "date_modified": "2025-05-22T19:00:00.000Z",
-            "author": {
-                "name": "EMF"
-            }
-        },
-        {
-            "id": "https://emf.fr/event/mille-mots-valent-mieux-quune-image/",
-            "url": "https://emf.fr/event/mille-mots-valent-mieux-quune-image/",
-            "title": "Mille mots valent mieux qu'une image",
-            "image": "https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg",
-            "date_modified": "2024-12-17T14:30:00.000Z",
             "author": {
                 "name": "EMF"
             }

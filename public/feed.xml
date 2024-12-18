@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Tue, 17 Dec 2024 00:58:55 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Dec 2024 00:56:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -37,13 +37,6 @@
             <enclosure url="http://pwn-association.org/media/filer_public/8f/70/8f704674-f211-4a6d-84ee-3be019f2039e/tenor.gif" length="0" type="image/gif"/>
         </item>
         <item>
-            <title><![CDATA[Débuter avec ChatGPT et l'IA]]></title>
-            <link>https://emf.fr/event/je-debute-avec-chatgpt/</link>
-            <guid>https://emf.fr/event/je-debute-avec-chatgpt/</guid>
-            <pubDate>Tue, 17 Dec 2024 10:00:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2024/04/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
-        </item>
-        <item>
             <title><![CDATA[IApéro | Cybersécurité : face aux pirates 2.0]]></title>
             <link>https://emf.fr/event/iapero-face-aux-pirates-2-0/</link>
             <guid>https://emf.fr/event/iapero-face-aux-pirates-2-0/</guid>
@@ -54,13 +47,6 @@
             <link>https://emf.fr/event/iapero-la-fabrique-du-faux/</link>
             <guid>https://emf.fr/event/iapero-la-fabrique-du-faux/</guid>
             <pubDate>Thu, 22 May 2025 19:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Mille mots valent mieux qu'une image]]></title>
-            <link>https://emf.fr/event/mille-mots-valent-mieux-quune-image/</link>
-            <guid>https://emf.fr/event/mille-mots-valent-mieux-quune-image/</guid>
-            <pubDate>Tue, 17 Dec 2024 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Pac-Man | Mon premier jeu vidéo]]></title>

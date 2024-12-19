@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Wed, 18 Dec 2024 00:56:23 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Dec 2024 00:56:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -56,11 +56,11 @@
             <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>
-            <title><![CDATA[Retoucher des photos à l'aide de l'IA]]></title>
-            <link>https://emf.fr/event/retoucher-des-photos-a-laide-de-lia/</link>
-            <guid>https://emf.fr/event/retoucher-des-photos-a-laide-de-lia/</guid>
-            <pubDate>Wed, 18 Dec 2024 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg" length="0" type="image/jpg"/>
+            <title><![CDATA[Apéro PHP - La petite histoire vraie d'une fonctionnalité]]></title>
+            <link>https://www.meetup.com/afup-poitiers-php/events/305143164/</link>
+            <guid>https://www.meetup.com/afup-poitiers-php/events/305143164/</guid>
+            <pubDate>Thu, 16 Jan 2025 18:00:00 GMT</pubDate>
+            <enclosure url="https://secure.meetupstatic.com/photos/event/9/7/c/a/600_511718858.jpeg" length="0" type="image/jpeg"/>
         </item>
     </channel>
 </rss>

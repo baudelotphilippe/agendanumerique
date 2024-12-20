@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Thu, 19 Dec 2024 00:56:58 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Dec 2024 00:54:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -41,12 +41,14 @@
             <link>https://emf.fr/event/iapero-face-aux-pirates-2-0/</link>
             <guid>https://emf.fr/event/iapero-face-aux-pirates-2-0/</guid>
             <pubDate>Thu, 03 Apr 2025 19:00:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2024/12/robots-02-vert-1.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[IApéro | La Fabrique du faux]]></title>
             <link>https://emf.fr/event/iapero-la-fabrique-du-faux/</link>
             <guid>https://emf.fr/event/iapero-la-fabrique-du-faux/</guid>
             <pubDate>Thu, 22 May 2025 19:00:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2024/12/robots-02-jaune-1.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Pac-Man | Mon premier jeu vidéo]]></title>
@@ -54,13 +56,6 @@
             <guid>https://emf.fr/event/pac-man-mon-premier-jeu-video/</guid>
             <pubDate>Sat, 21 Dec 2024 14:30:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Apéro PHP - La petite histoire vraie d'une fonctionnalité]]></title>
-            <link>https://www.meetup.com/afup-poitiers-php/events/305143164/</link>
-            <guid>https://www.meetup.com/afup-poitiers-php/events/305143164/</guid>
-            <pubDate>Thu, 16 Jan 2025 18:00:00 GMT</pubDate>
-            <enclosure url="https://secure.meetupstatic.com/photos/event/9/7/c/a/600_511718858.jpeg" length="0" type="image/jpeg"/>
         </item>
     </channel>
 </rss>

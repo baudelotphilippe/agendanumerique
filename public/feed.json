@@ -48,6 +48,7 @@
             "id": "https://emf.fr/event/iapero-face-aux-pirates-2-0/",
             "url": "https://emf.fr/event/iapero-face-aux-pirates-2-0/",
             "title": "IApéro | Cybersécurité : face aux pirates 2.0",
+            "image": "https://emf.fr/wp-content/uploads/2024/12/robots-02-vert-1.jpg",
             "date_modified": "2025-04-03T19:00:00.000Z",
             "author": {
                 "name": "EMF"
@@ -57,6 +58,7 @@
             "id": "https://emf.fr/event/iapero-la-fabrique-du-faux/",
             "url": "https://emf.fr/event/iapero-la-fabrique-du-faux/",
             "title": "IApéro | La Fabrique du faux",
+            "image": "https://emf.fr/wp-content/uploads/2024/12/robots-02-jaune-1.jpg",
             "date_modified": "2025-05-22T19:00:00.000Z",
             "author": {
                 "name": "EMF"
@@ -70,16 +72,6 @@
             "date_modified": "2024-12-21T14:30:00.000Z",
             "author": {
                 "name": "EMF"
-            }
-        },
-        {
-            "id": "https://www.meetup.com/afup-poitiers-php/events/305143164/",
-            "url": "https://www.meetup.com/afup-poitiers-php/events/305143164/",
-            "title": "Apéro PHP - La petite histoire vraie d'une fonctionnalité",
-            "image": "https://secure.meetupstatic.com/photos/event/9/7/c/a/600_511718858.jpeg",
-            "date_modified": "2025-01-16T18:00:00.000Z",
-            "author": {
-                "name": "Afup"
             }
         }
     ]

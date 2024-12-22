@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Sat, 21 Dec 2024 00:53:05 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 Dec 2024 00:58:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -49,13 +49,6 @@
             <guid>https://emf.fr/event/iapero-la-fabrique-du-faux/</guid>
             <pubDate>Thu, 22 May 2025 19:00:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/12/robots-02-jaune-1.jpg" length="0" type="image/jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Pac-Man | Mon premier jeu vidéo]]></title>
-            <link>https://emf.fr/event/pac-man-mon-premier-jeu-video/</link>
-            <guid>https://emf.fr/event/pac-man-mon-premier-jeu-video/</guid>
-            <pubDate>Sat, 21 Dec 2024 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
     </channel>
 </rss>

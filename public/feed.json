@@ -15,6 +15,16 @@
             }
         },
         {
+            "id": "http://pwn-association.org/evenements/ux-tbd/",
+            "url": "http://pwn-association.org/evenements/ux-tbd/",
+            "title": "Nudges : l'incitation positive pour faciliter les interactions !",
+            "image": "http://pwn-association.org/media/filer_public/ba/26/ba264ca9-4d93-4d18-8085-a61490fdea66/michael-sheen-nudge.gif",
+            "date_modified": "2025-02-06T18:00:00.000Z",
+            "author": {
+                "name": "Pwn"
+            }
+        },
+        {
             "id": "http://pwn-association.org/evenements/pwn-powerpoint-karaoke-4/",
             "url": "http://pwn-association.org/evenements/pwn-powerpoint-karaoke-4/",
             "title": "PWN PowerPoint Karaoke #4",
@@ -30,6 +40,16 @@
             "title": "PWN Quickies #6",
             "image": "http://pwn-association.org/media/filer_public/4a/e8/4ae8e8d7-ea4f-47c7-9e96-1083c54d1447/giphylkjbh.gif",
             "date_modified": "2025-01-09T18:30:00.000Z",
+            "author": {
+                "name": "Pwn"
+            }
+        },
+        {
+            "id": "http://pwn-association.org/evenements/rewrite-in-rust/",
+            "url": "http://pwn-association.org/evenements/rewrite-in-rust/",
+            "title": "Rewrite in RUST",
+            "image": "http://pwn-association.org/media/filer_public/54/75/5475b4a9-46d4-4cd2-82ab-5f9ceb025177/kaamelott-leodagan.gif",
+            "date_modified": "2025-03-06T18:00:00.000Z",
             "author": {
                 "name": "Pwn"
             }
@@ -62,6 +82,16 @@
             "date_modified": "2025-05-22T19:00:00.000Z",
             "author": {
                 "name": "EMF"
+            }
+        },
+        {
+            "id": "https://www.meetup.com/afup-poitiers-php/events/305143164/",
+            "url": "https://www.meetup.com/afup-poitiers-php/events/305143164/",
+            "title": "Apéro PHP - La petite histoire vraie d'une fonctionnalité",
+            "image": "https://secure.meetupstatic.com/photos/event/9/7/c/a/600_511718858.jpeg",
+            "date_modified": "2025-01-16T18:00:00.000Z",
+            "author": {
+                "name": "Afup"
             }
         }
     ]

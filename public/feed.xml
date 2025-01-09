@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Wed, 08 Jan 2025 00:54:24 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 09 Jan 2025 00:54:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -40,7 +40,7 @@
             <title><![CDATA[Rewrite in RUST]]></title>
             <link>http://pwn-association.org/evenements/rewrite-in-rust/</link>
             <guid>http://pwn-association.org/evenements/rewrite-in-rust/</guid>
-            <pubDate>Thu, 06 Mar 2025 18:00:00 GMT</pubDate>
+            <pubDate>Thu, 13 Mar 2025 18:00:00 GMT</pubDate>
             <enclosure url="http://pwn-association.org/media/filer_public/54/75/5475b4a9-46d4-4cd2-82ab-5f9ceb025177/kaamelott-leodagan.gif" length="0" type="image/gif"/>
         </item>
         <item>
@@ -49,6 +49,48 @@
             <guid>http://pwn-association.org/evenements/un-projet-chez-betagouv-ca-ressemble-a-quoi/</guid>
             <pubDate>Thu, 15 May 2025 18:30:00 GMT</pubDate>
             <enclosure url="http://pwn-association.org/media/filer_public/8f/70/8f704674-f211-4a6d-84ee-3be019f2039e/tenor.gif" length="0" type="image/gif"/>
+        </item>
+        <item>
+            <title><![CDATA[Brickanoid, gare aux briques ! | Mon premier jeu vidéo]]></title>
+            <link>https://emf.fr/event/brickanoid-gare-aux-briques-mon-premier-jeu-video/</link>
+            <guid>https://emf.fr/event/brickanoid-gare-aux-briques-mon-premier-jeu-video/</guid>
+            <pubDate>Fri, 28 Feb 2025 14:30:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Créer un jeu vidéo en 3D à l'aide de l'IA]]></title>
+            <link>https://emf.fr/event/creer-un-jeu-video-en-3d-en-2-parties/</link>
+            <guid>https://emf.fr/event/creer-un-jeu-video-en-3d-en-2-parties/</guid>
+            <pubDate>Wed, 07 May 2025 14:30:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2024/06/Animation-numerique-Creation-jeu-video-credit-Firefly-1.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Créer un site web à l'aide de l'IA]]></title>
+            <link>https://emf.fr/event/une-ia-massiste-pour-creer-mon-site-web/</link>
+            <guid>https://emf.fr/event/une-ia-massiste-pour-creer-mon-site-web/</guid>
+            <pubDate>Thu, 06 Feb 2025 14:30:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2024/04/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Créer une planche de BD à l’aide de l'IA]]></title>
+            <link>https://emf.fr/event/je-cree-une-planche-de-bd-a-laide-dune-ia/</link>
+            <guid>https://emf.fr/event/je-cree-une-planche-de-bd-a-laide-dune-ia/</guid>
+            <pubDate>Wed, 05 Feb 2025 14:30:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2024/04/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Débuter avec ChatGPT et l'IA]]></title>
+            <link>https://emf.fr/event/je-debute-avec-chatgpt/</link>
+            <guid>https://emf.fr/event/je-debute-avec-chatgpt/</guid>
+            <pubDate>Tue, 14 Jan 2025 14:30:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2024/04/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Dur dur de trier ses déchets | Mon premier jeu vidéo]]></title>
+            <link>https://emf.fr/event/dur-dur-de-trier-ses-ordures-mon-premier-jeu-video/</link>
+            <guid>https://emf.fr/event/dur-dur-de-trier-ses-ordures-mon-premier-jeu-video/</guid>
+            <pubDate>Tue, 29 Apr 2025 14:30:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[IApéro | Cybersécurité : face aux pirates 2.0]]></title>
@@ -65,11 +107,88 @@
             <enclosure url="https://emf.fr/wp-content/uploads/2024/12/robots-02-jaune-1.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
-            <title><![CDATA[Apéro PHP - La petite histoire vraie d'une fonctionnalité]]></title>
-            <link>https://www.meetup.com/afup-poitiers-php/events/305143164/</link>
-            <guid>https://www.meetup.com/afup-poitiers-php/events/305143164/</guid>
-            <pubDate>Thu, 16 Jan 2025 18:00:00 GMT</pubDate>
-            <enclosure url="https://secure.meetupstatic.com/photos/event/9/7/c/a/600_511718858.jpeg" length="0" type="image/jpeg"/>
+            <title><![CDATA[L'IA au quotidien]]></title>
+            <link>https://emf.fr/event/lia-au-quotidien/</link>
+            <guid>https://emf.fr/event/lia-au-quotidien/</guid>
+            <pubDate>Tue, 11 Feb 2025 14:30:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Les aliens arrivent ! | Mon premier jeu vidéo]]></title>
+            <link>https://emf.fr/event/les-aliens-arrivent-mon-premier-jeu-video/</link>
+            <guid>https://emf.fr/event/les-aliens-arrivent-mon-premier-jeu-video/</guid>
+            <pubDate>Tue, 25 Feb 2025 10:00:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Les fous du volant | Mon premier jeu vidéo]]></title>
+            <link>https://emf.fr/event/les-fous-du-volant-mon-premier-jeu-video/</link>
+            <guid>https://emf.fr/event/les-fous-du-volant-mon-premier-jeu-video/</guid>
+            <pubDate>Sat, 01 Mar 2025 14:30:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Les têtes brûlées | Mon premier jeu vidéo]]></title>
+            <link>https://emf.fr/event/les-tetes-brulees-mon-premier-jeu-video/</link>
+            <guid>https://emf.fr/event/les-tetes-brulees-mon-premier-jeu-video/</guid>
+            <pubDate>Fri, 07 Mar 2025 14:30:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Mille mots valent mieux qu'une image]]></title>
+            <link>https://emf.fr/event/mille-mots-valent-mieux-quune-image/</link>
+            <guid>https://emf.fr/event/mille-mots-valent-mieux-quune-image/</guid>
+            <pubDate>Sat, 18 Jan 2025 14:30:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Modéliser en 3D]]></title>
+            <link>https://emf.fr/event/modeliser-en-3d/</link>
+            <guid>https://emf.fr/event/modeliser-en-3d/</guid>
+            <pubDate>Wed, 15 Jan 2025 14:30:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2024/04/modeliser_3D-769x400-1.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Ninja fruits | Mon premier jeu vidéo]]></title>
+            <link>https://emf.fr/event/ninja-fruits-mon-premier-jeu-video/</link>
+            <guid>https://emf.fr/event/ninja-fruits-mon-premier-jeu-video/</guid>
+            <pubDate>Wed, 05 Mar 2025 14:30:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Pac-Man | Mon premier jeu vidéo]]></title>
+            <link>https://emf.fr/event/pac-man-mon-premier-jeu-video/</link>
+            <guid>https://emf.fr/event/pac-man-mon-premier-jeu-video/</guid>
+            <pubDate>Tue, 04 Mar 2025 14:30:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Réaliser une animation en 3D]]></title>
+            <link>https://emf.fr/event/realiser-une-animation-3d/</link>
+            <guid>https://emf.fr/event/realiser-une-animation-3d/</guid>
+            <pubDate>Wed, 22 Jan 2025 14:30:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2024/04/190668.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Retoucher des photos à l'aide de l'IA]]></title>
+            <link>https://emf.fr/event/retoucher-des-photos-a-laide-de-lia/</link>
+            <guid>https://emf.fr/event/retoucher-des-photos-a-laide-de-lia/</guid>
+            <pubDate>Thu, 20 Feb 2025 14:30:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Snake, le serpent qui se mord la queue | Mon premier jeu vidéo]]></title>
+            <link>https://emf.fr/event/snake-le-serpent-qui-se-mord-la-queue-mon-premier-jeu-video/</link>
+            <guid>https://emf.fr/event/snake-le-serpent-qui-se-mord-la-queue-mon-premier-jeu-video/</guid>
+            <pubDate>Thu, 06 Mar 2025 14:30:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Space invaders | Mon premier jeu vidéo]]></title>
+            <link>https://emf.fr/event/space-invaders-mon-premier-jeu-video/</link>
+            <guid>https://emf.fr/event/space-invaders-mon-premier-jeu-video/</guid>
+            <pubDate>Thu, 27 Feb 2025 14:30:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
     </channel>
 </rss>

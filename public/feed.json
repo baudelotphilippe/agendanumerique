@@ -35,16 +35,6 @@
             }
         },
         {
-            "id": "http://pwn-association.org/evenements/pwn-quickies-6/",
-            "url": "http://pwn-association.org/evenements/pwn-quickies-6/",
-            "title": "PWN Quickies #6",
-            "image": "http://pwn-association.org/media/filer_public/4a/e8/4ae8e8d7-ea4f-47c7-9e96-1083c54d1447/giphylkjbh.gif",
-            "date_modified": "2025-01-09T18:30:00.000Z",
-            "author": {
-                "name": "Pwn"
-            }
-        },
-        {
             "id": "http://pwn-association.org/evenements/rewrite-in-rust/",
             "url": "http://pwn-association.org/evenements/rewrite-in-rust/",
             "title": "Rewrite in RUST",

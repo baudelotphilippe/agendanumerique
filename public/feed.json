@@ -127,7 +127,7 @@
             "url": "https://emf.fr/event/je-debute-avec-chatgpt/",
             "title": "Débuter avec ChatGPT et l'IA",
             "image": "https://emf.fr/wp-content/uploads/2024/04/IA-credit-Pixabay-Cambridge_Spark.png",
-            "date_modified": "2025-01-23T14:30:00.000Z",
+            "date_modified": "2025-03-26T14:30:00.000Z",
             "author": {
                 "name": "EMF"
             }
@@ -280,6 +280,16 @@
             "date_modified": "2025-02-27T14:30:00.000Z",
             "author": {
                 "name": "EMF"
+            }
+        },
+        {
+            "id": "https://www.meetup.com/afup-poitiers-php/events/305770763/",
+            "url": "https://www.meetup.com/afup-poitiers-php/events/305770763/",
+            "title": "Apéro PHP - Playwright pour les devs back (sans stress)",
+            "image": "https://secure.meetupstatic.com/photos/event/9/7/c/a/600_511718858.jpeg",
+            "date_modified": "2025-02-20T18:00:00.000Z",
+            "author": {
+                "name": "Afup"
             }
         }
     ]

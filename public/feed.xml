@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Sat, 25 Jan 2025 00:49:10 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 26 Jan 2025 00:54:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -201,13 +201,6 @@
             <guid>https://emf.fr/event/space-invaders-mon-premier-jeu-video/</guid>
             <pubDate>Thu, 27 Feb 2025 14:30:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Apéro PHP - Playwright pour les devs back (sans stress)]]></title>
-            <link>https://www.meetup.com/afup-poitiers-php/events/305770763/</link>
-            <guid>https://www.meetup.com/afup-poitiers-php/events/305770763/</guid>
-            <pubDate>Thu, 20 Feb 2025 18:00:00 GMT</pubDate>
-            <enclosure url="https://secure.meetupstatic.com/photos/event/9/7/c/a/600_511718858.jpeg" length="0" type="image/jpeg"/>
         </item>
     </channel>
 </rss>

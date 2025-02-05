@@ -2,19 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://agendanumerique.vercel.app</id>
     <title>Agenda du numérique à Poitiers et ses environs</title>
-    <updated>2025-02-04T00:53:16.035Z</updated>
+    <updated>2025-02-05T00:53:52.025Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://agendanumerique.vercel.app"/>
     <subtitle>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</subtitle>
-    <entry>
-        <title type="html"><![CDATA[Digital Expresso #1 ; Critères ESG : Comment concilier RSE, sincérité et efficacité économique ?]]></title>
-        <id>https://www.cobaltpoitiers.fr/agenda_1550.html</id>
-        <link href="https://www.cobaltpoitiers.fr/agenda_1550.html"/>
-        <updated>2025-02-04T08:30:00.000Z</updated>
-        <author>
-            <name>SPN ; CCI Vienne ; Grand Poitiers, RéseauCom86</name>
-        </author>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Fresque de la mobilité]]></title>
         <id>https://www.cobaltpoitiers.fr/agenda_1550.html</id>

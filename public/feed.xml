@@ -4,17 +4,10 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Tue, 04 Feb 2025 00:53:16 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Feb 2025 00:53:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
-        <item>
-            <title><![CDATA[Digital Expresso #1 ; Critères ESG : Comment concilier RSE, sincérité et efficacité économique ?]]></title>
-            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
-            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
-            <pubDate>Tue, 04 Feb 2025 08:30:00 GMT</pubDate>
-            <enclosure url="https://www.cobaltpoitiers.fr/obj/20240507141733_digital-expresso-vincent-renard.png" length="0" type="image/png"/>
-        </item>
         <item>
             <title><![CDATA[Fresque de la mobilité]]></title>
             <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>

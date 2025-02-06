@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Wed, 05 Feb 2025 00:53:52 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 06 Feb 2025 00:54:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,12 +13,6 @@
             <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
             <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
             <pubDate>Thu, 06 Feb 2025 18:30:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Silver Play Lab]]></title>
-            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
-            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
-            <pubDate>Wed, 05 Feb 2025 14:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[De l'importance de la maîtrise de la dette technique]]></title>
@@ -80,7 +74,7 @@
             <title><![CDATA[Créer une planche de BD à l’aide de l'IA]]></title>
             <link>https://emf.fr/event/je-cree-une-planche-de-bd-a-laide-dune-ia/</link>
             <guid>https://emf.fr/event/je-cree-une-planche-de-bd-a-laide-dune-ia/</guid>
-            <pubDate>Wed, 05 Feb 2025 14:30:00 GMT</pubDate>
+            <pubDate>Wed, 12 Mar 2025 14:30:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/04/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -143,7 +137,7 @@
             <title><![CDATA[Mille mots valent mieux qu'une image]]></title>
             <link>https://emf.fr/event/mille-mots-valent-mieux-quune-image/</link>
             <guid>https://emf.fr/event/mille-mots-valent-mieux-quune-image/</guid>
-            <pubDate>Tue, 04 Feb 2025 14:30:00 GMT</pubDate>
+            <pubDate>Wed, 02 Apr 2025 14:30:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
@@ -194,6 +188,13 @@
             <guid>https://emf.fr/event/space-invaders-mon-premier-jeu-video/</guid>
             <pubDate>Thu, 27 Feb 2025 14:30:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Apéro PHP - Playwright pour les devs back (sans stress)]]></title>
+            <link>https://www.meetup.com/afup-poitiers-php/events/305770763/</link>
+            <guid>https://www.meetup.com/afup-poitiers-php/events/305770763/</guid>
+            <pubDate>Thu, 20 Feb 2025 18:00:00 GMT</pubDate>
+            <enclosure url="https://secure.meetupstatic.com/photos/event/9/7/c/a/600_511718858.jpeg" length="0" type="image/jpeg"/>
         </item>
     </channel>
 </rss>

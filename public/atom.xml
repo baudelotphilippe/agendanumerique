@@ -2,33 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://agendanumerique.vercel.app</id>
     <title>Agenda du numérique à Poitiers et ses environs</title>
-    <updated>2025-02-06T00:54:09.642Z</updated>
+    <updated>2025-02-07T00:54:15.743Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://agendanumerique.vercel.app"/>
     <subtitle>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</subtitle>
-    <entry>
-        <title type="html"><![CDATA[Fresque de la mobilité]]></title>
-        <id>https://www.cobaltpoitiers.fr/agenda_1550.html</id>
-        <link href="https://www.cobaltpoitiers.fr/agenda_1550.html"/>
-        <updated>2025-02-06T18:30:00.000Z</updated>
-        <author>
-            <name>Cobalt ; Olivier Van Straelen</name>
-        </author>
-    </entry>
     <entry>
         <title type="html"><![CDATA[De l'importance de la maîtrise de la dette technique]]></title>
         <id>http://pwn-association.org/evenements/de-limportance-de-la-maitrise-de-la-dette-technique/</id>
         <link href="http://pwn-association.org/evenements/de-limportance-de-la-maitrise-de-la-dette-technique/"/>
         <updated>2025-04-03T18:30:00.000Z</updated>
-        <author>
-            <name>Pwn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nudges : l'incitation positive pour faciliter les interactions !]]></title>
-        <id>http://pwn-association.org/evenements/ux-tbd/</id>
-        <link href="http://pwn-association.org/evenements/ux-tbd/"/>
-        <updated>2025-02-06T18:00:00.000Z</updated>
         <author>
             <name>Pwn</name>
         </author>

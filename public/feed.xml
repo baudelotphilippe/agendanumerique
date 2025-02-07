@@ -4,29 +4,16 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Thu, 06 Feb 2025 00:54:09 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 07 Feb 2025 00:54:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
-        <item>
-            <title><![CDATA[Fresque de la mobilité]]></title>
-            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
-            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
-            <pubDate>Thu, 06 Feb 2025 18:30:00 GMT</pubDate>
-        </item>
         <item>
             <title><![CDATA[De l'importance de la maîtrise de la dette technique]]></title>
             <link>http://pwn-association.org/evenements/de-limportance-de-la-maitrise-de-la-dette-technique/</link>
             <guid>http://pwn-association.org/evenements/de-limportance-de-la-maitrise-de-la-dette-technique/</guid>
             <pubDate>Thu, 03 Apr 2025 18:30:00 GMT</pubDate>
             <enclosure url="http://pwn-association.org/media/filer_public/d3/70/d3707601-4926-489b-8f9f-7e12efde2317/giphy.webp" length="0" type="image/webp"/>
-        </item>
-        <item>
-            <title><![CDATA[Nudges : l'incitation positive pour faciliter les interactions !]]></title>
-            <link>http://pwn-association.org/evenements/ux-tbd/</link>
-            <guid>http://pwn-association.org/evenements/ux-tbd/</guid>
-            <pubDate>Thu, 06 Feb 2025 18:00:00 GMT</pubDate>
-            <enclosure url="http://pwn-association.org/media/filer_public/ba/26/ba264ca9-4d93-4d18-8085-a61490fdea66/michael-sheen-nudge.gif" length="0" type="image/gif"/>
         </item>
         <item>
             <title><![CDATA[PWN PowerPoint Karaoke #4]]></title>

@@ -69,7 +69,7 @@
             "url": "https://emf.fr/event/une-ia-massiste-pour-creer-mon-site-web/",
             "title": "Créer un site web à l'aide de l'IA",
             "image": "https://emf.fr/wp-content/uploads/2024/04/IA-credit-Pixabay-Cambridge_Spark.png",
-            "date_modified": "2025-02-06T14:30:00.000Z",
+            "date_modified": "2025-04-09T14:30:00.000Z",
             "author": {
                 "name": "EMF"
             }
@@ -242,16 +242,6 @@
             "date_modified": "2025-02-27T14:30:00.000Z",
             "author": {
                 "name": "EMF"
-            }
-        },
-        {
-            "id": "https://www.meetup.com/afup-poitiers-php/events/305770763/",
-            "url": "https://www.meetup.com/afup-poitiers-php/events/305770763/",
-            "title": "Apéro PHP - Playwright pour les devs back (sans stress)",
-            "image": "https://secure.meetupstatic.com/photos/event/9/7/c/a/600_511718858.jpeg",
-            "date_modified": "2025-02-20T18:00:00.000Z",
-            "author": {
-                "name": "Afup"
             }
         }
     ]

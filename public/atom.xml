@@ -2,10 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://agendanumerique.vercel.app</id>
     <title>Agenda du numérique à Poitiers et ses environs</title>
-    <updated>2025-02-11T00:53:55.977Z</updated>
+    <updated>2025-02-12T00:53:59.805Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://agendanumerique.vercel.app"/>
     <subtitle>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Digital Expresso #2 ; Le RGPD simplifié : Les essentiels pour protéger votre activité et vos données]]></title>
+        <id>https://www.cobaltpoitiers.fr/agenda_1550.html</id>
+        <link href="https://www.cobaltpoitiers.fr/agenda_1550.html"/>
+        <updated>2025-04-01T08:30:00.000Z</updated>
+        <author>
+            <name>SPN ; CCI Vienne ; Grand Poitiers</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Silver Play Lab]]></title>
+        <id>https://www.cobaltpoitiers.fr/agenda_1550.html</id>
+        <link href="https://www.cobaltpoitiers.fr/agenda_1550.html"/>
+        <updated>2025-02-19T14:00:00.000Z</updated>
+        <author>
+            <name>Silver Geek</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stand-up "la Comedy dans tous ses états"]]></title>
+        <id>https://www.cobaltpoitiers.fr/agenda_1550.html</id>
+        <link href="https://www.cobaltpoitiers.fr/agenda_1550.html"/>
+        <updated>2025-02-22T18:00:00.000Z</updated>
+        <author>
+            <name>Triple Comedy</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[De l'importance de la maîtrise de la dette technique]]></title>
         <id>http://pwn-association.org/evenements/de-limportance-de-la-maitrise-de-la-dette-technique/</id>

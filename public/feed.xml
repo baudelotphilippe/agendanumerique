@@ -4,10 +4,29 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Tue, 11 Feb 2025 00:53:55 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 12 Feb 2025 00:53:59 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
+        <item>
+            <title><![CDATA[Digital Expresso #2 ; Le RGPD simplifié : Les essentiels pour protéger votre activité et vos données]]></title>
+            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
+            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
+            <pubDate>Tue, 01 Apr 2025 08:30:00 GMT</pubDate>
+            <enclosure url="https://www.cobaltpoitiers.fr/obj/20240507141733_digital-expresso-vincent-renard.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Silver Play Lab]]></title>
+            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
+            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
+            <pubDate>Wed, 19 Feb 2025 14:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Stand-up "la Comedy dans tous ses états"]]></title>
+            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
+            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
+            <pubDate>Sat, 22 Feb 2025 18:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[De l'importance de la maîtrise de la dette technique]]></title>
             <link>http://pwn-association.org/evenements/de-limportance-de-la-maitrise-de-la-dette-technique/</link>

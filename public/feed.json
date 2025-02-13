@@ -157,7 +157,7 @@
             "url": "https://emf.fr/event/lia-au-quotidien/",
             "title": "L'IA au quotidien",
             "image": "https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg",
-            "date_modified": "2025-02-11T14:30:00.000Z",
+            "date_modified": "2025-05-20T10:00:00.000Z",
             "author": {
                 "name": "EMF"
             }
@@ -270,6 +270,16 @@
             "date_modified": "2025-02-27T14:30:00.000Z",
             "author": {
                 "name": "EMF"
+            }
+        },
+        {
+            "id": "https://www.meetup.com/afup-poitiers-php/events/305770763/",
+            "url": "https://www.meetup.com/afup-poitiers-php/events/305770763/",
+            "title": "Apéro PHP - Playwright pour les devs back (sans stress)",
+            "image": "https://secure.meetupstatic.com/photos/event/9/7/c/a/600_511718858.jpeg",
+            "date_modified": "2025-02-20T18:00:00.000Z",
+            "author": {
+                "name": "Afup"
             }
         }
     ]

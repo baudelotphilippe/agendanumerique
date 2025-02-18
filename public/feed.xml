@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Mon, 17 Feb 2025 00:56:23 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Feb 2025 00:53:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -189,7 +189,7 @@
             <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>
-            <title><![CDATA[Space invaders | Mon premier jeu vidéo]]></title>
+            <title><![CDATA[Space Invaders | Mon premier jeu vidéo]]></title>
             <link>https://emf.fr/event/space-invaders-mon-premier-jeu-video/</link>
             <guid>https://emf.fr/event/space-invaders-mon-premier-jeu-video/</guid>
             <pubDate>Thu, 27 Feb 2025 14:30:00 GMT</pubDate>

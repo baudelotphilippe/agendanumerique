@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://agendanumerique.vercel.app</id>
     <title>Agenda du numérique à Poitiers et ses environs</title>
-    <updated>2025-02-17T00:56:23.011Z</updated>
+    <updated>2025-02-18T00:53:44.163Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://agendanumerique.vercel.app"/>
     <subtitle>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</subtitle>
@@ -241,7 +241,7 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Space invaders | Mon premier jeu vidéo]]></title>
+        <title type="html"><![CDATA[Space Invaders | Mon premier jeu vidéo]]></title>
         <id>https://emf.fr/event/space-invaders-mon-premier-jeu-video/</id>
         <link href="https://emf.fr/event/space-invaders-mon-premier-jeu-video/"/>
         <updated>2025-02-27T14:30:00.000Z</updated>

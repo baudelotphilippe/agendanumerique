@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Wed, 19 Feb 2025 00:54:18 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 20 Feb 2025 00:54:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -14,12 +14,6 @@
             <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
             <pubDate>Tue, 01 Apr 2025 08:30:00 GMT</pubDate>
             <enclosure url="https://www.cobaltpoitiers.fr/obj/20240507141733_digital-expresso-vincent-renard.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Silver Play Lab]]></title>
-            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
-            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
-            <pubDate>Wed, 19 Feb 2025 14:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Stand-up "la Comedy dans tous ses états"]]></title>
@@ -194,6 +188,13 @@
             <guid>https://emf.fr/event/space-invaders-mon-premier-jeu-video/</guid>
             <pubDate>Thu, 27 Feb 2025 14:30:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Apéro PHP - Playwright pour les devs back (sans stress)]]></title>
+            <link>https://www.meetup.com/afup-poitiers-php/events/305770763/</link>
+            <guid>https://www.meetup.com/afup-poitiers-php/events/305770763/</guid>
+            <pubDate>Thu, 20 Feb 2025 18:00:00 GMT</pubDate>
+            <enclosure url="https://secure.meetupstatic.com/photos/event/9/7/c/a/600_511718858.jpeg" length="0" type="image/jpeg"/>
         </item>
     </channel>
 </rss>

@@ -17,15 +17,6 @@
         {
             "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
-            "title": "Silver Play Lab",
-            "date_modified": "2025-02-19T14:00:00.000Z",
-            "author": {
-                "name": "Silver Geek"
-            }
-        },
-        {
-            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
-            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
             "title": "Stand-up \"la Comedy dans tous ses états\"",
             "date_modified": "2025-02-22T18:00:00.000Z",
             "author": {
@@ -270,6 +261,16 @@
             "date_modified": "2025-02-27T14:30:00.000Z",
             "author": {
                 "name": "EMF"
+            }
+        },
+        {
+            "id": "https://www.meetup.com/afup-poitiers-php/events/305770763/",
+            "url": "https://www.meetup.com/afup-poitiers-php/events/305770763/",
+            "title": "Apéro PHP - Playwright pour les devs back (sans stress)",
+            "image": "https://secure.meetupstatic.com/photos/event/9/7/c/a/600_511718858.jpeg",
+            "date_modified": "2025-02-20T18:00:00.000Z",
+            "author": {
+                "name": "Afup"
             }
         }
     ]

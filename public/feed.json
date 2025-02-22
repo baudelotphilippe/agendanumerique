@@ -238,7 +238,7 @@
             "url": "https://emf.fr/event/retoucher-des-photos-a-laide-de-lia/",
             "title": "Retoucher des photos à l'aide de l'IA",
             "image": "https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg",
-            "date_modified": "2025-02-20T14:30:00.000Z",
+            "date_modified": "2025-04-16T14:30:00.000Z",
             "author": {
                 "name": "EMF"
             }
@@ -261,6 +261,16 @@
             "date_modified": "2025-02-27T14:30:00.000Z",
             "author": {
                 "name": "EMF"
+            }
+        },
+        {
+            "id": "https://www.meetup.com/afup-poitiers-php/events/306320685/",
+            "url": "https://www.meetup.com/afup-poitiers-php/events/306320685/",
+            "title": "Super Apéro PHP - \"Comment j’ai survécu dans  l’écosystème tech\"",
+            "image": "https://secure.meetupstatic.com/photos/event/9/7/c/a/600_511718858.jpeg",
+            "date_modified": "2025-03-20T18:00:00.000Z",
+            "author": {
+                "name": "Afup"
             }
         }
     ]

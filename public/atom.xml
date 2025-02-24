@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://agendanumerique.vercel.app</id>
     <title>Agenda du numérique à Poitiers et ses environs</title>
-    <updated>2025-02-23T00:58:24.105Z</updated>
+    <updated>2025-02-24T00:56:35.576Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://agendanumerique.vercel.app"/>
     <subtitle>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</subtitle>
@@ -229,6 +229,15 @@
         <updated>2025-02-27T14:30:00.000Z</updated>
         <author>
             <name>EMF</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Super Apéro PHP - "Comment j’ai survécu dans  l’écosystème tech"]]></title>
+        <id>https://www.meetup.com/afup-poitiers-php/events/306320685/</id>
+        <link href="https://www.meetup.com/afup-poitiers-php/events/306320685/"/>
+        <updated>2025-03-20T18:00:00.000Z</updated>
+        <author>
+            <name>Afup</name>
         </author>
     </entry>
 </feed>

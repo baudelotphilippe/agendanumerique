@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Tue, 25 Feb 2025 00:55:29 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Feb 2025 00:55:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -72,6 +72,13 @@
             <enclosure url="https://emf.fr/wp-content/uploads/2024/04/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
         </item>
         <item>
+            <title><![CDATA[Dé-cyber-réalisation | Anaïs Gastineau]]></title>
+            <link>https://emf.fr/event/de-cyber-realisation-anais-gastineau/</link>
+            <guid>https://emf.fr/event/de-cyber-realisation-anais-gastineau/</guid>
+            <pubDate>Fri, 27 Jun 2025 18:30:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2025/01/Lieu-multiple-De-cyber-realisation-credit-Anais-Gastineau-1.png" length="0" type="image/png"/>
+        </item>
+        <item>
             <title><![CDATA[Débuter avec ChatGPT et l'IA]]></title>
             <link>https://emf.fr/event/je-debute-avec-chatgpt/</link>
             <guid>https://emf.fr/event/je-debute-avec-chatgpt/</guid>
@@ -105,13 +112,6 @@
             <guid>https://emf.fr/event/lia-au-quotidien/</guid>
             <pubDate>Tue, 20 May 2025 10:00:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg" length="0" type="image/jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Les aliens arrivent ! | Mon premier jeu vidéo]]></title>
-            <link>https://emf.fr/event/les-aliens-arrivent-mon-premier-jeu-video/</link>
-            <guid>https://emf.fr/event/les-aliens-arrivent-mon-premier-jeu-video/</guid>
-            <pubDate>Tue, 25 Feb 2025 10:00:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Les fous du volant | Mon premier jeu vidéo]]></title>
@@ -182,13 +182,6 @@
             <guid>https://emf.fr/event/space-invaders-mon-premier-jeu-video/</guid>
             <pubDate>Thu, 27 Feb 2025 14:30:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Super Apéro PHP - "Comment j’ai survécu dans  l’écosystème tech"]]></title>
-            <link>https://www.meetup.com/afup-poitiers-php/events/306320685/</link>
-            <guid>https://www.meetup.com/afup-poitiers-php/events/306320685/</guid>
-            <pubDate>Thu, 20 Mar 2025 18:00:00 GMT</pubDate>
-            <enclosure url="https://secure.meetupstatic.com/photos/event/9/7/c/a/600_511718858.jpeg" length="0" type="image/jpeg"/>
         </item>
     </channel>
 </rss>

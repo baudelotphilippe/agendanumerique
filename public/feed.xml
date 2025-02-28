@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Thu, 27 Feb 2025 00:55:25 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Feb 2025 00:55:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -33,7 +33,7 @@
             <title><![CDATA[Rewrite in RUST]]></title>
             <link>http://pwn-association.org/evenements/rewrite-in-rust/</link>
             <guid>http://pwn-association.org/evenements/rewrite-in-rust/</guid>
-            <pubDate>Thu, 13 Mar 2025 18:00:00 GMT</pubDate>
+            <pubDate>Thu, 13 Mar 2025 18:30:00 GMT</pubDate>
             <enclosure url="http://pwn-association.org/media/filer_public/54/75/5475b4a9-46d4-4cd2-82ab-5f9ceb025177/kaamelott-leodagan.gif" length="0" type="image/gif"/>
         </item>
         <item>

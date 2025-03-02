@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Sat, 01 Mar 2025 00:59:43 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 02 Mar 2025 00:58:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -112,13 +112,6 @@
             <guid>https://emf.fr/event/lia-au-quotidien/</guid>
             <pubDate>Tue, 20 May 2025 10:00:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg" length="0" type="image/jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Les fous du volant | Mon premier jeu vidéo]]></title>
-            <link>https://emf.fr/event/les-fous-du-volant-mon-premier-jeu-video/</link>
-            <guid>https://emf.fr/event/les-fous-du-volant-mon-premier-jeu-video/</guid>
-            <pubDate>Sat, 01 Mar 2025 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Les têtes brûlées | Mon premier jeu vidéo]]></title>

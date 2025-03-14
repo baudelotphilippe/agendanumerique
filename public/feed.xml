@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Thu, 13 Mar 2025 00:57:05 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 14 Mar 2025 00:56:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -34,13 +34,6 @@
             <guid>http://pwn-association.org/evenements/pwn-powerpoint-karaoke-4/</guid>
             <pubDate>Thu, 12 Jun 2025 18:30:00 GMT</pubDate>
             <enclosure url="http://pwn-association.org/media/filer_public/f4/c1/f4c1c711-d150-4d35-8aa4-b22795dc8eef/giphy.gif" length="0" type="image/gif"/>
-        </item>
-        <item>
-            <title><![CDATA[Rewrite in RUST]]></title>
-            <link>http://pwn-association.org/evenements/rewrite-in-rust/</link>
-            <guid>http://pwn-association.org/evenements/rewrite-in-rust/</guid>
-            <pubDate>Thu, 13 Mar 2025 18:30:00 GMT</pubDate>
-            <enclosure url="http://pwn-association.org/media/filer_public/54/75/5475b4a9-46d4-4cd2-82ab-5f9ceb025177/kaamelott-leodagan.gif" length="0" type="image/gif"/>
         </item>
         <item>
             <title><![CDATA[Un projet chez beta.gouv, ça ressemble à quoi ?]]></title>
@@ -74,7 +67,7 @@
             <title><![CDATA[Créer une planche de BD à l’aide de l'IA]]></title>
             <link>https://emf.fr/event/je-cree-une-planche-de-bd-a-laide-dune-ia/</link>
             <guid>https://emf.fr/event/je-cree-une-planche-de-bd-a-laide-dune-ia/</guid>
-            <pubDate>Wed, 12 Mar 2025 14:30:00 GMT</pubDate>
+            <pubDate>Wed, 04 Jun 2025 14:30:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/04/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
         </item>
         <item>

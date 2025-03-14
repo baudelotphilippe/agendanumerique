@@ -44,16 +44,6 @@
             }
         },
         {
-            "id": "http://pwn-association.org/evenements/rewrite-in-rust/",
-            "url": "http://pwn-association.org/evenements/rewrite-in-rust/",
-            "title": "Rewrite in RUST",
-            "image": "http://pwn-association.org/media/filer_public/54/75/5475b4a9-46d4-4cd2-82ab-5f9ceb025177/kaamelott-leodagan.gif",
-            "date_modified": "2025-03-13T18:30:00.000Z",
-            "author": {
-                "name": "Pwn"
-            }
-        },
-        {
             "id": "http://pwn-association.org/evenements/un-projet-chez-betagouv-ca-ressemble-a-quoi/",
             "url": "http://pwn-association.org/evenements/un-projet-chez-betagouv-ca-ressemble-a-quoi/",
             "title": "Un projet chez beta.gouv, ça ressemble à quoi ?",
@@ -98,7 +88,7 @@
             "url": "https://emf.fr/event/je-cree-une-planche-de-bd-a-laide-dune-ia/",
             "title": "Créer une planche de BD à l’aide de l'IA",
             "image": "https://emf.fr/wp-content/uploads/2024/04/IA-credit-Pixabay-Cambridge_Spark.png",
-            "date_modified": "2025-03-12T14:30:00.000Z",
+            "date_modified": "2025-06-04T14:30:00.000Z",
             "author": {
                 "name": "EMF"
             }

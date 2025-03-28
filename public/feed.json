@@ -15,6 +15,15 @@
             }
         },
         {
+            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "title": "Silver Play Lab",
+            "date_modified": "2025-04-16T14:00:00.000Z",
+            "author": {
+                "name": "Silver Geek"
+            }
+        },
+        {
             "id": "http://pwn-association.org/evenements/de-limportance-de-la-maitrise-de-la-dette-technique/",
             "url": "http://pwn-association.org/evenements/de-limportance-de-la-maitrise-de-la-dette-technique/",
             "title": "De l'importance de la maîtrise de la dette technique",
@@ -99,7 +108,7 @@
             "url": "https://emf.fr/event/je-debute-avec-chatgpt/",
             "title": "Débuter avec ChatGPT et l'IA",
             "image": "https://emf.fr/wp-content/uploads/2024/04/IA-credit-Pixabay-Cambridge_Spark.png",
-            "date_modified": "2025-03-26T14:30:00.000Z",
+            "date_modified": "2025-05-06T10:00:00.000Z",
             "author": {
                 "name": "EMF"
             }

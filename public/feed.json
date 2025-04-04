@@ -5,25 +5,6 @@
     "description": "Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.",
     "items": [
         {
-            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
-            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
-            "title": "Silver Play Lab",
-            "date_modified": "2025-04-16T14:00:00.000Z",
-            "author": {
-                "name": "Silver Geek"
-            }
-        },
-        {
-            "id": "http://pwn-association.org/evenements/de-limportance-de-la-maitrise-de-la-dette-technique/",
-            "url": "http://pwn-association.org/evenements/de-limportance-de-la-maitrise-de-la-dette-technique/",
-            "title": "De l'importance de la maîtrise de la dette technique",
-            "image": "http://pwn-association.org/media/filer_public/d3/70/d3707601-4926-489b-8f9f-7e12efde2317/giphy.webp",
-            "date_modified": "2025-04-03T18:30:00.000Z",
-            "author": {
-                "name": "Pwn"
-            }
-        },
-        {
             "id": "http://pwn-association.org/evenements/pwn-powerpoint-karaoke-4/",
             "url": "http://pwn-association.org/evenements/pwn-powerpoint-karaoke-4/",
             "title": "PWN PowerPoint Karaoke #4",
@@ -114,16 +95,6 @@
             }
         },
         {
-            "id": "https://emf.fr/event/iapero-face-aux-pirates-2-0/",
-            "url": "https://emf.fr/event/iapero-face-aux-pirates-2-0/",
-            "title": "IApéro | Cybersécurité : face aux pirates 2.0",
-            "image": "https://emf.fr/wp-content/uploads/2024/12/robots-02-vert-1.jpg",
-            "date_modified": "2025-04-03T19:00:00.000Z",
-            "author": {
-                "name": "EMF"
-            }
-        },
-        {
             "id": "https://emf.fr/event/iapero-la-fabrique-du-faux/",
             "url": "https://emf.fr/event/iapero-la-fabrique-du-faux/",
             "title": "IApéro | La Fabrique du faux",
@@ -158,7 +129,7 @@
             "url": "https://emf.fr/event/mille-mots-valent-mieux-quune-image/",
             "title": "Mille mots valent mieux qu'une image",
             "image": "https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg",
-            "date_modified": "2025-04-02T14:30:00.000Z",
+            "date_modified": "2025-05-13T10:00:00.000Z",
             "author": {
                 "name": "EMF"
             }

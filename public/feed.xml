@@ -4,10 +4,16 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Sat, 12 Apr 2025 00:58:09 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 13 Apr 2025 02:28:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
+        <item>
+            <title><![CDATA[Silver Play Lab]]></title>
+            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
+            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
+            <pubDate>Wed, 16 Apr 2025 14:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[PWN PowerPoint Karaoke #4]]></title>
             <link>http://pwn-association.org/evenements/pwn-powerpoint-karaoke-4/</link>

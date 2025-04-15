@@ -44,6 +44,16 @@
             }
         },
         {
+            "id": "https://emf.fr/event/cafe-ia/",
+            "url": "https://emf.fr/event/cafe-ia/",
+            "title": "Café IA",
+            "image": "https://emf.fr/wp-content/uploads/2025/04/Firefly-cafe-robot-ia-583881-e1744638797354.jpg",
+            "date_modified": "2025-04-23T16:00:00.000Z",
+            "author": {
+                "name": "EMF"
+            }
+        },
+        {
             "id": "https://emf.fr/event/creer-un-jeu-video-en-3d-en-2-parties/",
             "url": "https://emf.fr/event/creer-un-jeu-video-en-3d-en-2-parties/",
             "title": "Créer un jeu vidéo en 3D à l'aide de l'IA",

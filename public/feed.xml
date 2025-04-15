@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Mon, 14 Apr 2025 01:01:57 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 15 Apr 2025 01:00:18 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -34,6 +34,13 @@
             <guid>https://emf.fr/event/brickanoid-gare-aux-briques-mon-premier-jeu-video/</guid>
             <pubDate>Wed, 23 Apr 2025 14:30:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Café IA]]></title>
+            <link>https://emf.fr/event/cafe-ia/</link>
+            <guid>https://emf.fr/event/cafe-ia/</guid>
+            <pubDate>Wed, 23 Apr 2025 16:00:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2025/04/Firefly-cafe-robot-ia-583881-e1744638797354.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Créer un jeu vidéo en 3D à l'aide de l'IA]]></title>

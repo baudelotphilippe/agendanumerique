@@ -5,6 +5,24 @@
     "description": "Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.",
     "items": [
         {
+            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "title": "Digital Expresso #3 ; La cybersécurité, tous concernés: sécuriser mes données et mon entreprise",
+            "date_modified": "2025-05-06T08:30:00.000Z",
+            "author": {
+                "name": "SPN ; CCI Vienne ; Grand Poitiers"
+            }
+        },
+        {
+            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
+            "title": "Silver Play Lab",
+            "date_modified": "2025-04-30T14:00:00.000Z",
+            "author": {
+                "name": "Silver Geek"
+            }
+        },
+        {
             "id": "http://pwn-association.org/evenements/pwn-powerpoint-karaoke-4/",
             "url": "http://pwn-association.org/evenements/pwn-powerpoint-karaoke-4/",
             "title": "PWN PowerPoint Karaoke #4",
@@ -22,26 +40,6 @@
             "date_modified": "2025-05-15T18:30:00.000Z",
             "author": {
                 "name": "Pwn"
-            }
-        },
-        {
-            "id": "https://emf.fr/event/brickanoid-gare-aux-briques-mon-premier-jeu-video/",
-            "url": "https://emf.fr/event/brickanoid-gare-aux-briques-mon-premier-jeu-video/",
-            "title": "Brickanoid, gare aux briques ! | Mon premier jeu vidéo",
-            "image": "https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
-            "date_modified": "2025-04-23T14:30:00.000Z",
-            "author": {
-                "name": "EMF"
-            }
-        },
-        {
-            "id": "https://emf.fr/event/cafe-ia/",
-            "url": "https://emf.fr/event/cafe-ia/",
-            "title": "Café IA",
-            "image": "https://emf.fr/wp-content/uploads/2025/04/Firefly-cafe-robot-ia-583881-e1744638797354.jpg",
-            "date_modified": "2025-04-23T16:00:00.000Z",
-            "author": {
-                "name": "EMF"
             }
         },
         {
@@ -160,16 +158,6 @@
             "title": "Ninja fruits | Mon premier jeu vidéo",
             "image": "https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
             "date_modified": "2025-04-30T14:30:00.000Z",
-            "author": {
-                "name": "EMF"
-            }
-        },
-        {
-            "id": "https://emf.fr/event/pac-man-mon-premier-jeu-video/",
-            "url": "https://emf.fr/event/pac-man-mon-premier-jeu-video/",
-            "title": "Pac-Man | Mon premier jeu vidéo",
-            "image": "https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
-            "date_modified": "2025-04-24T14:30:00.000Z",
             "author": {
                 "name": "EMF"
             }

@@ -4,10 +4,22 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Wed, 23 Apr 2025 00:59:57 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 25 Apr 2025 01:00:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
+        <item>
+            <title><![CDATA[Digital Expresso #3 ; La cybersécurité, tous concernés: sécuriser mes données et mon entreprise]]></title>
+            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
+            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
+            <pubDate>Tue, 06 May 2025 08:30:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Silver Play Lab]]></title>
+            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
+            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
+            <pubDate>Wed, 30 Apr 2025 14:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[PWN PowerPoint Karaoke #4]]></title>
             <link>http://pwn-association.org/evenements/pwn-powerpoint-karaoke-4/</link>
@@ -21,20 +33,6 @@
             <guid>http://pwn-association.org/evenements/un-projet-chez-betagouv-ca-ressemble-a-quoi/</guid>
             <pubDate>Thu, 15 May 2025 18:30:00 GMT</pubDate>
             <enclosure url="http://pwn-association.org/media/filer_public/8f/70/8f704674-f211-4a6d-84ee-3be019f2039e/tenor.gif" length="0" type="image/gif"/>
-        </item>
-        <item>
-            <title><![CDATA[Brickanoid, gare aux briques ! | Mon premier jeu vidéo]]></title>
-            <link>https://emf.fr/event/brickanoid-gare-aux-briques-mon-premier-jeu-video/</link>
-            <guid>https://emf.fr/event/brickanoid-gare-aux-briques-mon-premier-jeu-video/</guid>
-            <pubDate>Wed, 23 Apr 2025 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Café IA]]></title>
-            <link>https://emf.fr/event/cafe-ia/</link>
-            <guid>https://emf.fr/event/cafe-ia/</guid>
-            <pubDate>Wed, 23 Apr 2025 16:00:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2025/04/Firefly-cafe-robot-ia-583881-e1744638797354.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Créer un jeu vidéo en 3D à l'aide de l'IA]]></title>
@@ -118,13 +116,6 @@
             <link>https://emf.fr/event/ninja-fruits-mon-premier-jeu-video/</link>
             <guid>https://emf.fr/event/ninja-fruits-mon-premier-jeu-video/</guid>
             <pubDate>Wed, 30 Apr 2025 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Pac-Man | Mon premier jeu vidéo]]></title>
-            <link>https://emf.fr/event/pac-man-mon-premier-jeu-video/</link>
-            <guid>https://emf.fr/event/pac-man-mon-premier-jeu-video/</guid>
-            <pubDate>Thu, 24 Apr 2025 14:30:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>

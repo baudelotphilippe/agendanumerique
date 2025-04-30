@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Tue, 29 Apr 2025 01:00:06 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 30 Apr 2025 01:00:49 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -68,13 +68,6 @@
             <guid>https://emf.fr/event/je-debute-avec-chatgpt/</guid>
             <pubDate>Tue, 06 May 2025 10:00:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/04/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Dur dur de trier ses déchets | Mon premier jeu vidéo]]></title>
-            <link>https://emf.fr/event/dur-dur-de-trier-ses-ordures-mon-premier-jeu-video/</link>
-            <guid>https://emf.fr/event/dur-dur-de-trier-ses-ordures-mon-premier-jeu-video/</guid>
-            <pubDate>Tue, 29 Apr 2025 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[IApéro | La Fabrique du faux]]></title>

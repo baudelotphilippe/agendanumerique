@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Wed, 30 Apr 2025 01:00:49 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 May 2025 01:06:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -13,12 +13,6 @@
             <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
             <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
             <pubDate>Tue, 06 May 2025 08:30:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Silver Play Lab]]></title>
-            <link>https://www.cobaltpoitiers.fr/agenda_1550.html</link>
-            <guid>https://www.cobaltpoitiers.fr/agenda_1550.html</guid>
-            <pubDate>Wed, 30 Apr 2025 14:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[PWN PowerPoint Karaoke #4]]></title>
@@ -96,13 +90,6 @@
             <guid>https://emf.fr/event/modeliser-en-3d/</guid>
             <pubDate>Sat, 24 May 2025 14:30:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/04/modeliser_3D-769x400-1.jpg" length="0" type="image/jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Ninja fruits | Mon premier jeu vidéo]]></title>
-            <link>https://emf.fr/event/ninja-fruits-mon-premier-jeu-video/</link>
-            <guid>https://emf.fr/event/ninja-fruits-mon-premier-jeu-video/</guid>
-            <pubDate>Wed, 30 Apr 2025 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Réaliser une animation en 3D]]></title>

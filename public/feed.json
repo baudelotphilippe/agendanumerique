@@ -5,15 +5,6 @@
     "description": "Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.",
     "items": [
         {
-            "id": "https://www.cobaltpoitiers.fr/agenda_1550.html",
-            "url": "https://www.cobaltpoitiers.fr/agenda_1550.html",
-            "title": "Digital Expresso #3 ; La cybersécurité, tous concernés: sécuriser mes données et mon entreprise",
-            "date_modified": "2025-05-06T08:30:00.000Z",
-            "author": {
-                "name": "SPN ; CCI Vienne ; Grand Poitiers"
-            }
-        },
-        {
             "id": "http://pwn-association.org/evenements/pwn-powerpoint-karaoke-4/",
             "url": "http://pwn-association.org/evenements/pwn-powerpoint-karaoke-4/",
             "title": "PWN PowerPoint Karaoke #4",

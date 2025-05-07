@@ -2,19 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://agendanumerique.vercel.app</id>
     <title>Agenda du numérique à Poitiers et ses environs</title>
-    <updated>2025-05-06T01:01:07.907Z</updated>
+    <updated>2025-05-07T01:01:19.258Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://agendanumerique.vercel.app"/>
     <subtitle>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</subtitle>
-    <entry>
-        <title type="html"><![CDATA[Digital Expresso #3 ; La cybersécurité, tous concernés: sécuriser mes données et mon entreprise]]></title>
-        <id>https://www.cobaltpoitiers.fr/agenda_1550.html</id>
-        <link href="https://www.cobaltpoitiers.fr/agenda_1550.html"/>
-        <updated>2025-05-06T08:30:00.000Z</updated>
-        <author>
-            <name>SPN ; CCI Vienne ; Grand Poitiers</name>
-        </author>
-    </entry>
     <entry>
         <title type="html"><![CDATA[PWN PowerPoint Karaoke #4]]></title>
         <id>http://pwn-association.org/evenements/pwn-powerpoint-karaoke-4/</id>

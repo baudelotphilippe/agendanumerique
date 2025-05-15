@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Wed, 14 May 2025 01:01:37 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 May 2025 00:59:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -21,13 +21,6 @@
             <guid>http://pwn-association.org/evenements/un-projet-chez-betagouv-ca-ressemble-a-quoi/</guid>
             <pubDate>Thu, 15 May 2025 18:30:00 GMT</pubDate>
             <enclosure url="http://pwn-association.org/media/filer_public/8f/70/8f704674-f211-4a6d-84ee-3be019f2039e/tenor.gif" length="0" type="image/gif"/>
-        </item>
-        <item>
-            <title><![CDATA[Créer un jeu vidéo en 3D à l'aide de l'IA]]></title>
-            <link>https://emf.fr/event/creer-un-jeu-video-en-3d-en-2-parties/</link>
-            <guid>https://emf.fr/event/creer-un-jeu-video-en-3d-en-2-parties/</guid>
-            <pubDate>Wed, 14 May 2025 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2024/06/Animation-numerique-Creation-jeu-video-credit-Firefly-1.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Créer un site web à l'aide de l'IA]]></title>
@@ -54,7 +47,7 @@
             <title><![CDATA[Débuter avec ChatGPT et l'IA]]></title>
             <link>https://emf.fr/event/je-debute-avec-chatgpt/</link>
             <guid>https://emf.fr/event/je-debute-avec-chatgpt/</guid>
-            <pubDate>Tue, 13 May 2025 14:30:00 GMT</pubDate>
+            <pubDate>Tue, 03 Jun 2025 10:00:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/04/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -75,7 +68,7 @@
             <title><![CDATA[Mille mots valent mieux qu'une image]]></title>
             <link>https://emf.fr/event/mille-mots-valent-mieux-quune-image/</link>
             <guid>https://emf.fr/event/mille-mots-valent-mieux-quune-image/</guid>
-            <pubDate>Tue, 13 May 2025 10:00:00 GMT</pubDate>
+            <pubDate>Thu, 15 May 2025 14:30:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg" length="0" type="image/jpg"/>
         </item>
         <item>

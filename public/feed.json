@@ -25,16 +25,6 @@
             }
         },
         {
-            "id": "https://emf.fr/event/creer-un-jeu-video-en-3d-en-2-parties/",
-            "url": "https://emf.fr/event/creer-un-jeu-video-en-3d-en-2-parties/",
-            "title": "Créer un jeu vidéo en 3D à l'aide de l'IA",
-            "image": "https://emf.fr/wp-content/uploads/2024/06/Animation-numerique-Creation-jeu-video-credit-Firefly-1.jpg",
-            "date_modified": "2025-05-14T14:30:00.000Z",
-            "author": {
-                "name": "EMF"
-            }
-        },
-        {
             "id": "https://emf.fr/event/une-ia-massiste-pour-creer-mon-site-web/",
             "url": "https://emf.fr/event/une-ia-massiste-pour-creer-mon-site-web/",
             "title": "Créer un site web à l'aide de l'IA",
@@ -69,7 +59,7 @@
             "url": "https://emf.fr/event/je-debute-avec-chatgpt/",
             "title": "Débuter avec ChatGPT et l'IA",
             "image": "https://emf.fr/wp-content/uploads/2024/04/IA-credit-Pixabay-Cambridge_Spark.png",
-            "date_modified": "2025-05-13T14:30:00.000Z",
+            "date_modified": "2025-06-03T10:00:00.000Z",
             "author": {
                 "name": "EMF"
             }
@@ -99,7 +89,7 @@
             "url": "https://emf.fr/event/mille-mots-valent-mieux-quune-image/",
             "title": "Mille mots valent mieux qu'une image",
             "image": "https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg",
-            "date_modified": "2025-05-13T10:00:00.000Z",
+            "date_modified": "2025-05-15T14:30:00.000Z",
             "author": {
                 "name": "EMF"
             }

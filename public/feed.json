@@ -15,16 +15,6 @@
             }
         },
         {
-            "id": "http://pwn-association.org/evenements/un-projet-chez-betagouv-ca-ressemble-a-quoi/",
-            "url": "http://pwn-association.org/evenements/un-projet-chez-betagouv-ca-ressemble-a-quoi/",
-            "title": "Un projet chez beta.gouv, ça ressemble à quoi ?",
-            "image": "http://pwn-association.org/media/filer_public/8f/70/8f704674-f211-4a6d-84ee-3be019f2039e/tenor.gif",
-            "date_modified": "2025-05-15T18:30:00.000Z",
-            "author": {
-                "name": "Pwn"
-            }
-        },
-        {
             "id": "https://emf.fr/event/une-ia-massiste-pour-creer-mon-site-web/",
             "url": "https://emf.fr/event/une-ia-massiste-pour-creer-mon-site-web/",
             "title": "Créer un site web à l'aide de l'IA",

@@ -55,16 +55,6 @@
             }
         },
         {
-            "id": "https://emf.fr/event/iapero-la-fabrique-du-faux/",
-            "url": "https://emf.fr/event/iapero-la-fabrique-du-faux/",
-            "title": "IApéro | La Fabrique du faux",
-            "image": "https://emf.fr/wp-content/uploads/2024/12/robots-02-jaune-1.jpg",
-            "date_modified": "2025-05-22T19:00:00.000Z",
-            "author": {
-                "name": "EMF"
-            }
-        },
-        {
             "id": "https://emf.fr/event/lia-au-quotidien/",
             "url": "https://emf.fr/event/lia-au-quotidien/",
             "title": "L'IA au quotidien",

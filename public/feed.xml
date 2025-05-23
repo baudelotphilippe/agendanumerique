@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Thu, 22 May 2025 01:02:17 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 May 2025 01:02:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -42,13 +42,6 @@
             <guid>https://emf.fr/event/je-debute-avec-chatgpt/</guid>
             <pubDate>Tue, 03 Jun 2025 10:00:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/04/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[IApéro | La Fabrique du faux]]></title>
-            <link>https://emf.fr/event/iapero-la-fabrique-du-faux/</link>
-            <guid>https://emf.fr/event/iapero-la-fabrique-du-faux/</guid>
-            <pubDate>Thu, 22 May 2025 19:00:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2024/12/robots-02-jaune-1.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[L'IA au quotidien]]></title>

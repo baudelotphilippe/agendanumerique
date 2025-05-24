@@ -15,6 +15,16 @@
             }
         },
         {
+            "id": "https://emf.fr/event/brickanoid-gare-aux-briques-mon-premier-jeu-video/",
+            "url": "https://emf.fr/event/brickanoid-gare-aux-briques-mon-premier-jeu-video/",
+            "title": "Brickanoid, gare aux briques ! | Mon premier jeu vidéo",
+            "image": "https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
+            "date_modified": "2025-08-21T14:00:00.000Z",
+            "author": {
+                "name": "EMF"
+            }
+        },
+        {
             "id": "https://emf.fr/event/une-ia-massiste-pour-creer-mon-site-web/",
             "url": "https://emf.fr/event/une-ia-massiste-pour-creer-mon-site-web/",
             "title": "Créer un site web à l'aide de l'IA",
@@ -59,7 +69,37 @@
             "url": "https://emf.fr/event/lia-au-quotidien/",
             "title": "L'IA au quotidien",
             "image": "https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg",
-            "date_modified": "2025-05-22T14:30:00.000Z",
+            "date_modified": "2025-06-12T14:30:00.000Z",
+            "author": {
+                "name": "EMF"
+            }
+        },
+        {
+            "id": "https://emf.fr/event/le-scientifab-de-lidee-au-plan/",
+            "url": "https://emf.fr/event/le-scientifab-de-lidee-au-plan/",
+            "title": "Le Scientifab | De l'idée au plan",
+            "image": "https://emf.fr/wp-content/uploads/2025/05/Firefly-fab-lab-creation-3D-laser-987181-2.jpg",
+            "date_modified": "2025-08-14T10:00:00.000Z",
+            "author": {
+                "name": "EMF"
+            }
+        },
+        {
+            "id": "https://emf.fr/event/les-fous-du-volant-mon-premier-jeu-video/",
+            "url": "https://emf.fr/event/les-fous-du-volant-mon-premier-jeu-video/",
+            "title": "Les fous du volant | Mon premier jeu vidéo",
+            "image": "https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
+            "date_modified": "2025-08-14T14:00:00.000Z",
+            "author": {
+                "name": "EMF"
+            }
+        },
+        {
+            "id": "https://emf.fr/event/les-tetes-brulees-mon-premier-jeu-video/",
+            "url": "https://emf.fr/event/les-tetes-brulees-mon-premier-jeu-video/",
+            "title": "Les têtes brûlées | Mon premier jeu vidéo",
+            "image": "https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
+            "date_modified": "2025-08-13T14:00:00.000Z",
             "author": {
                 "name": "EMF"
             }
@@ -85,6 +125,26 @@
             }
         },
         {
+            "id": "https://emf.fr/event/mon-premier-dessin-anime-2/",
+            "url": "https://emf.fr/event/mon-premier-dessin-anime-2/",
+            "title": "Mon premier dessin animé",
+            "image": "https://emf.fr/wp-content/uploads/2024/06/Animations-Numerique-credit-Firefly-2.jpg",
+            "date_modified": "2025-08-18T14:00:00.000Z",
+            "author": {
+                "name": "EMF"
+            }
+        },
+        {
+            "id": "https://emf.fr/event/ninja-fruits-mon-premier-jeu-video/",
+            "url": "https://emf.fr/event/ninja-fruits-mon-premier-jeu-video/",
+            "title": "Ninja fruits | Mon premier jeu vidéo",
+            "image": "https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
+            "date_modified": "2025-08-12T14:00:00.000Z",
+            "author": {
+                "name": "EMF"
+            }
+        },
+        {
             "id": "https://emf.fr/event/realiser-une-animation-3d/",
             "url": "https://emf.fr/event/realiser-une-animation-3d/",
             "title": "Réaliser une animation en 3D",
@@ -100,6 +160,26 @@
             "title": "Retoucher des photos à l'aide de l'IA",
             "image": "https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg",
             "date_modified": "2025-06-24T14:30:00.000Z",
+            "author": {
+                "name": "EMF"
+            }
+        },
+        {
+            "id": "https://emf.fr/event/snake-le-serpent-qui-se-mord-la-queue-mon-premier-jeu-video/",
+            "url": "https://emf.fr/event/snake-le-serpent-qui-se-mord-la-queue-mon-premier-jeu-video/",
+            "title": "Snake, le serpent qui se mord la queue | Mon premier jeu vidéo",
+            "image": "https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
+            "date_modified": "2025-08-11T14:00:00.000Z",
+            "author": {
+                "name": "EMF"
+            }
+        },
+        {
+            "id": "https://emf.fr/event/space-invaders-mon-premier-jeu-video/",
+            "url": "https://emf.fr/event/space-invaders-mon-premier-jeu-video/",
+            "title": "Space Invaders | Mon premier jeu vidéo",
+            "image": "https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
+            "date_modified": "2025-08-25T14:00:00.000Z",
             "author": {
                 "name": "EMF"
             }

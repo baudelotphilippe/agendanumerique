@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Mon, 26 May 2025 01:04:18 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 May 2025 01:02:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -21,6 +21,13 @@
             <guid>https://emf.fr/event/brickanoid-gare-aux-briques-mon-premier-jeu-video/</guid>
             <pubDate>Thu, 21 Aug 2025 14:00:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Créer un jeu vidéo en 3D à l'aide de l'IA]]></title>
+            <link>https://emf.fr/event/creer-un-jeu-video-en-3d-en-2-parties/</link>
+            <guid>https://emf.fr/event/creer-un-jeu-video-en-3d-en-2-parties/</guid>
+            <pubDate>Thu, 21 Aug 2025 10:00:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2024/06/Animation-numerique-Creation-jeu-video-credit-Firefly-1.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Créer un site web à l'aide de l'IA]]></title>
@@ -49,6 +56,12 @@
             <guid>https://emf.fr/event/je-debute-avec-chatgpt/</guid>
             <pubDate>Tue, 03 Jun 2025 10:00:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/04/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[En quête de sécurité : les enjeux du numérique au quotidien]]></title>
+            <link>https://emf.fr/event/en-quete-de-securite-les-enjeux-du-numerique-au-quotidien/</link>
+            <guid>https://emf.fr/event/en-quete-de-securite-les-enjeux-du-numerique-au-quotidien/</guid>
+            <pubDate>Wed, 20 Aug 2025 14:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[L'IA au quotidien]]></title>

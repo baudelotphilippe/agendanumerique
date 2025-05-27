@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://agendanumerique.vercel.app</id>
     <title>Agenda du numérique à Poitiers et ses environs</title>
-    <updated>2025-05-26T01:04:18.808Z</updated>
+    <updated>2025-05-27T01:02:01.271Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://agendanumerique.vercel.app"/>
     <subtitle>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</subtitle>
@@ -20,6 +20,15 @@
         <id>https://emf.fr/event/brickanoid-gare-aux-briques-mon-premier-jeu-video/</id>
         <link href="https://emf.fr/event/brickanoid-gare-aux-briques-mon-premier-jeu-video/"/>
         <updated>2025-08-21T14:00:00.000Z</updated>
+        <author>
+            <name>EMF</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Créer un jeu vidéo en 3D à l'aide de l'IA]]></title>
+        <id>https://emf.fr/event/creer-un-jeu-video-en-3d-en-2-parties/</id>
+        <link href="https://emf.fr/event/creer-un-jeu-video-en-3d-en-2-parties/"/>
+        <updated>2025-08-21T10:00:00.000Z</updated>
         <author>
             <name>EMF</name>
         </author>
@@ -56,6 +65,15 @@
         <id>https://emf.fr/event/je-debute-avec-chatgpt/</id>
         <link href="https://emf.fr/event/je-debute-avec-chatgpt/"/>
         <updated>2025-06-03T10:00:00.000Z</updated>
+        <author>
+            <name>EMF</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[En quête de sécurité : les enjeux du numérique au quotidien]]></title>
+        <id>https://emf.fr/event/en-quete-de-securite-les-enjeux-du-numerique-au-quotidien/</id>
+        <link href="https://emf.fr/event/en-quete-de-securite-les-enjeux-du-numerique-au-quotidien/"/>
+        <updated>2025-08-20T14:00:00.000Z</updated>
         <author>
             <name>EMF</name>
         </author>

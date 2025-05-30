@@ -114,6 +114,16 @@
             }
         },
         {
+            "id": "https://emf.fr/event/les-sciences-prennent-lair-sciences-en-vadrouille/",
+            "url": "https://emf.fr/event/les-sciences-prennent-lair-sciences-en-vadrouille/",
+            "title": "Les sciences prennent l'air | Sciences en vadrouille",
+            "image": "https://emf.fr/wp-content/uploads/2025/01/2025-0430-Sciences-en-vadrouille-PostWeb-1.jpg",
+            "date_modified": "2025-07-09T15:00:00.000Z",
+            "author": {
+                "name": "EMF"
+            }
+        },
+        {
             "id": "https://emf.fr/event/les-tetes-brulees-mon-premier-jeu-video/",
             "url": "https://emf.fr/event/les-tetes-brulees-mon-premier-jeu-video/",
             "title": "Les têtes brûlées | Mon premier jeu vidéo",

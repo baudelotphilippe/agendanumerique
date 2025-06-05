@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Wed, 04 Jun 2025 01:03:38 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Jun 2025 01:02:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -30,13 +30,6 @@
             <enclosure url="https://emf.fr/wp-content/uploads/2024/06/Animation-numerique-Creation-jeu-video-credit-Firefly-1.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
-            <title><![CDATA[Créer un site web à l'aide de l'IA]]></title>
-            <link>https://emf.fr/event/une-ia-massiste-pour-creer-mon-site-web/</link>
-            <guid>https://emf.fr/event/une-ia-massiste-pour-creer-mon-site-web/</guid>
-            <pubDate>Wed, 04 Jun 2025 10:00:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2024/04/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
-        </item>
-        <item>
             <title><![CDATA[Créer une planche de BD à l’aide de l'IA]]></title>
             <link>https://emf.fr/event/je-cree-une-planche-de-bd-a-laide-dune-ia/</link>
             <guid>https://emf.fr/event/je-cree-une-planche-de-bd-a-laide-dune-ia/</guid>
@@ -54,7 +47,7 @@
             <title><![CDATA[Débuter avec ChatGPT et l'IA]]></title>
             <link>https://emf.fr/event/je-debute-avec-chatgpt/</link>
             <guid>https://emf.fr/event/je-debute-avec-chatgpt/</guid>
-            <pubDate>Tue, 03 Jun 2025 10:00:00 GMT</pubDate>
+            <pubDate>Tue, 10 Jun 2025 10:00:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/04/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
         </item>
         <item>

@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Thu, 05 Jun 2025 01:02:44 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 06 Jun 2025 05:32:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -33,8 +33,15 @@
             <title><![CDATA[Créer une planche de BD à l’aide de l'IA]]></title>
             <link>https://emf.fr/event/je-cree-une-planche-de-bd-a-laide-dune-ia/</link>
             <guid>https://emf.fr/event/je-cree-une-planche-de-bd-a-laide-dune-ia/</guid>
-            <pubDate>Wed, 04 Jun 2025 14:30:00 GMT</pubDate>
+            <pubDate>Fri, 22 Aug 2025 14:00:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/04/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[DIY ton IA ]]></title>
+            <link>https://emf.fr/event/diy-ton-ia/</link>
+            <guid>https://emf.fr/event/diy-ton-ia/</guid>
+            <pubDate>Tue, 01 Jul 2025 14:00:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2025/06/Photo-de-profil.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Dé-cyber-réalisation | Anaïs Gastineau]]></title>

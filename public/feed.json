@@ -39,7 +39,17 @@
             "url": "https://emf.fr/event/je-cree-une-planche-de-bd-a-laide-dune-ia/",
             "title": "Créer une planche de BD à l’aide de l'IA",
             "image": "https://emf.fr/wp-content/uploads/2024/04/IA-credit-Pixabay-Cambridge_Spark.png",
-            "date_modified": "2025-06-04T14:30:00.000Z",
+            "date_modified": "2025-08-22T14:00:00.000Z",
+            "author": {
+                "name": "EMF"
+            }
+        },
+        {
+            "id": "https://emf.fr/event/diy-ton-ia/",
+            "url": "https://emf.fr/event/diy-ton-ia/",
+            "title": "DIY ton IA ",
+            "image": "https://emf.fr/wp-content/uploads/2025/06/Photo-de-profil.png",
+            "date_modified": "2025-07-01T14:00:00.000Z",
             "author": {
                 "name": "EMF"
             }

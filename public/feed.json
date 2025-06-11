@@ -69,7 +69,7 @@
             "url": "https://emf.fr/event/je-debute-avec-chatgpt/",
             "title": "Débuter avec ChatGPT et l'IA",
             "image": "https://emf.fr/wp-content/uploads/2024/04/IA-credit-Pixabay-Cambridge_Spark.png",
-            "date_modified": "2025-06-10T10:00:00.000Z",
+            "date_modified": "2025-08-27T14:00:00.000Z",
             "author": {
                 "name": "EMF"
             }
@@ -129,16 +129,6 @@
             "title": "Les têtes brûlées | Mon premier jeu vidéo",
             "image": "https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png",
             "date_modified": "2025-08-13T14:00:00.000Z",
-            "author": {
-                "name": "EMF"
-            }
-        },
-        {
-            "id": "https://emf.fr/event/mille-mots-valent-mieux-quune-image/",
-            "url": "https://emf.fr/event/mille-mots-valent-mieux-quune-image/",
-            "title": "Mille mots valent mieux qu'une image",
-            "image": "https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg",
-            "date_modified": "2025-06-10T14:30:00.000Z",
             "author": {
                 "name": "EMF"
             }

@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Tue, 10 Jun 2025 01:04:29 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Jun 2025 01:03:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -54,7 +54,7 @@
             <title><![CDATA[Débuter avec ChatGPT et l'IA]]></title>
             <link>https://emf.fr/event/je-debute-avec-chatgpt/</link>
             <guid>https://emf.fr/event/je-debute-avec-chatgpt/</guid>
-            <pubDate>Tue, 10 Jun 2025 10:00:00 GMT</pubDate>
+            <pubDate>Wed, 27 Aug 2025 14:00:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/04/IA-credit-Pixabay-Cambridge_Spark.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -97,13 +97,6 @@
             <guid>https://emf.fr/event/les-tetes-brulees-mon-premier-jeu-video/</guid>
             <pubDate>Wed, 13 Aug 2025 14:00:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Mille mots valent mieux qu'une image]]></title>
-            <link>https://emf.fr/event/mille-mots-valent-mieux-quune-image/</link>
-            <guid>https://emf.fr/event/mille-mots-valent-mieux-quune-image/</guid>
-            <pubDate>Tue, 10 Jun 2025 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Modéliser en 3D]]></title>

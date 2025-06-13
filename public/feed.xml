@@ -4,17 +4,10 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Thu, 12 Jun 2025 01:03:12 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Jun 2025 01:04:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
-        <item>
-            <title><![CDATA[PWN PowerPoint Karaoke #4]]></title>
-            <link>http://pwn-association.org/evenements/pwn-powerpoint-karaoke-4/</link>
-            <guid>http://pwn-association.org/evenements/pwn-powerpoint-karaoke-4/</guid>
-            <pubDate>Thu, 12 Jun 2025 18:30:00 GMT</pubDate>
-            <enclosure url="http://pwn-association.org/media/filer_public/f4/c1/f4c1c711-d150-4d35-8aa4-b22795dc8eef/giphy.gif" length="0" type="image/gif"/>
-        </item>
         <item>
             <title><![CDATA[Brickanoid, gare aux briques ! | Mon premier jeu vidéo]]></title>
             <link>https://emf.fr/event/brickanoid-gare-aux-briques-mon-premier-jeu-video/</link>
@@ -62,13 +55,6 @@
             <link>https://emf.fr/event/en-quete-de-securite-les-enjeux-du-numerique-au-quotidien/</link>
             <guid>https://emf.fr/event/en-quete-de-securite-les-enjeux-du-numerique-au-quotidien/</guid>
             <pubDate>Wed, 20 Aug 2025 14:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[L'IA au quotidien]]></title>
-            <link>https://emf.fr/event/lia-au-quotidien/</link>
-            <guid>https://emf.fr/event/lia-au-quotidien/</guid>
-            <pubDate>Thu, 12 Jun 2025 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Le Scientifab | De l'idée au plan]]></title>

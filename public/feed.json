@@ -5,16 +5,6 @@
     "description": "Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.",
     "items": [
         {
-            "id": "http://pwn-association.org/evenements/pwn-powerpoint-karaoke-4/",
-            "url": "http://pwn-association.org/evenements/pwn-powerpoint-karaoke-4/",
-            "title": "PWN PowerPoint Karaoke #4",
-            "image": "http://pwn-association.org/media/filer_public/f4/c1/f4c1c711-d150-4d35-8aa4-b22795dc8eef/giphy.gif",
-            "date_modified": "2025-06-12T18:30:00.000Z",
-            "author": {
-                "name": "Pwn"
-            }
-        },
-        {
             "id": "https://emf.fr/event/brickanoid-gare-aux-briques-mon-premier-jeu-video/",
             "url": "https://emf.fr/event/brickanoid-gare-aux-briques-mon-premier-jeu-video/",
             "title": "Brickanoid, gare aux briques ! | Mon premier jeu vidéo",
@@ -79,16 +69,6 @@
             "url": "https://emf.fr/event/en-quete-de-securite-les-enjeux-du-numerique-au-quotidien/",
             "title": "En quête de sécurité : les enjeux du numérique au quotidien",
             "date_modified": "2025-08-20T14:00:00.000Z",
-            "author": {
-                "name": "EMF"
-            }
-        },
-        {
-            "id": "https://emf.fr/event/lia-au-quotidien/",
-            "url": "https://emf.fr/event/lia-au-quotidien/",
-            "title": "L'IA au quotidien",
-            "image": "https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg",
-            "date_modified": "2025-06-12T14:30:00.000Z",
             "author": {
                 "name": "EMF"
             }

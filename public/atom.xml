@@ -2,19 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://agendanumerique.vercel.app</id>
     <title>Agenda du numérique à Poitiers et ses environs</title>
-    <updated>2025-06-12T01:03:12.354Z</updated>
+    <updated>2025-06-13T01:04:24.427Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://agendanumerique.vercel.app"/>
     <subtitle>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</subtitle>
-    <entry>
-        <title type="html"><![CDATA[PWN PowerPoint Karaoke #4]]></title>
-        <id>http://pwn-association.org/evenements/pwn-powerpoint-karaoke-4/</id>
-        <link href="http://pwn-association.org/evenements/pwn-powerpoint-karaoke-4/"/>
-        <updated>2025-06-12T18:30:00.000Z</updated>
-        <author>
-            <name>Pwn</name>
-        </author>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Brickanoid, gare aux briques ! | Mon premier jeu vidéo]]></title>
         <id>https://emf.fr/event/brickanoid-gare-aux-briques-mon-premier-jeu-video/</id>
@@ -74,15 +65,6 @@
         <id>https://emf.fr/event/en-quete-de-securite-les-enjeux-du-numerique-au-quotidien/</id>
         <link href="https://emf.fr/event/en-quete-de-securite-les-enjeux-du-numerique-au-quotidien/"/>
         <updated>2025-08-20T14:00:00.000Z</updated>
-        <author>
-            <name>EMF</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[L'IA au quotidien]]></title>
-        <id>https://emf.fr/event/lia-au-quotidien/</id>
-        <link href="https://emf.fr/event/lia-au-quotidien/"/>
-        <updated>2025-06-12T14:30:00.000Z</updated>
         <author>
             <name>EMF</name>
         </author>

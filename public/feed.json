@@ -5,6 +5,96 @@
     "description": "Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.",
     "items": [
         {
+            "id": "http://pwn-association.org/evenements/capture-the-flag/",
+            "url": "http://pwn-association.org/evenements/capture-the-flag/",
+            "title": "Capture The Flag #3",
+            "image": "http://pwn-association.org/media/filer_public/df/53/df533315-cc84-43d0-b044-6a9af84aceaa/cat-hacker.gif",
+            "date_modified": "2026-05-07T18:30:00.000Z",
+            "author": {
+                "name": "Pwn"
+            }
+        },
+        {
+            "id": "http://pwn-association.org/evenements/introduction-au-monde-des-crypto-monnaies/",
+            "url": "http://pwn-association.org/evenements/introduction-au-monde-des-crypto-monnaies/",
+            "title": "Introduction au monde des crypto monnaies",
+            "image": "http://pwn-association.org/media/filer_public/6c/f6/6cf651a0-f49e-4e39-8078-91752d86befb/crypto.gif",
+            "date_modified": "2026-03-05T18:30:00.000Z",
+            "author": {
+                "name": "Pwn"
+            }
+        },
+        {
+            "id": "http://pwn-association.org/evenements/les-ia-generatives-video-daujourdhui-et-de-demain/",
+            "url": "http://pwn-association.org/evenements/les-ia-generatives-video-daujourdhui-et-de-demain/",
+            "title": "Les IA génératives vidéo d'aujourd'hui et de demain",
+            "image": "http://pwn-association.org/media/filer_public/b1/64/b1641011-c25b-4c5f-88be-b5b53e03b48f/insta.jpg",
+            "date_modified": "2025-10-09T18:30:00.000Z",
+            "author": {
+                "name": "Pwn"
+            }
+        },
+        {
+            "id": "http://pwn-association.org/evenements/ou-en-est-on-avec-css-en-2026/",
+            "url": "http://pwn-association.org/evenements/ou-en-est-on-avec-css-en-2026/",
+            "title": "Où en est-on avec CSS en 2026 ?",
+            "image": "http://pwn-association.org/media/filer_public/d7/7b/d77b1d58-f4eb-4298-af12-6dc80e257621/3784d75e-832f-404a-84ac-d90fe40d6e55_text.gif",
+            "date_modified": "2026-04-02T18:30:00.000Z",
+            "author": {
+                "name": "Pwn"
+            }
+        },
+        {
+            "id": "http://pwn-association.org/evenements/pwn-mega-quizz/",
+            "url": "http://pwn-association.org/evenements/pwn-mega-quizz/",
+            "title": "PWN Mega Quizz 2025",
+            "image": "http://pwn-association.org/media/filer_public/7a/f8/7af85d85-8a6b-4e60-998f-8f08689bd25e/quiz-gif.gif",
+            "date_modified": "2025-12-04T18:30:00.000Z",
+            "author": {
+                "name": "Pwn"
+            }
+        },
+        {
+            "id": "http://pwn-association.org/evenements/ag-power-point-karaoke/",
+            "url": "http://pwn-association.org/evenements/ag-power-point-karaoke/",
+            "title": "PWN PowerPoint Karaoke #5",
+            "image": "http://pwn-association.org/media/filer_public/9d/83/9d832767-a85d-44eb-96be-35032c811ecc/karaoke.gif",
+            "date_modified": "2026-06-18T18:30:00.000Z",
+            "author": {
+                "name": "Pwn"
+            }
+        },
+        {
+            "id": "http://pwn-association.org/evenements/galette-des-rois-quickies/",
+            "url": "http://pwn-association.org/evenements/galette-des-rois-quickies/",
+            "title": "PWN Quickies #7",
+            "image": "http://pwn-association.org/media/filer_public/58/94/589414bf-7e37-47ed-a14d-3f1c2495234d/quick-quickly.gif",
+            "date_modified": "2026-01-08T18:30:00.000Z",
+            "author": {
+                "name": "Pwn"
+            }
+        },
+        {
+            "id": "http://pwn-association.org/evenements/pitch-ton-web/",
+            "url": "http://pwn-association.org/evenements/pitch-ton-web/",
+            "title": "Pitch ton web",
+            "image": "http://pwn-association.org/media/filer_public/90/53/9053e44b-7fcc-4c75-be46-f7ffb4637738/dce3fff641752d4bf50eb4b4d9cbfd34.jpg",
+            "date_modified": "2025-11-06T18:30:00.000Z",
+            "author": {
+                "name": "Pwn"
+            }
+        },
+        {
+            "id": "http://pwn-association.org/evenements/vous-netes-pas-votre-utilisateur-les-erreurs-classiques-et-les-astuces-pour-les-eviter/",
+            "url": "http://pwn-association.org/evenements/vous-netes-pas-votre-utilisateur-les-erreurs-classiques-et-les-astuces-pour-les-eviter/",
+            "title": "Vous n’êtes pas votre utilisateur : Les erreurs classiques et les astuces pour les éviter",
+            "image": "http://pwn-association.org/media/filer_public/6f/0c/6f0cea2d-0b2f-4081-92a7-6e68eeea26dd/homer.gif",
+            "date_modified": "2026-02-05T18:30:00.000Z",
+            "author": {
+                "name": "Pwn"
+            }
+        },
+        {
             "id": "https://emf.fr/event/brickanoid-gare-aux-briques-mon-premier-jeu-video/",
             "url": "https://emf.fr/event/brickanoid-gare-aux-briques-mon-premier-jeu-video/",
             "title": "Brickanoid, gare aux briques ! | Mon premier jeu vidéo",

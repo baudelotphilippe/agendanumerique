@@ -4,10 +4,73 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Fri, 13 Jun 2025 01:04:24 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Jun 2025 01:01:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
+        <item>
+            <title><![CDATA[Capture The Flag #3]]></title>
+            <link>http://pwn-association.org/evenements/capture-the-flag/</link>
+            <guid>http://pwn-association.org/evenements/capture-the-flag/</guid>
+            <pubDate>Thu, 07 May 2026 18:30:00 GMT</pubDate>
+            <enclosure url="http://pwn-association.org/media/filer_public/df/53/df533315-cc84-43d0-b044-6a9af84aceaa/cat-hacker.gif" length="0" type="image/gif"/>
+        </item>
+        <item>
+            <title><![CDATA[Introduction au monde des crypto monnaies]]></title>
+            <link>http://pwn-association.org/evenements/introduction-au-monde-des-crypto-monnaies/</link>
+            <guid>http://pwn-association.org/evenements/introduction-au-monde-des-crypto-monnaies/</guid>
+            <pubDate>Thu, 05 Mar 2026 18:30:00 GMT</pubDate>
+            <enclosure url="http://pwn-association.org/media/filer_public/6c/f6/6cf651a0-f49e-4e39-8078-91752d86befb/crypto.gif" length="0" type="image/gif"/>
+        </item>
+        <item>
+            <title><![CDATA[Les IA génératives vidéo d'aujourd'hui et de demain]]></title>
+            <link>http://pwn-association.org/evenements/les-ia-generatives-video-daujourdhui-et-de-demain/</link>
+            <guid>http://pwn-association.org/evenements/les-ia-generatives-video-daujourdhui-et-de-demain/</guid>
+            <pubDate>Thu, 09 Oct 2025 18:30:00 GMT</pubDate>
+            <enclosure url="http://pwn-association.org/media/filer_public/b1/64/b1641011-c25b-4c5f-88be-b5b53e03b48f/insta.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Où en est-on avec CSS en 2026 ?]]></title>
+            <link>http://pwn-association.org/evenements/ou-en-est-on-avec-css-en-2026/</link>
+            <guid>http://pwn-association.org/evenements/ou-en-est-on-avec-css-en-2026/</guid>
+            <pubDate>Thu, 02 Apr 2026 18:30:00 GMT</pubDate>
+            <enclosure url="http://pwn-association.org/media/filer_public/d7/7b/d77b1d58-f4eb-4298-af12-6dc80e257621/3784d75e-832f-404a-84ac-d90fe40d6e55_text.gif" length="0" type="image/gif"/>
+        </item>
+        <item>
+            <title><![CDATA[PWN Mega Quizz 2025]]></title>
+            <link>http://pwn-association.org/evenements/pwn-mega-quizz/</link>
+            <guid>http://pwn-association.org/evenements/pwn-mega-quizz/</guid>
+            <pubDate>Thu, 04 Dec 2025 18:30:00 GMT</pubDate>
+            <enclosure url="http://pwn-association.org/media/filer_public/7a/f8/7af85d85-8a6b-4e60-998f-8f08689bd25e/quiz-gif.gif" length="0" type="image/gif"/>
+        </item>
+        <item>
+            <title><![CDATA[PWN PowerPoint Karaoke #5]]></title>
+            <link>http://pwn-association.org/evenements/ag-power-point-karaoke/</link>
+            <guid>http://pwn-association.org/evenements/ag-power-point-karaoke/</guid>
+            <pubDate>Thu, 18 Jun 2026 18:30:00 GMT</pubDate>
+            <enclosure url="http://pwn-association.org/media/filer_public/9d/83/9d832767-a85d-44eb-96be-35032c811ecc/karaoke.gif" length="0" type="image/gif"/>
+        </item>
+        <item>
+            <title><![CDATA[PWN Quickies #7]]></title>
+            <link>http://pwn-association.org/evenements/galette-des-rois-quickies/</link>
+            <guid>http://pwn-association.org/evenements/galette-des-rois-quickies/</guid>
+            <pubDate>Thu, 08 Jan 2026 18:30:00 GMT</pubDate>
+            <enclosure url="http://pwn-association.org/media/filer_public/58/94/589414bf-7e37-47ed-a14d-3f1c2495234d/quick-quickly.gif" length="0" type="image/gif"/>
+        </item>
+        <item>
+            <title><![CDATA[Pitch ton web]]></title>
+            <link>http://pwn-association.org/evenements/pitch-ton-web/</link>
+            <guid>http://pwn-association.org/evenements/pitch-ton-web/</guid>
+            <pubDate>Thu, 06 Nov 2025 18:30:00 GMT</pubDate>
+            <enclosure url="http://pwn-association.org/media/filer_public/90/53/9053e44b-7fcc-4c75-be46-f7ffb4637738/dce3fff641752d4bf50eb4b4d9cbfd34.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Vous n’êtes pas votre utilisateur : Les erreurs classiques et les astuces pour les éviter]]></title>
+            <link>http://pwn-association.org/evenements/vous-netes-pas-votre-utilisateur-les-erreurs-classiques-et-les-astuces-pour-les-eviter/</link>
+            <guid>http://pwn-association.org/evenements/vous-netes-pas-votre-utilisateur-les-erreurs-classiques-et-les-astuces-pour-les-eviter/</guid>
+            <pubDate>Thu, 05 Feb 2026 18:30:00 GMT</pubDate>
+            <enclosure url="http://pwn-association.org/media/filer_public/6f/0c/6f0cea2d-0b2f-4081-92a7-6e68eeea26dd/homer.gif" length="0" type="image/gif"/>
+        </item>
         <item>
             <title><![CDATA[Brickanoid, gare aux briques ! | Mon premier jeu vidéo]]></title>
             <link>https://emf.fr/event/brickanoid-gare-aux-briques-mon-premier-jeu-video/</link>

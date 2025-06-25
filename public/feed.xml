@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Tue, 24 Jun 2025 01:04:46 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Jun 2025 01:05:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -181,13 +181,6 @@
             <guid>https://emf.fr/event/realiser-une-animation-3d/</guid>
             <pubDate>Tue, 19 Aug 2025 10:00:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/04/190668.jpg" length="0" type="image/jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Retoucher des photos à l'aide de l'IA]]></title>
-            <link>https://emf.fr/event/retoucher-des-photos-a-laide-de-lia/</link>
-            <guid>https://emf.fr/event/retoucher-des-photos-a-laide-de-lia/</guid>
-            <pubDate>Tue, 24 Jun 2025 14:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Snake, le serpent qui se mord la queue | Mon premier jeu vidéo]]></title>

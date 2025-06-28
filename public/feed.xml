@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Fri, 27 Jun 2025 01:04:55 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Jun 2025 01:02:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -98,13 +98,6 @@
             <guid>https://emf.fr/event/diy-ton-ia/</guid>
             <pubDate>Tue, 01 Jul 2025 14:00:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2025/06/Photo-de-profil.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Dé-cyber-réalisation | Anaïs Gastineau]]></title>
-            <link>https://emf.fr/event/de-cyber-realisation-anais-gastineau/</link>
-            <guid>https://emf.fr/event/de-cyber-realisation-anais-gastineau/</guid>
-            <pubDate>Fri, 27 Jun 2025 18:30:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2025/01/Lieu-multiple-De-cyber-realisation-credit-Anais-Gastineau-1.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Débuter avec ChatGPT et l'IA]]></title>

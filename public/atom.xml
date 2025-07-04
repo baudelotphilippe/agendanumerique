@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://agendanumerique.vercel.app</id>
     <title>Agenda du numérique à Poitiers et ses environs</title>
-    <updated>2025-07-03T01:04:32.003Z</updated>
+    <updated>2025-07-04T01:04:11.458Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://agendanumerique.vercel.app"/>
     <subtitle>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</subtitle>
@@ -110,15 +110,6 @@
         <id>https://emf.fr/event/je-cree-une-planche-de-bd-a-laide-dune-ia/</id>
         <link href="https://emf.fr/event/je-cree-une-planche-de-bd-a-laide-dune-ia/"/>
         <updated>2025-08-22T14:00:00.000Z</updated>
-        <author>
-            <name>EMF</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DIY ton IA ]]></title>
-        <id>https://emf.fr/event/diy-ton-ia/</id>
-        <link href="https://emf.fr/event/diy-ton-ia/"/>
-        <updated>2025-07-03T14:00:00.000Z</updated>
         <author>
             <name>EMF</name>
         </author>

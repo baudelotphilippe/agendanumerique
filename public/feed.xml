@@ -4,7 +4,7 @@
         <title>Agenda du numérique à Poitiers et ses environs</title>
         <link>https://agendanumerique.vercel.app</link>
         <description>Agenda du numérique à Poitiers et ses environs. Meetups, conférences, ateliers, formations, etc.</description>
-        <lastBuildDate>Wed, 16 Jul 2025 01:07:40 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 19 Jul 2025 01:05:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
@@ -106,6 +106,13 @@
             <pubDate>Wed, 20 Aug 2025 14:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[IIIF, la solution ouverte pour diffuser et valoriser les images patrimoniales et scientifiques]]></title>
+            <link>https://emf.fr/event/iiif-la-solution-ouverte-pour-diffuser-et-valoriser-les-images-patrimoniales-et-scientifiques/</link>
+            <guid>https://emf.fr/event/iiif-la-solution-ouverte-pour-diffuser-et-valoriser-les-images-patrimoniales-et-scientifiques/</guid>
+            <pubDate>Thu, 16 Oct 2025 09:00:00 GMT</pubDate>
+            <enclosure url="https://emf.fr/wp-content/uploads/2025/07/iiif-la-solution-ouverte-pour-diffuser-et-valoriser-les-images-patrimoniales-et-scientifiques.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
             <title><![CDATA[Le Scientifab | De l'idée au plan]]></title>
             <link>https://emf.fr/event/le-scientifab-de-lidee-au-plan/</link>
             <guid>https://emf.fr/event/le-scientifab-de-lidee-au-plan/</guid>
@@ -125,13 +132,6 @@
             <guid>https://emf.fr/event/les-fous-du-volant-mon-premier-jeu-video/</guid>
             <pubDate>Thu, 14 Aug 2025 14:00:00 GMT</pubDate>
             <enclosure url="https://emf.fr/wp-content/uploads/2024/04/2024-02-21_NUM-Space-invaders-Mon-1er-jeu-video-LKevent.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Les sciences prennent l'air | Sciences en vadrouille]]></title>
-            <link>https://emf.fr/event/les-sciences-prennent-lair-sciences-en-vadrouille/</link>
-            <guid>https://emf.fr/event/les-sciences-prennent-lair-sciences-en-vadrouille/</guid>
-            <pubDate>Thu, 17 Jul 2025 16:00:00 GMT</pubDate>
-            <enclosure url="https://emf.fr/wp-content/uploads/2025/01/2025-0430-Sciences-en-vadrouille-PostWeb-1.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Les têtes brûlées | Mon premier jeu vidéo]]></title>

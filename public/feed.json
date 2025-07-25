@@ -115,6 +115,16 @@
             }
         },
         {
+            "id": "https://emf.fr/event/une-ia-massiste-pour-creer-mon-site-web/",
+            "url": "https://emf.fr/event/une-ia-massiste-pour-creer-mon-site-web/",
+            "title": "Créer un site web à l'aide de l'IA",
+            "image": "https://emf.fr/wp-content/uploads/2024/04/IA-credit-Pixabay-Cambridge_Spark.png",
+            "date_modified": "2025-09-16T10:00:00.000Z",
+            "author": {
+                "name": "EMF"
+            }
+        },
+        {
             "id": "https://emf.fr/event/je-cree-une-planche-de-bd-a-laide-dune-ia/",
             "url": "https://emf.fr/event/je-cree-une-planche-de-bd-a-laide-dune-ia/",
             "title": "Créer une planche de BD à l’aide de l'IA",
@@ -149,6 +159,16 @@
             "title": "IIIF, la solution ouverte pour diffuser et valoriser les images patrimoniales et scientifiques",
             "image": "https://emf.fr/wp-content/uploads/2025/07/iiif-la-solution-ouverte-pour-diffuser-et-valoriser-les-images-patrimoniales-et-scientifiques.jpg",
             "date_modified": "2025-10-16T09:00:00.000Z",
+            "author": {
+                "name": "EMF"
+            }
+        },
+        {
+            "id": "https://emf.fr/event/lia-au-quotidien/",
+            "url": "https://emf.fr/event/lia-au-quotidien/",
+            "title": "L'IA au quotidien",
+            "image": "https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg",
+            "date_modified": "2025-09-23T10:00:00.000Z",
             "author": {
                 "name": "EMF"
             }
@@ -194,10 +214,20 @@
             }
         },
         {
+            "id": "https://emf.fr/event/mille-mots-valent-mieux-quune-image/",
+            "url": "https://emf.fr/event/mille-mots-valent-mieux-quune-image/",
+            "title": "Mille mots valent mieux qu'une image",
+            "image": "https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg",
+            "date_modified": "2025-09-09T10:00:00.000Z",
+            "author": {
+                "name": "EMF"
+            }
+        },
+        {
             "id": "https://emf.fr/event/modeliser-en-3d/",
             "url": "https://emf.fr/event/modeliser-en-3d/",
             "title": "Modéliser en 3D",
-            "image": "https://emf.fr/wp-content/uploads/2024/04/modeliser_3D-769x400-1.jpg",
+            "image": "https://emf.fr/wp-content/uploads/2024/06/Animations-IA-credit-Firefly-4.jpg",
             "date_modified": "2025-08-12T10:00:00.000Z",
             "author": {
                 "name": "EMF"
@@ -229,6 +259,16 @@
             "title": "Réaliser une animation en 3D",
             "image": "https://emf.fr/wp-content/uploads/2024/04/190668.jpg",
             "date_modified": "2025-08-19T10:00:00.000Z",
+            "author": {
+                "name": "EMF"
+            }
+        },
+        {
+            "id": "https://emf.fr/event/retoucher-des-photos-a-laide-de-lia/",
+            "url": "https://emf.fr/event/retoucher-des-photos-a-laide-de-lia/",
+            "title": "Retoucher des photos à l'aide de l'IA",
+            "image": "https://emf.fr/wp-content/uploads/2024/07/Animations-numeriques-IA-credit-unsplash-scaled.jpg",
+            "date_modified": "2025-09-30T10:00:00.000Z",
             "author": {
                 "name": "EMF"
             }
